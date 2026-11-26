@@ -1,0 +1,1471 @@
+EmployeeID,Department,JobRole,OverTime,MonthlyIncome,JobSatisfaction,Attrition,risk_prob,risk_category,model_prob,top_reasons
+1,Sales,Sales Executive,Yes,5993,4,1,0.6259,High,0.6356,OverTime = Yes; NumCompaniesWorked = 8; WorkLifeBalance = 1
+2,Research & Development,Research Scientist,No,5130,2,0,0.0231,Low,0.0259,BusinessTravel = Travel_Frequently
+3,Research & Development,Laboratory Technician,Yes,2090,3,1,0.3727,Medium,0.4819,OverTime = Yes; NumCompaniesWorked = 6; MaritalStatus = Single
+4,Research & Development,Research Scientist,Yes,2909,3,0,0.2529,Low,0.2152,OverTime = Yes; BusinessTravel = Travel_Frequently; YearsSinceLastPromotion = 3
+5,Research & Development,Laboratory Technician,No,3468,2,0,0.2341,Low,0.3672,NumCompaniesWorked = 9; EnvironmentSatisfaction = 1; TotalWorkingYears = 6
+6,Research & Development,Laboratory Technician,No,3068,4,0,0.0793,Low,0.0769,YearsSinceLastPromotion = 3; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+7,Research & Development,Laboratory Technician,Yes,2670,1,0,0.1926,Low,0.1943,OverTime = Yes; JobSatisfaction = 1; WorkLifeBalance = 2
+8,Research & Development,Laboratory Technician,No,2693,3,0,0.1153,Low,0.1302,TotalWorkingYears = 1; DistanceFromHome = 24; JobRole = Laboratory Technician
+9,Research & Development,Manufacturing Director,No,9526,3,0,0.0716,Low,0.0559,DistanceFromHome = 23; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+10,Research & Development,Healthcare Representative,No,5237,3,0,0.1036,Low,0.0664,YearsSinceLastPromotion = 7; DistanceFromHome = 27; NumCompaniesWorked = 6
+11,Research & Development,Laboratory Technician,No,2426,2,0,0.0587,Low,0.0602,EnvironmentSatisfaction = 1; JobRole = Laboratory Technician; JobSatisfaction = 2
+12,Research & Development,Laboratory Technician,Yes,4193,3,0,0.0841,Low,0.1344,OverTime = Yes; MaritalStatus = Single; JobRole = Laboratory Technician
+13,Research & Development,Research Scientist,No,2911,3,0,0.2331,Low,0.1881,YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1; DistanceFromHome = 26
+14,Research & Development,Laboratory Technician,No,2661,4,0,0.0416,Low,0.047,JobRole = Laboratory Technician; DistanceFromHome = 19; EnvironmentSatisfaction = 2
+15,Research & Development,Laboratory Technician,Yes,2028,3,1,0.7852,High,0.737,OverTime = Yes; NumCompaniesWorked = 5; DistanceFromHome = 24
+16,Research & Development,Manufacturing Director,No,9980,1,0,0.0288,Low,0.0432,YearsSinceLastPromotion = 8; JobSatisfaction = 1; YearsAtCompany = 10
+17,Research & Development,Research Scientist,Yes,3298,2,0,0.1719,Low,0.0859,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+18,Research & Development,Laboratory Technician,Yes,2935,4,0,0.2788,Low,0.1932,OverTime = Yes; TotalWorkingYears = 1; WorkLifeBalance = 2
+19,Sales,Manager,No,15427,4,0,0.0325,Low,0.041,YearsAtCompany = 25; YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1
+20,Research & Development,Research Scientist,Yes,3944,4,0,0.1661,Low,0.1705,OverTime = Yes; NumCompaniesWorked = 5; MaritalStatus = Single
+21,Research & Development,Manufacturing Director,No,4011,3,0,0.0098,Low,0.0072,No strong risk driver
+22,Sales,Sales Representative,No,3407,1,1,0.3737,Medium,0.3788,NumCompaniesWorked = 7; JobSatisfaction = 1; MaritalStatus = Single
+23,Research & Development,Research Director,No,11994,2,0,0.0288,Low,0.025,EnvironmentSatisfaction = 1; YearsAtCompany = 12
+24,Research & Development,Research Scientist,No,1232,4,0,0.1658,Low,0.1579,TotalWorkingYears = 0; MaritalStatus = Single; YearsSinceLastPromotion = 0
+25,Research & Development,Research Scientist,No,2960,1,1,0.1421,Low,0.1791,JobSatisfaction = 1; MaritalStatus = Single; EnvironmentSatisfaction = 2
+26,Research & Development,Manager,No,19094,3,0,0.002,Low,0.0026,No strong risk driver
+27,Research & Development,Research Scientist,Yes,3919,1,1,0.7783,High,0.8124,OverTime = Yes; YearsSinceLastPromotion = 6; JobInvolvement = 1
+28,Sales,Sales Executive,No,6825,2,0,0.1462,Low,0.123,YearsSinceLastPromotion = 4; Department = Sales; EducationField = Marketing
+29,Research & Development,Healthcare Representative,No,10248,4,0,0.0173,Low,0.0189,YearsAtCompany = 22; YearsSinceLastPromotion = 5
+30,Sales,Manager,No,18947,1,0,0.0741,Low,0.0572,JobSatisfaction = 1; MaritalStatus = Single; Department = Sales
+31,Research & Development,Laboratory Technician,No,2496,4,0,0.1362,Low,0.0943,MaritalStatus = Single; JobRole = Laboratory Technician; NumCompaniesWorked = 4
+32,Research & Development,Healthcare Representative,Yes,6465,4,0,0.0419,Low,0.0218,OverTime = Yes
+33,Research & Development,Laboratory Technician,No,2206,3,0,0.1665,Low,0.1455,MaritalStatus = Single; JobRole = Laboratory Technician; JobInvolvement = 2
+34,Sales,Sales Representative,No,2086,4,1,0.0173,Low,0.0359,EducationField = Technical Degree; Department = Sales; JobRole = Sales Representative
+35,Research & Development,Research Scientist,Yes,2293,4,1,0.2387,Low,0.2929,OverTime = Yes; WorkLifeBalance = 2; RelationshipSatisfaction = 1
+36,Research & Development,Research Scientist,No,2645,3,0,0.0069,Low,0.0035,No strong risk driver
+37,Sales,Sales Representative,Yes,2683,3,1,0.6145,High,0.5838,OverTime = Yes; EnvironmentSatisfaction = 1; Department = Sales
+38,Sales,Sales Representative,No,2014,4,0,0.0735,Low,0.0656,TotalWorkingYears = 2; Department = Sales; JobRole = Sales Representative
+39,Research & Development,Research Scientist,Yes,3419,1,0,0.4194,Medium,0.5079,NumCompaniesWorked = 9; OverTime = Yes; JobSatisfaction = 1
+40,Sales,Sales Executive,No,5376,1,0,0.0674,Low,0.0407,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; Department = Sales
+41,Research & Development,Laboratory Technician,No,1951,4,0,0.0922,Low,0.075,TotalWorkingYears = 1; JobRole = Laboratory Technician; YearsWithCurrManager = 0
+42,Research & Development,Laboratory Technician,No,2341,1,0,0.0569,Low,0.0502,TotalWorkingYears = 1; JobSatisfaction = 1; JobRole = Laboratory Technician
+43,Research & Development,Laboratory Technician,No,2293,3,1,0.7793,High,0.7765,TotalWorkingYears = 1; JobInvolvement = 1; EnvironmentSatisfaction = 1
+44,Sales,Sales Executive,No,8726,3,0,0.0413,Low,0.0408,MaritalStatus = Single; BusinessTravel = Travel_Frequently; Department = Sales
+45,Research & Development,Laboratory Technician,No,4011,4,0,0.06,Low,0.0533,YearsSinceLastPromotion = 3; YearsAtCompany = 12; MaritalStatus = Single
+46,Research & Development,Research Director,No,19545,3,1,0.059,Low,0.0525,YearsSinceLastPromotion = 15; YearsAtCompany = 22; EducationField = Technical Degree
+47,Sales,Sales Executive,No,4568,3,0,0.2016,Low,0.1741,YearsSinceLastPromotion = 8; DistanceFromHome = 23; MaritalStatus = Single
+48,Research & Development,Research Scientist,No,3022,2,0,0.2955,Low,0.2519,RelationshipSatisfaction = 1; DistanceFromHome = 19; EnvironmentSatisfaction = 2
+49,Sales,Sales Executive,Yes,5772,4,0,0.3232,Medium,0.3005,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+50,Research & Development,Laboratory Technician,No,2269,4,0,0.0356,Low,0.0331,TotalWorkingYears = 1; JobRole = Laboratory Technician
+51,Research & Development,Laboratory Technician,Yes,5381,3,1,0.3354,Medium,0.5276,OverTime = Yes; EnvironmentSatisfaction = 1; NumCompaniesWorked = 9
+52,Research & Development,Laboratory Technician,Yes,3441,3,1,0.6568,High,0.6539,OverTime = Yes; EducationField = Technical Degree; TotalWorkingYears = 2
+53,Sales,Sales Executive,Yes,5454,1,0,0.401,Medium,0.3162,OverTime = Yes; JobSatisfaction = 1; WorkLifeBalance = 2
+54,Research & Development,Healthcare Representative,Yes,9884,1,0,0.1008,Low,0.1134,OverTime = Yes; JobSatisfaction = 1; JobInvolvement = 2
+55,Sales,Sales Executive,Yes,4157,4,0,0.5536,Medium,0.6928,OverTime = Yes; NumCompaniesWorked = 7; TotalWorkingYears = 5
+56,Research & Development,Research Director,Yes,13458,4,0,0.1375,Low,0.1559,OverTime = Yes; YearsSinceLastPromotion = 8; YearsAtCompany = 15
+57,Sales,Sales Executive,No,9069,1,0,0.0674,Low,0.0664,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; Department = Sales
+58,Research & Development,Laboratory Technician,Yes,4014,1,0,0.3711,Medium,0.4222,OverTime = Yes; JobSatisfaction = 1; TotalWorkingYears = 4
+59,Research & Development,Laboratory Technician,No,5915,4,0,0.0107,Low,0.0074,No strong risk driver
+60,Research & Development,Manufacturing Director,No,5993,3,0,0.0175,Low,0.0159,No strong risk driver
+61,Research & Development,Manufacturing Director,Yes,6162,4,0,0.1634,Low,0.1283,OverTime = Yes; YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1
+62,Research & Development,Laboratory Technician,No,2406,4,0,0.206,Low,0.1748,YearsSinceLastPromotion = 9; DistanceFromHome = 29; YearsAtCompany = 10
+63,Research & Development,Research Director,Yes,18740,3,0,0.4413,Medium,0.3521,YearsAtCompany = 27; YearsSinceLastPromotion = 13; OverTime = Yes
+64,Sales,Sales Executive,No,7637,1,0,0.1848,Low,0.227,YearsAtCompany = 21; YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1
+65,Research & Development,Healthcare Representative,No,10096,3,0,0.0293,Low,0.0198,YearsSinceLastPromotion = 12; YearsAtCompany = 17; EducationField = Technical Degree
+66,Research & Development,Manager,Yes,14756,3,0,0.0164,Low,0.011,No strong risk driver
+67,Research & Development,Manufacturing Director,No,6499,2,0,0.2078,Low,0.1839,MaritalStatus = Single; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+68,Research & Development,Research Scientist,No,9724,1,0,0.0289,Low,0.0239,JobSatisfaction = 1
+69,Research & Development,Research Scientist,No,2194,1,0,0.1861,Low,0.2081,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; NumCompaniesWorked = 4
+70,Research & Development,Research Scientist,Yes,3388,3,1,0.3397,Medium,0.436,OverTime = Yes; WorkLifeBalance = 2; TotalWorkingYears = 2
+71,Sales,Sales Executive,No,5473,3,0,0.2356,Low,0.1941,EnvironmentSatisfaction = 1; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+72,Research & Development,Research Scientist,No,2703,2,0,0.0114,Low,0.0106,No strong risk driver
+73,Research & Development,Research Scientist,No,2501,2,0,0.1603,Low,0.1341,TotalWorkingYears = 1; MaritalStatus = Single; JobSatisfaction = 2
+74,Research & Development,Research Scientist,No,6220,2,0,0.0167,Low,0.0168,No strong risk driver
+75,Research & Development,Laboratory Technician,No,3038,4,0,0.0946,Low,0.0862,JobRole = Laboratory Technician; EnvironmentSatisfaction = 2; TotalWorkingYears = 5
+76,Research & Development,Manufacturing Director,No,4424,4,0,0.0166,Low,0.0105,No strong risk driver
+77,Sales,Sales Executive,No,4312,1,0,0.1746,Low,0.123,YearsAtCompany = 15; JobSatisfaction = 1; MaritalStatus = Single
+78,Research & Development,Research Director,Yes,13245,1,0,0.0888,Low,0.1046,OverTime = Yes; JobSatisfaction = 1; YearsWithCurrManager = 0
+79,Research & Development,Research Director,No,13664,3,0,0.1134,Low,0.0914,EnvironmentSatisfaction = 1; MaritalStatus = Single; RelationshipSatisfaction = 1
+80,Human Resources,Human Resources,Yes,5021,2,0,0.2189,Low,0.1799,OverTime = Yes; NumCompaniesWorked = 8; JobSatisfaction = 2
+81,Research & Development,Laboratory Technician,Yes,5126,4,0,0.2341,Low,0.3072,OverTime = Yes; YearsSinceLastPromotion = 3; WorkLifeBalance = 2
+82,Research & Development,Research Scientist,No,2859,3,0,0.0716,Low,0.0896,MaritalStatus = Single; JobInvolvement = 2; RelationshipSatisfaction = 1
+83,Sales,Sales Executive,No,10239,4,0,0.0153,Low,0.02,No strong risk driver
+84,Research & Development,Research Scientist,Yes,5329,4,0,0.0198,Low,0.0183,OverTime = Yes; JobInvolvement = 1
+85,Research & Development,Manufacturing Director,No,4325,2,0,0.0478,Low,0.0814,EnvironmentSatisfaction = 1; JobSatisfaction = 2; TotalWorkingYears = 5
+86,Research & Development,Manufacturing Director,No,7260,4,0,0.0863,Low,0.053,JobInvolvement = 1; MaritalStatus = Single; RelationshipSatisfaction = 1
+87,Sales,Sales Representative,No,2322,1,0,0.4947,Medium,0.4196,EducationField = Technical Degree; TotalWorkingYears = 3; JobSatisfaction = 1
+88,Research & Development,Laboratory Technician,No,2075,4,0,0.0212,Low,0.0173,No strong risk driver
+89,Research & Development,Healthcare Representative,No,4152,4,0,0.0283,Low,0.0231,YearsSinceLastPromotion = 10; YearsAtCompany = 11
+90,Sales,Sales Executive,No,9619,4,1,0.0655,Low,0.0514,YearsSinceLastPromotion = 4; MaritalStatus = Single; Department = Sales
+91,Research & Development,Healthcare Representative,No,13503,2,0,0.1445,Low,0.0982,YearsAtCompany = 22; YearsSinceLastPromotion = 11; BusinessTravel = Travel_Frequently
+92,Sales,Sales Executive,Yes,5441,4,0,0.2952,Low,0.3682,OverTime = Yes; WorkLifeBalance = 1; MaritalStatus = Single
+93,Sales,Sales Executive,Yes,5209,2,0,0.1141,Low,0.0947,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+94,Research & Development,Healthcare Representative,Yes,10673,1,0,0.2411,Low,0.2965,OverTime = Yes; YearsSinceLastPromotion = 9; JobSatisfaction = 1
+95,Sales,Sales Executive,No,5010,3,0,0.1218,Low,0.2301,YearsSinceLastPromotion = 5; YearsAtCompany = 11; MaritalStatus = Single
+96,Research & Development,Research Director,No,13549,3,0,0.0983,Low,0.0639,EducationField = Technical Degree; NumCompaniesWorked = 9; EnvironmentSatisfaction = 1
+97,Sales,Sales Executive,No,4999,3,0,0.1417,Low,0.1053,EnvironmentSatisfaction = 1; Department = Sales; RelationshipSatisfaction = 1
+98,Sales,Sales Executive,No,4221,3,0,0.0443,Low,0.0358,Department = Sales; EnvironmentSatisfaction = 2
+99,Sales,Sales Executive,No,13872,3,0,0.0734,Low,0.0568,YearsAtCompany = 37; MaritalStatus = Single; Department = Sales
+100,Research & Development,Laboratory Technician,No,2042,2,0,0.081,Low,0.0718,DistanceFromHome = 23; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+101,Human Resources,Human Resources,Yes,2073,1,1,0.2641,Low,0.3161,OverTime = Yes; JobSatisfaction = 1; EducationField = Human Resources
+102,Research & Development,Research Scientist,No,2956,1,0,0.1919,Low,0.1803,TotalWorkingYears = 1; JobSatisfaction = 1; MaritalStatus = Single
+103,Research & Development,Laboratory Technician,Yes,2926,4,1,0.6644,High,0.5738,OverTime = Yes; TotalWorkingYears = 1; BusinessTravel = Travel_Frequently
+104,Research & Development,Research Scientist,No,4809,3,0,0.0256,Low,0.0219,YearsAtCompany = 16; EnvironmentSatisfaction = 1
+105,Research & Development,Healthcare Representative,No,5163,4,0,0.0059,Low,0.0072,No strong risk driver
+106,Human Resources,Manager,No,18844,4,0,0.0024,Low,0.003,No strong risk driver
+107,Research & Development,Research Director,Yes,18172,2,0,0.1067,Low,0.0963,OverTime = Yes; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+108,Sales,Sales Executive,Yes,5744,3,1,0.5274,Medium,0.5195,OverTime = Yes; MaritalStatus = Single; Department = Sales
+109,Research & Development,Research Scientist,No,2889,4,0,0.0235,Low,0.0364,TotalWorkingYears = 2; JobInvolvement = 2
+110,Research & Development,Laboratory Technician,No,2871,4,0,0.2533,Low,0.2403,TotalWorkingYears = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+111,Research & Development,Healthcare Representative,No,7484,1,0,0.2881,Low,0.2532,YearsSinceLastPromotion = 12; YearsAtCompany = 13; EnvironmentSatisfaction = 1
+112,Research & Development,Laboratory Technician,Yes,6074,3,1,0.5034,Medium,0.543,OverTime = Yes; JobInvolvement = 1; BusinessTravel = Travel_Frequently
+113,Human Resources,Manager,Yes,17328,4,0,0.0242,Low,0.0412,OverTime = Yes; YearsSinceLastPromotion = 4; DistanceFromHome = 26
+114,Research & Development,Laboratory Technician,No,2774,3,0,0.1192,Low,0.0987,JobRole = Laboratory Technician; EnvironmentSatisfaction = 2; DistanceFromHome = 18
+115,Research & Development,Research Scientist,No,4505,2,0,0.0515,Low,0.0434,NumCompaniesWorked = 6; JobInvolvement = 2; JobSatisfaction = 2
+116,Sales,Sales Executive,No,7428,4,0,0.0313,Low,0.0452,MaritalStatus = Single; Department = Sales; RelationshipSatisfaction = 1
+117,Research & Development,Manager,No,11631,1,0,0.0657,Low,0.032,YearsSinceLastPromotion = 5; JobSatisfaction = 1; YearsAtCompany = 11
+118,Sales,Sales Executive,No,9738,4,0,0.0248,Low,0.0185,No strong risk driver
+119,Research & Development,Laboratory Technician,No,2835,4,0,0.1019,Low,0.0952,EnvironmentSatisfaction = 1; NumCompaniesWorked = 5; JobRole = Laboratory Technician
+120,Sales,Manager,Yes,16959,4,0,0.1192,Low,0.0899,OverTime = Yes; YearsAtCompany = 25; YearsSinceLastPromotion = 4
+121,Research & Development,Research Scientist,No,2613,3,0,0.0789,Low,0.0624,JobInvolvement = 1; EnvironmentSatisfaction = 1; DistanceFromHome = 23
+122,Sales,Sales Executive,No,6146,2,0,0.067,Low,0.0341,DistanceFromHome = 22; Department = Sales; RelationshipSatisfaction = 1
+123,Research & Development,Research Scientist,Yes,4963,2,1,0.4543,Medium,0.481,OverTime = Yes; NumCompaniesWorked = 9; YearsSinceLastPromotion = 4
+124,Research & Development,Research Director,No,19537,3,0,0.0357,Low,0.0208,YearsSinceLastPromotion = 15; YearsAtCompany = 20
+125,Sales,Sales Executive,Yes,6172,3,1,0.632,High,0.6653,OverTime = Yes; YearsSinceLastPromotion = 7; JobInvolvement = 1
+126,Research & Development,Research Scientist,No,2368,2,0,0.1097,Low,0.116,YearsSinceLastPromotion = 4; JobInvolvement = 2; JobSatisfaction = 2
+127,Research & Development,Healthcare Representative,No,10312,4,1,0.0776,Low,0.1138,YearsAtCompany = 40; YearsSinceLastPromotion = 15; DistanceFromHome = 23
+128,Sales,Sales Representative,Yes,1675,3,1,0.8996,High,0.9244,TotalWorkingYears = 0; OverTime = Yes; WorkLifeBalance = 2
+129,Research & Development,Laboratory Technician,No,2523,4,0,0.1095,Low,0.0809,EducationField = Technical Degree; JobRole = Laboratory Technician; TotalWorkingYears = 3
+130,Research & Development,Manufacturing Director,No,6567,1,0,0.0295,Low,0.0545,YearsSinceLastPromotion = 5; YearsAtCompany = 15; JobSatisfaction = 1
+131,Research & Development,Research Scientist,No,4739,3,0,0.0606,Low,0.0926,DistanceFromHome = 28; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+132,Sales,Sales Executive,No,9208,4,0,0.0779,Low,0.056,BusinessTravel = Travel_Frequently; MaritalStatus = Single; Department = Sales
+133,Sales,Sales Executive,Yes,4559,3,1,0.5745,Medium,0.616,OverTime = Yes; JobInvolvement = 1; TotalWorkingYears = 4
+134,Sales,Sales Executive,Yes,8189,3,0,0.0636,Low,0.0502,OverTime = Yes; Department = Sales; YearsAtCompany = 9
+135,Human Resources,Human Resources,No,2942,3,0,0.0487,Low,0.0391,YearsSinceLastPromotion = 5; DistanceFromHome = 25; YearsAtCompany = 8
+136,Research & Development,Manufacturing Director,No,4941,2,0,0.0859,Low,0.0911,NumCompaniesWorked = 6; TrainingTimesLastYear = 0; EnvironmentSatisfaction = 2
+137,Research & Development,Manufacturing Director,No,10650,4,1,0.0765,Low,0.0987,JobInvolvement = 1; EnvironmentSatisfaction = 1; MaritalStatus = Single
+138,Sales,Sales Executive,No,5902,3,0,0.0182,Low,0.0277,YearsSinceLastPromotion = 5; YearsAtCompany = 15; Department = Sales
+139,Sales,Sales Executive,No,8639,3,0,0.2244,Low,0.2196,EnvironmentSatisfaction = 1; DistanceFromHome = 28; Department = Sales
+140,Human Resources,Human Resources,Yes,6347,4,0,0.1555,Low,0.1984,OverTime = Yes; YearsSinceLastPromotion = 4; WorkLifeBalance = 1
+141,Research & Development,Laboratory Technician,No,4200,1,1,0.3555,Medium,0.3564,EnvironmentSatisfaction = 1; JobSatisfaction = 1; NumCompaniesWorked = 7
+142,Research & Development,Research Scientist,No,3452,4,0,0.0989,Low,0.1154,DistanceFromHome = 29; MaritalStatus = Single; NumCompaniesWorked = 5
+143,Research & Development,Research Scientist,Yes,4317,3,0,0.1233,Low,0.1638,OverTime = Yes; EducationField = Technical Degree; MaritalStatus = Single
+144,Research & Development,Research Scientist,No,2632,3,0,0.1087,Low,0.1011,EnvironmentSatisfaction = 1; MaritalStatus = Single; DistanceFromHome = 18
+145,Sales,Sales Executive,No,4668,4,0,0.0151,Low,0.0132,No strong risk driver
+146,Research & Development,Research Scientist,No,3204,1,0,0.0702,Low,0.0604,EducationField = Technical Degree; JobSatisfaction = 1; NumCompaniesWorked = 5
+147,Research & Development,Laboratory Technician,No,2720,4,0,0.1214,Low,0.0831,MaritalStatus = Single; JobRole = Laboratory Technician; JobInvolvement = 2
+148,Research & Development,Manager,No,17181,1,0,0.0777,Low,0.0561,YearsSinceLastPromotion = 7; JobSatisfaction = 1; BusinessTravel = Travel_Frequently
+149,Research & Development,Laboratory Technician,No,2238,1,0,0.0815,Low,0.0847,JobSatisfaction = 1; JobRole = Laboratory Technician; YearsInCurrentRole = 0
+150,Research & Development,Laboratory Technician,No,1483,2,0,0.263,Low,0.2375,TotalWorkingYears = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+151,Research & Development,Research Scientist,No,5605,2,0,0.0693,Low,0.0505,YearsAtCompany = 20; DistanceFromHome = 26; BusinessTravel = Travel_Frequently
+152,Sales,Sales Executive,No,7295,2,0,0.0349,Low,0.032,Department = Sales; RelationshipSatisfaction = 1
+153,Sales,Sales Representative,Yes,2306,3,0,0.4862,Medium,0.3882,OverTime = Yes; YearsSinceLastPromotion = 4; WorkLifeBalance = 1
+154,Research & Development,Laboratory Technician,No,2348,2,0,0.0417,Low,0.0459,YearsAtCompany = 17; NumCompaniesWorked = 8; JobRole = Laboratory Technician
+155,Sales,Sales Executive,No,8998,4,0,0.1229,Low,0.0996,YearsSinceLastPromotion = 3; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+156,Research & Development,Manufacturing Director,No,4319,3,0,0.0041,Low,0.0119,No strong risk driver
+157,Research & Development,Manufacturing Director,No,6132,3,0,0.0575,Low,0.063,JobInvolvement = 2; EnvironmentSatisfaction = 2; YearsWithCurrManager = 0
+158,Research & Development,Research Scientist,Yes,3346,2,0,0.3664,Medium,0.3578,OverTime = Yes; WorkLifeBalance = 2; JobInvolvement = 2
+159,Sales,Sales Executive,No,10855,4,0,0.0532,Low,0.0412,NumCompaniesWorked = 7; YearsAtCompany = 12; Department = Sales
+160,Sales,Sales Representative,No,2231,3,0,0.174,Low,0.1712,NumCompaniesWorked = 6; BusinessTravel = Travel_Frequently; Department = Sales
+161,Research & Development,Research Scientist,No,2323,4,0,0.0155,Low,0.0233,No strong risk driver
+162,Research & Development,Research Scientist,No,2024,2,0,0.0412,Low,0.0396,NumCompaniesWorked = 6; WorkLifeBalance = 1; TotalWorkingYears = 6
+163,Research & Development,Research Scientist,No,2713,4,0,0.0991,Low,0.0816,DistanceFromHome = 21; WorkLifeBalance = 1; TotalWorkingYears = 5
+164,Research & Development,Healthcare Representative,Yes,9439,4,0,0.0548,Low,0.0654,OverTime = Yes; WorkLifeBalance = 1; DistanceFromHome = 24
+165,Research & Development,Research Scientist,Yes,2566,3,0,0.196,Low,0.1793,OverTime = Yes; TotalWorkingYears = 1; WorkLifeBalance = 2
+166,Research & Development,Manager,No,19926,2,0,0.0172,Low,0.015,No strong risk driver
+167,Research & Development,Research Scientist,No,2451,3,0,0.0518,Low,0.0436,EnvironmentSatisfaction = 1; RelationshipSatisfaction = 1; YearsAtCompany = 9
+168,Sales,Sales Executive,No,9419,4,0,0.0464,Low,0.0389,YearsSinceLastPromotion = 7; YearsAtCompany = 10; Department = Sales
+169,Sales,Sales Executive,No,8686,4,0,0.0719,Low,0.0611,EnvironmentSatisfaction = 1; MaritalStatus = Single; Department = Sales
+170,Research & Development,Research Scientist,No,3038,3,0,0.111,Low,0.0902,MaritalStatus = Single; RelationshipSatisfaction = 1; DailyRate = 120
+171,Research & Development,Research Scientist,Yes,3058,2,0,0.2892,Low,0.3627,OverTime = Yes; EducationField = Technical Degree; WorkLifeBalance = 2
+172,Sales,Sales Representative,No,2325,1,1,0.5945,Medium,0.7068,JobInvolvement = 1; EducationField = Technical Degree; JobSatisfaction = 1
+173,Research & Development,Laboratory Technician,No,2088,2,0,0.3252,Medium,0.3281,YearsSinceLastPromotion = 7; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+174,Research & Development,Laboratory Technician,No,3072,1,0,0.038,Low,0.0337,YearsSinceLastPromotion = 6; YearsAtCompany = 12; JobSatisfaction = 1
+175,Sales,Sales Executive,Yes,5006,1,0,0.1469,Low,0.1449,OverTime = Yes; JobSatisfaction = 1; Department = Sales
+176,Research & Development,Research Scientist,Yes,4257,1,0,0.0768,Low,0.0539,OverTime = Yes; JobSatisfaction = 1
+177,Research & Development,Research Scientist,No,2500,4,0,0.0682,Low,0.0472,MaritalStatus = Single; RelationshipSatisfaction = 1
+178,Research & Development,Laboratory Technician,No,1102,4,1,0.2458,Low,0.2885,TotalWorkingYears = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+179,Sales,Sales Executive,No,10453,1,0,0.0532,Low,0.076,YearsAtCompany = 24; YearsSinceLastPromotion = 15; JobSatisfaction = 1
+180,Research & Development,Laboratory Technician,No,2288,4,0,0.0553,Low,0.0593,TotalWorkingYears = 2; MaritalStatus = Single; JobRole = Laboratory Technician
+181,Research & Development,Research Scientist,Yes,3929,4,0,0.2373,Low,0.2368,OverTime = Yes; NumCompaniesWorked = 8; TrainingTimesLastYear = 0
+182,Research & Development,Research Scientist,No,2311,2,0,0.0782,Low,0.0558,DistanceFromHome = 27; MaritalStatus = Single; JobSatisfaction = 2
+183,Sales,Sales Representative,Yes,3140,2,1,0.5024,Medium,0.5784,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+184,Research & Development,Laboratory Technician,No,3690,3,0,0.0875,Low,0.0763,JobRole = Laboratory Technician; JobInvolvement = 2; TotalWorkingYears = 5
+185,Research & Development,Manufacturing Director,No,4450,1,0,0.0121,Low,0.0113,No strong risk driver
+186,Research & Development,Research Scientist,No,2756,2,0,0.0118,Low,0.0076,No strong risk driver
+187,Research & Development,Manager,No,19033,3,0,0.0163,Low,0.0107,No strong risk driver
+188,Research & Development,Research Director,No,18722,2,0,0.005,Low,0.0039,No strong risk driver
+189,Research & Development,Manufacturing Director,No,9547,3,0,0.0174,Low,0.0154,No strong risk driver
+190,Research & Development,Healthcare Representative,No,13734,2,0,0.0054,Low,0.0054,No strong risk driver
+191,Research & Development,Manager,No,19999,3,0,0.0188,Low,0.0145,YearsAtCompany = 33; YearsSinceLastPromotion = 11
+192,Research & Development,Research Scientist,No,2279,2,0,0.024,Low,0.0295,MaritalStatus = Single
+193,Research & Development,Manufacturing Director,Yes,5916,3,1,0.5504,Medium,0.5823,OverTime = Yes; DistanceFromHome = 23; JobInvolvement = 2
+194,Research & Development,Research Scientist,No,2089,4,0,0.0051,Low,0.0019,No strong risk driver
+195,Research & Development,Manager,No,16792,4,0,0.036,Low,0.045,YearsAtCompany = 20; YearsSinceLastPromotion = 11; EnvironmentSatisfaction = 1
+196,Research & Development,Research Scientist,Yes,3564,1,0,0.3173,Medium,0.301,OverTime = Yes; JobSatisfaction = 1; WorkLifeBalance = 2
+197,Research & Development,Laboratory Technician,No,4425,2,0,0.3583,Medium,0.2276,MaritalStatus = Single; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+198,Research & Development,Manufacturing Director,No,5265,3,0,0.0076,Low,0.008,No strong risk driver
+199,Research & Development,Manufacturing Director,No,6553,3,0,0.0384,Low,0.04,NumCompaniesWorked = 9; YearsWithCurrManager = 0; YearsInCurrentRole = 0
+200,Research & Development,Manufacturing Director,No,6261,4,0,0.0217,Low,0.0446,EducationField = Technical Degree; DistanceFromHome = 29; WorkLifeBalance = 1
+201,Research & Development,Manufacturing Director,No,4298,1,0,0.3665,Medium,0.4101,EducationField = Technical Degree; JobSatisfaction = 1; NumCompaniesWorked = 5
+202,Research & Development,Manufacturing Director,Yes,6804,4,0,0.0054,Low,0.0155,OverTime = Yes
+203,Research & Development,Research Scientist,Yes,3815,3,0,0.0987,Low,0.0864,OverTime = Yes; BusinessTravel = Travel_Frequently; YearsWithCurrManager = 0
+204,Research & Development,Laboratory Technician,Yes,2741,4,0,0.3206,Medium,0.2902,OverTime = Yes; YearsSinceLastPromotion = 3; NumCompaniesWorked = 8
+205,Research & Development,Healthcare Representative,Yes,6673,1,1,0.3702,Medium,0.4892,OverTime = Yes; JobSatisfaction = 1; DistanceFromHome = 29
+206,Sales,Sales Executive,No,7639,4,1,0.0204,Low,0.0326,DistanceFromHome = 27; Department = Sales
+207,Research & Development,Research Scientist,Yes,2328,2,0,0.1322,Low,0.136,OverTime = Yes; WorkLifeBalance = 2; RelationshipSatisfaction = 1
+208,Research & Development,Laboratory Technician,No,2153,4,0,0.2071,Low,0.2126,MaritalStatus = Single; JobRole = Laboratory Technician; BusinessTravel = Travel_Frequently
+209,Research & Development,Healthcare Representative,No,4876,4,0,0.0765,Low,0.0439,NumCompaniesWorked = 9; TotalWorkingYears = 5; WorkLifeBalance = 1
+210,Research & Development,Healthcare Representative,No,9396,1,0,0.0135,Low,0.0138,No strong risk driver
+211,Sales,Sales Executive,No,10400,4,1,0.0668,Low,0.1106,YearsSinceLastPromotion = 9; YearsAtCompany = 14; JobInvolvement = 1
+212,Research & Development,Manufacturing Director,No,8474,3,0,0.0305,Low,0.0275,YearsSinceLastPromotion = 5; YearsAtCompany = 11; MaritalStatus = Single
+213,Sales,Sales Executive,No,9981,3,0,0.0494,Low,0.0389,MaritalStatus = Single; BusinessTravel = Travel_Frequently; Department = Sales
+214,Research & Development,Research Director,No,12490,2,0,0.0239,Low,0.0249,YearsSinceLastPromotion = 4
+215,Research & Development,Research Scientist,Yes,2657,1,1,0.1728,Low,0.324,OverTime = Yes; EducationField = Technical Degree; JobSatisfaction = 1
+216,Sales,Manager,Yes,13591,4,0,0.0342,Low,0.0498,OverTime = Yes; MaritalStatus = Single; Department = Sales
+217,Sales,Sales Executive,No,6696,1,1,0.6199,High,0.6362,JobSatisfaction = 1; DistanceFromHome = 26; MaritalStatus = Single
+218,Research & Development,Research Scientist,No,2058,3,1,0.0853,Low,0.0856,EducationField = Technical Degree; MaritalStatus = Single; TrainingTimesLastYear = 1
+219,Sales,Sales Executive,No,8865,4,0,0.0587,Low,0.0714,YearsSinceLastPromotion = 12; YearsAtCompany = 19; MaritalStatus = Single
+220,Sales,Sales Executive,No,5940,1,0,0.0197,Low,0.0179,No strong risk driver
+221,Research & Development,Laboratory Technician,No,5914,2,0,0.0697,Low,0.0584,YearsSinceLastPromotion = 3; NumCompaniesWorked = 8; YearsAtCompany = 13
+222,Research & Development,Research Scientist,No,2622,2,0,0.0972,Low,0.0985,NumCompaniesWorked = 6; JobInvolvement = 2; JobSatisfaction = 2
+223,Research & Development,Research Director,Yes,12185,4,0,0.0565,Low,0.0451,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 2
+224,Sales,Sales Executive,No,10609,3,0,0.0195,Low,0.0178,YearsSinceLastPromotion = 5; YearsAtCompany = 16
+225,Research & Development,Manufacturing Director,No,4345,3,0,0.0081,Low,0.0171,JobInvolvement = 1
+226,Research & Development,Research Scientist,No,2177,4,0,0.0359,Low,0.0282,No strong risk driver
+227,Sales,Sales Representative,No,2793,4,0,0.1111,Low,0.1885,YearsSinceLastPromotion = 5; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+228,Sales,Sales Executive,No,7918,4,0,0.0424,Low,0.0318,YearsSinceLastPromotion = 4; YearsAtCompany = 11; BusinessTravel = Travel_Frequently
+229,Sales,Sales Executive,No,8789,3,0,0.0545,Low,0.0398,MaritalStatus = Single; BusinessTravel = Travel_Frequently; Department = Sales
+230,Research & Development,Research Scientist,Yes,2389,4,1,0.4239,Medium,0.421,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+231,Research & Development,Laboratory Technician,No,3212,4,0,0.1373,Low,0.1393,NumCompaniesWorked = 7; MaritalStatus = Single; TotalWorkingYears = 6
+232,Research & Development,Manager,No,19232,4,0,0.015,Low,0.0076,No strong risk driver
+233,Human Resources,Human Resources,No,2267,3,0,0.1607,Low,0.1536,NumCompaniesWorked = 8; EnvironmentSatisfaction = 2; TotalWorkingYears = 7
+234,Sales,Manager,No,19517,4,0,0.0026,Low,0.0025,No strong risk driver
+235,Research & Development,Laboratory Technician,Yes,2436,4,1,0.371,Medium,0.3804,OverTime = Yes; WorkLifeBalance = 1; NumCompaniesWorked = 5
+236,Sales,Manager,Yes,16064,4,0,0.0136,Low,0.0114,No strong risk driver
+237,Research & Development,Laboratory Technician,No,2707,1,1,0.1321,Low,0.1539,EnvironmentSatisfaction = 1; JobSatisfaction = 1; NumCompaniesWorked = 7
+238,Sales,Manager,Yes,19068,3,0,0.3036,Medium,0.3075,YearsAtCompany = 33; YearsSinceLastPromotion = 15; OverTime = Yes
+239,Sales,Sales Representative,No,3931,2,0,0.1042,Low,0.0802,Department = Sales; JobRole = Sales Representative; RelationshipSatisfaction = 1
+240,Research & Development,Laboratory Technician,Yes,3730,3,1,0.3475,Medium,0.4013,OverTime = Yes; WorkLifeBalance = 1; MaritalStatus = Single
+241,Research & Development,Laboratory Technician,No,2232,3,0,0.0541,Low,0.0391,NumCompaniesWorked = 7; JobRole = Laboratory Technician
+242,Sales,Sales Executive,No,4465,4,0,0.0241,Low,0.0592,DistanceFromHome = 26; Department = Sales; RelationshipSatisfaction = 1
+243,Research & Development,Research Scientist,No,3072,1,0,0.0728,Low,0.0685,JobSatisfaction = 1; RelationshipSatisfaction = 1; DistanceFromHome = 19
+244,Research & Development,Research Scientist,No,3319,4,0,0.1068,Low,0.0748,YearsSinceLastPromotion = 4; EducationField = Technical Degree; EnvironmentSatisfaction = 1
+245,Research & Development,Manager,No,19202,4,0,0.0088,Low,0.0079,No strong risk driver
+246,Research & Development,Research Director,No,13675,3,0,0.1273,Low,0.0853,NumCompaniesWorked = 9; BusinessTravel = Travel_Frequently; RelationshipSatisfaction = 1
+247,Research & Development,Research Scientist,No,2911,4,0,0.0464,Low,0.043,TotalWorkingYears = 2; JobInvolvement = 2
+248,Research & Development,Manufacturing Director,No,5957,1,0,0.1195,Low,0.0895,YearsSinceLastPromotion = 5; JobSatisfaction = 1; YearsAtCompany = 11
+249,Research & Development,Research Scientist,No,3920,1,0,0.0955,Low,0.0845,JobSatisfaction = 1; JobInvolvement = 2; RelationshipSatisfaction = 1
+250,Research & Development,Manufacturing Director,No,6434,3,0,0.0549,Low,0.0471,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently; TrainingTimesLastYear = 1
+251,Research & Development,Manufacturing Director,No,10048,3,1,0.0707,Low,0.0709,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently; NumCompaniesWorked = 6
+252,Research & Development,Healthcare Representative,No,10938,3,0,0.1364,Low,0.1286,YearsSinceLastPromotion = 11; YearsAtCompany = 19; EducationField = Technical Degree
+253,Research & Development,Research Scientist,No,2340,4,0,0.0489,Low,0.0552,MaritalStatus = Single; RelationshipSatisfaction = 1; TrainingTimesLastYear = 1
+254,Research & Development,Research Scientist,Yes,6545,1,0,0.1535,Low,0.1664,OverTime = Yes; JobSatisfaction = 1; MaritalStatus = Single
+255,Sales,Sales Executive,No,6931,4,0,0.0301,Low,0.0268,No strong risk driver
+256,Research & Development,Manufacturing Director,No,4898,3,0,0.0262,Low,0.0239,EnvironmentSatisfaction = 1
+257,Research & Development,Laboratory Technician,Yes,2593,1,0,0.2054,Low,0.1755,OverTime = Yes; YearsSinceLastPromotion = 7; JobSatisfaction = 1
+258,Research & Development,Research Director,No,19436,3,0,0.0055,Low,0.0052,No strong risk driver
+259,Research & Development,Research Scientist,No,2723,4,0,0.135,Low,0.1179,TotalWorkingYears = 1; TrainingTimesLastYear = 0; YearsWithCurrManager = 0
+260,Research & Development,Laboratory Technician,No,3479,2,1,0.3785,Medium,0.4238,DistanceFromHome = 29; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+261,Research & Development,Laboratory Technician,No,2794,2,0,0.1779,Low,0.1592,BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician; WorkLifeBalance = 1
+262,Sales,Sales Executive,No,5249,4,0,0.0169,Low,0.0211,YearsSinceLastPromotion = 7
+263,Research & Development,Laboratory Technician,No,2176,1,0,0.2259,Low,0.2687,EducationField = Technical Degree; JobSatisfaction = 1; MaritalStatus = Single
+264,Sales,Manager,Yes,16872,2,0,0.5305,Medium,0.3942,OverTime = Yes; YearsSinceLastPromotion = 7; JobInvolvement = 1
+265,Research & Development,Laboratory Technician,No,3485,3,1,0.2742,Low,0.3028,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+266,Sales,Sales Executive,No,6644,2,0,0.1832,Low,0.1382,EnvironmentSatisfaction = 1; Department = Sales; JobInvolvement = 2
+267,Research & Development,Healthcare Representative,No,5582,4,0,0.1266,Low,0.1145,YearsSinceLastPromotion = 7; DistanceFromHome = 23; YearsAtCompany = 9
+268,Research & Development,Healthcare Representative,No,4000,1,0,0.0081,Low,0.0116,No strong risk driver
+269,Research & Development,Healthcare Representative,Yes,13496,4,0,0.0385,Low,0.0669,OverTime = Yes; YearsAtCompany = 20; YearsSinceLastPromotion = 4
+270,Research & Development,Laboratory Technician,No,3210,4,0,0.0221,Low,0.0152,YearsSinceLastPromotion = 10; YearsAtCompany = 15
+271,Research & Development,Manager,Yes,19045,1,0,0.1245,Low,0.1126,YearsAtCompany = 36; OverTime = Yes; YearsSinceLastPromotion = 4
+272,Research & Development,Manager,Yes,11849,2,1,0.2381,Low,0.2852,OverTime = Yes; YearsSinceLastPromotion = 9; EnvironmentSatisfaction = 1
+273,Research & Development,Research Scientist,No,2070,4,0,0.0096,Low,0.0104,No strong risk driver
+274,Sales,Sales Executive,No,6502,4,0,0.0426,Low,0.04,Department = Sales; NumCompaniesWorked = 4
+275,Research & Development,Research Scientist,No,3230,3,0,0.1316,Low,0.0785,MaritalStatus = Single; TotalWorkingYears = 3; JobInvolvement = 2
+276,Research & Development,Research Director,Yes,13603,4,0,0.0229,Low,0.0177,OverTime = Yes
+277,Research & Development,Manager,No,11996,2,0,0.0614,Low,0.0566,YearsSinceLastPromotion = 6; NumCompaniesWorked = 7; DistanceFromHome = 22
+278,Sales,Sales Executive,Yes,5605,1,0,0.286,Low,0.3387,OverTime = Yes; YearsSinceLastPromotion = 7; JobSatisfaction = 1
+279,Research & Development,Manufacturing Director,No,6397,2,0,0.0147,Low,0.0242,No strong risk driver
+280,Research & Development,Research Director,No,19144,2,0,0.0093,Low,0.0087,No strong risk driver
+281,Research & Development,Research Director,Yes,17584,3,0,0.0213,Low,0.0132,OverTime = Yes
+282,Sales,Sales Executive,No,4907,3,0,0.0561,Low,0.0602,YearsSinceLastPromotion = 11; YearsAtCompany = 20; Department = Sales
+283,Sales,Sales Executive,No,4554,4,0,0.0587,Low,0.0786,MaritalStatus = Single; BusinessTravel = Travel_Frequently; Department = Sales
+284,Research & Development,Laboratory Technician,Yes,5415,4,0,0.0778,Low,0.1153,OverTime = Yes; EducationField = Technical Degree; JobRole = Laboratory Technician
+285,Research & Development,Healthcare Representative,Yes,4741,1,0,0.7708,High,0.7293,OverTime = Yes; BusinessTravel = Travel_Frequently; YearsSinceLastPromotion = 3
+286,Research & Development,Research Scientist,No,2115,4,0,0.0321,Low,0.0205,YearsAtCompany = 17; YearsSinceLastPromotion = 5
+287,Research & Development,Laboratory Technician,Yes,3161,3,1,0.2863,Low,0.3978,OverTime = Yes; DistanceFromHome = 24; BusinessTravel = Travel_Frequently
+288,Research & Development,Healthcare Representative,No,5745,4,0,0.0573,Low,0.0384,NumCompaniesWorked = 9; DistanceFromHome = 23
+289,Research & Development,Laboratory Technician,Yes,2373,2,1,0.408,Medium,0.3965,OverTime = Yes; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+290,Research & Development,Research Scientist,No,3310,4,0,0.0174,Low,0.0138,No strong risk driver
+291,Research & Development,Research Director,Yes,18665,1,0,0.3384,Medium,0.1772,OverTime = Yes; BusinessTravel = Travel_Frequently; JobSatisfaction = 1
+292,Research & Development,Research Scientist,No,4485,2,0,0.3902,Medium,0.3529,YearsSinceLastPromotion = 7; EducationField = Technical Degree; MaritalStatus = Single
+293,Sales,Sales Representative,No,2789,2,0,0.1436,Low,0.1185,TotalWorkingYears = 2; BusinessTravel = Travel_Frequently; Department = Sales
+294,Sales,Sales Executive,Yes,5828,4,1,0.5421,Medium,0.5421,OverTime = Yes; YearsSinceLastPromotion = 7; MaritalStatus = Single
+295,Research & Development,Research Scientist,Yes,2326,4,0,0.2262,Low,0.2069,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 2
+296,Sales,Sales Executive,No,13525,2,0,0.221,Low,0.1884,YearsAtCompany = 20; YearsSinceLastPromotion = 4; DistanceFromHome = 26
+297,Research & Development,Laboratory Technician,No,1420,3,1,0.443,Medium,0.5088,TotalWorkingYears = 0; MaritalStatus = Single; JobRole = Laboratory Technician
+298,Sales,Sales Executive,No,8020,2,0,0.0619,Low,0.0524,YearsSinceLastPromotion = 6; YearsAtCompany = 11; Department = Sales
+299,Research & Development,Laboratory Technician,No,3688,4,0,0.0725,Low,0.1013,TotalWorkingYears = 4; NumCompaniesWorked = 4; BusinessTravel = Travel_Frequently
+300,Research & Development,Manufacturing Director,No,5482,2,0,0.0275,Low,0.0256,JobInvolvement = 1
+301,Sales,Manager,No,16015,2,0,0.0186,Low,0.0265,YearsAtCompany = 22; MaritalStatus = Single
+302,Sales,Sales Representative,No,1200,3,0,0.5564,Medium,0.6303,TotalWorkingYears = 0; MaritalStatus = Single; Department = Sales
+303,Research & Development,Healthcare Representative,No,5661,1,0,0.0415,Low,0.0464,JobSatisfaction = 1; MaritalStatus = Single; EnvironmentSatisfaction = 2
+304,Sales,Sales Executive,No,6929,4,0,0.1549,Low,0.1663,YearsSinceLastPromotion = 7; EducationField = Technical Degree; Department = Sales
+305,Research & Development,Healthcare Representative,No,9613,4,0,0.0031,Low,0.0034,No strong risk driver
+306,Research & Development,Laboratory Technician,No,5674,2,0,0.0288,Low,0.0329,NumCompaniesWorked = 7; DistanceFromHome = 24; JobRole = Laboratory Technician
+307,Sales,Sales Executive,No,5484,3,0,0.0381,Low,0.0553,YearsSinceLastPromotion = 4; YearsAtCompany = 13; Department = Sales
+308,Research & Development,Research Director,No,12061,2,0,0.0609,Low,0.0573,EnvironmentSatisfaction = 1; DistanceFromHome = 25; JobInvolvement = 2
+309,Research & Development,Healthcare Representative,Yes,5660,3,0,0.0591,Low,0.0297,OverTime = Yes; JobInvolvement = 1
+310,Research & Development,Research Scientist,Yes,4821,4,0,0.1233,Low,0.1004,OverTime = Yes; EducationField = Technical Degree; JobLevel = 1
+311,Human Resources,Human Resources,No,6410,1,0,0.5177,Medium,0.4266,EnvironmentSatisfaction = 1; JobSatisfaction = 1; JobInvolvement = 2
+312,Research & Development,Laboratory Technician,No,5210,1,0,0.2462,Low,0.2982,YearsAtCompany = 24; YearsSinceLastPromotion = 9; EnvironmentSatisfaction = 1
+313,Research & Development,Research Scientist,Yes,2695,4,0,0.1218,Low,0.0994,OverTime = Yes; WorkLifeBalance = 1; TotalWorkingYears = 3
+314,Research & Development,Manager,No,11878,2,0,0.0679,Low,0.0689,YearsSinceLastPromotion = 8; YearsAtCompany = 10; NumCompaniesWorked = 6
+315,Research & Development,Manager,Yes,17068,1,0,0.2128,Low,0.1731,YearsAtCompany = 21; YearsSinceLastPromotion = 11; OverTime = Yes
+316,Research & Development,Laboratory Technician,No,2455,4,0,0.0397,Low,0.0314,MaritalStatus = Single; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+317,Research & Development,Healthcare Representative,Yes,13964,3,0,0.0958,Low,0.101,OverTime = Yes; EducationField = Technical Degree; MaritalStatus = Single
+318,Research & Development,Research Scientist,No,4941,2,1,0.196,Low,0.1664,YearsSinceLastPromotion = 7; JobInvolvement = 2; RelationshipSatisfaction = 1
+319,Research & Development,Research Scientist,Yes,2478,2,0,0.3299,Medium,0.3603,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+320,Sales,Sales Executive,Yes,5228,2,0,0.4748,Medium,0.4661,YearsSinceLastPromotion = 11; OverTime = Yes; YearsAtCompany = 13
+321,Sales,Sales Executive,Yes,4478,3,0,0.1926,Low,0.1839,OverTime = Yes; MaritalStatus = Single; Department = Sales
+322,Sales,Sales Executive,No,7547,4,0,0.0088,Low,0.0069,No strong risk driver
+323,Research & Development,Research Scientist,No,5055,4,0,0.0498,Low,0.0388,EnvironmentSatisfaction = 1; NumCompaniesWorked = 7; MaritalStatus = Single
+324,Research & Development,Research Scientist,Yes,3464,4,1,0.4995,Medium,0.558,OverTime = Yes; JobInvolvement = 1; EnvironmentSatisfaction = 1
+325,Research & Development,Research Scientist,No,5775,4,0,0.0074,Low,0.0045,No strong risk driver
+326,Research & Development,Manufacturing Director,No,8943,3,0,0.0284,Low,0.048,YearsSinceLastPromotion = 8; YearsAtCompany = 10; BusinessTravel = Travel_Frequently
+327,Research & Development,Manager,No,19272,4,0,0.1225,Low,0.1266,YearsSinceLastPromotion = 13; YearsAtCompany = 21; BusinessTravel = Travel_Frequently
+328,Sales,Sales Executive,Yes,5238,3,1,0.1919,Low,0.2067,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+329,Sales,Sales Executive,No,4682,4,0,0.1964,Low,0.2245,MaritalStatus = Single; BusinessTravel = Travel_Frequently; Department = Sales
+330,Research & Development,Research Director,No,18300,3,0,0.0092,Low,0.0057,No strong risk driver
+331,Research & Development,Laboratory Technician,No,5257,3,0,0.0561,Low,0.0536,JobRole = Laboratory Technician; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+332,Sales,Sales Executive,Yes,6349,2,0,0.1519,Low,0.136,OverTime = Yes; Department = Sales; TrainingTimesLastYear = 0
+333,Research & Development,Research Scientist,No,4869,3,0,0.0581,Low,0.03,MaritalStatus = Single; BusinessTravel = Travel_Frequently; DistanceFromHome = 20
+334,Research & Development,Healthcare Representative,No,9985,1,0,0.1118,Low,0.1197,NumCompaniesWorked = 8; JobSatisfaction = 1; RelationshipSatisfaction = 1
+335,Research & Development,Research Scientist,No,3697,4,0,0.0561,Low,0.0423,YearsSinceLastPromotion = 9; NumCompaniesWorked = 9; YearsAtCompany = 10
+336,Sales,Sales Executive,Yes,7457,4,0,0.2337,Low,0.2736,OverTime = Yes; JobInvolvement = 1; WorkLifeBalance = 2
+337,Research & Development,Laboratory Technician,Yes,2119,1,1,0.5648,Medium,0.5599,OverTime = Yes; JobInvolvement = 1; JobSatisfaction = 1
+338,Research & Development,Laboratory Technician,No,3983,4,0,0.1669,Low,0.1631,MaritalStatus = Single; JobRole = Laboratory Technician; JobInvolvement = 2
+339,Sales,Sales Executive,No,6118,3,0,0.022,Low,0.0183,No strong risk driver
+340,Sales,Sales Executive,No,6214,2,0,0.0738,Low,0.0443,Department = Sales; RelationshipSatisfaction = 1; EducationField = Marketing
+341,Research & Development,Manufacturing Director,No,6347,4,0,0.0227,Low,0.0195,NumCompaniesWorked = 7
+342,Research & Development,Research Director,Yes,11510,4,0,0.0221,Low,0.0197,OverTime = Yes
+343,Research & Development,Manufacturing Director,Yes,7143,4,0,0.1259,Low,0.1126,OverTime = Yes; YearsSinceLastPromotion = 4; WorkLifeBalance = 2
+344,Sales,Sales Executive,Yes,8268,2,0,0.1469,Low,0.1406,OverTime = Yes; Department = Sales; JobInvolvement = 2
+345,Research & Development,Manufacturing Director,No,8095,2,0,0.0331,Low,0.0193,EducationField = Technical Degree
+346,Research & Development,Research Scientist,No,2904,4,0,0.0423,Low,0.037,DistanceFromHome = 26
+347,Research & Development,Manufacturing Director,Yes,6032,2,0,0.2576,Low,0.2954,OverTime = Yes; NumCompaniesWorked = 6; MaritalStatus = Single
+348,Sales,Sales Representative,No,2976,3,0,0.3165,Medium,0.3376,BusinessTravel = Travel_Frequently; MaritalStatus = Single; Department = Sales
+349,Research & Development,Research Director,No,15992,4,0,0.0764,Low,0.0499,EnvironmentSatisfaction = 1; DistanceFromHome = 23; MaritalStatus = Single
+350,Sales,Sales Executive,No,4649,3,0,0.0186,Low,0.0303,Department = Sales
+351,Human Resources,Human Resources,Yes,2696,3,0,0.1372,Low,0.1658,OverTime = Yes; EducationField = Technical Degree; YearsWithCurrManager = 0
+352,Research & Development,Laboratory Technician,No,2370,2,0,0.0403,Low,0.0312,JobRole = Laboratory Technician
+353,Sales,Manager,No,12504,3,0,0.1884,Low,0.1207,DistanceFromHome = 29; EnvironmentSatisfaction = 1; Department = Sales
+354,Research & Development,Research Scientist,Yes,5974,1,0,0.1063,Low,0.123,OverTime = Yes; YearsSinceLastPromotion = 6; JobSatisfaction = 1
+355,Sales,Sales Executive,Yes,4736,3,0,0.5759,Medium,0.5047,OverTime = Yes; NumCompaniesWorked = 7; TotalWorkingYears = 4
+356,Sales,Sales Executive,No,5296,3,0,0.0441,Low,0.0479,YearsSinceLastPromotion = 7; Department = Sales; YearsAtCompany = 8
+357,Research & Development,Healthcare Representative,No,6781,4,0,0.051,Low,0.0501,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobInvolvement = 2
+358,Sales,Sales Representative,Yes,2174,2,1,0.9307,High,0.9164,OverTime = Yes; BusinessTravel = Travel_Frequently; EducationField = Technical Degree
+359,Sales,Sales Executive,No,6653,4,0,0.0313,Low,0.0216,No strong risk driver
+360,Sales,Sales Executive,No,9699,4,0,0.0829,Low,0.0683,EnvironmentSatisfaction = 1; YearsAtCompany = 13; BusinessTravel = Travel_Frequently
+361,Research & Development,Healthcare Representative,No,6755,3,0,0.0097,Low,0.0117,No strong risk driver
+362,Research & Development,Laboratory Technician,Yes,2213,3,0,0.022,Low,0.0305,OverTime = Yes; JobRole = Laboratory Technician
+363,Sales,Sales Representative,No,2610,4,0,0.1823,Low,0.1474,EnvironmentSatisfaction = 1; MaritalStatus = Single; Department = Sales
+364,Sales,Sales Representative,Yes,2851,3,1,0.6241,High,0.688,OverTime = Yes; TotalWorkingYears = 1; MaritalStatus = Single
+365,Research & Development,Laboratory Technician,No,3452,1,0,0.0885,Low,0.0833,JobSatisfaction = 1; JobRole = Laboratory Technician; NumCompaniesWorked = 6
+366,Research & Development,Manufacturing Director,No,5258,3,0,0.0226,Low,0.0134,No strong risk driver
+367,Sales,Sales Executive,No,9355,2,1,0.2748,Low,0.3013,YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+368,Research & Development,Healthcare Representative,No,10496,4,0,0.0661,Low,0.0318,EducationField = Technical Degree; MaritalStatus = Single; JobInvolvement = 2
+369,Sales,Sales Executive,Yes,6380,3,1,0.3384,Medium,0.3635,OverTime = Yes; DistanceFromHome = 22; Department = Sales
+370,Research & Development,Research Scientist,Yes,2657,2,0,0.1675,Low,0.1935,OverTime = Yes; MaritalStatus = Single; JobInvolvement = 2
+371,Sales,Sales Representative,No,2716,2,1,0.2946,Low,0.4147,TotalWorkingYears = 1; MaritalStatus = Single; Department = Sales
+372,Research & Development,Research Scientist,No,2201,4,0,0.1621,Low,0.1128,NumCompaniesWorked = 9; TotalWorkingYears = 6; DistanceFromHome = 23
+373,Research & Development,Healthcare Representative,No,6540,2,0,0.1466,Low,0.1502,NumCompaniesWorked = 9; MaritalStatus = Single; JobInvolvement = 2
+374,Research & Development,Laboratory Technician,No,3816,2,0,0.051,Low,0.0415,JobRole = Laboratory Technician; JobSatisfaction = 2
+375,Sales,Sales Executive,No,5253,4,0,0.0504,Low,0.0584,MaritalStatus = Single; Department = Sales; EnvironmentSatisfaction = 2
+376,Research & Development,Healthcare Representative,No,10965,3,0,0.1118,Low,0.0726,MaritalStatus = Single; NumCompaniesWorked = 8; JobInvolvement = 2
+377,Sales,Sales Executive,No,4936,4,0,0.0177,Low,0.0129,No strong risk driver
+378,Research & Development,Research Scientist,No,2543,3,0,0.0244,Low,0.022,No strong risk driver
+379,Sales,Sales Executive,Yes,5304,4,1,0.5585,Medium,0.5716,OverTime = Yes; NumCompaniesWorked = 8; EnvironmentSatisfaction = 1
+380,Research & Development,Manager,Yes,16659,4,0,0.0093,Low,0.016,OverTime = Yes
+381,Sales,Sales Executive,Yes,4260,3,0,0.059,Low,0.0707,OverTime = Yes; Department = Sales; EducationField = Marketing
+382,Sales,Sales Representative,No,2476,2,0,0.4856,Medium,0.4855,TotalWorkingYears = 1; EducationField = Technical Degree; Department = Sales
+383,Research & Development,Research Scientist,No,3102,1,1,0.1668,Low,0.1844,EducationField = Technical Degree; JobSatisfaction = 1; MaritalStatus = Single
+384,Research & Development,Research Scientist,No,2244,2,0,0.1723,Low,0.1492,EnvironmentSatisfaction = 1; TotalWorkingYears = 2; JobSatisfaction = 2
+385,Sales,Sales Executive,No,7596,3,0,0.1666,Low,0.1965,YearsSinceLastPromotion = 9; YearsAtCompany = 10; Department = Sales
+386,Research & Development,Research Scientist,Yes,2285,4,1,0.8982,High,0.904,NumCompaniesWorked = 9; TotalWorkingYears = 3; OverTime = Yes
+387,Research & Development,Laboratory Technician,No,3034,1,0,0.0575,Low,0.0758,YearsSinceLastPromotion = 12; YearsAtCompany = 18; JobSatisfaction = 1
+388,Sales,Sales Executive,No,5715,2,0,0.0404,Low,0.0346,NumCompaniesWorked = 7; Department = Sales; EducationField = Marketing
+389,Research & Development,Laboratory Technician,No,2576,1,0,0.0883,Low,0.0709,JobSatisfaction = 1; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+390,Research & Development,Manufacturing Director,Yes,4197,2,0,0.3288,Medium,0.3224,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+391,Research & Development,Research Director,No,14336,2,0,0.046,Low,0.05,YearsAtCompany = 25; YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1
+392,Research & Development,Laboratory Technician,No,3448,3,0,0.088,Low,0.0913,JobRole = Laboratory Technician; JobInvolvement = 2; NumCompaniesWorked = 6
+393,Research & Development,Research Director,No,19406,1,0,0.0404,Low,0.0225,EnvironmentSatisfaction = 1; JobSatisfaction = 1
+394,Sales,Sales Executive,No,6538,3,0,0.1276,Low,0.109,NumCompaniesWorked = 9; TotalWorkingYears = 6; Department = Sales
+395,Research & Development,Manufacturing Director,No,4306,1,0,0.0684,Low,0.0521,YearsSinceLastPromotion = 3; JobSatisfaction = 1; YearsAtCompany = 13
+396,Research & Development,Laboratory Technician,No,2258,4,0,0.2053,Low,0.2267,NumCompaniesWorked = 7; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+397,Research & Development,Healthcare Representative,Yes,4522,3,0,0.0525,Low,0.0506,OverTime = Yes; NumCompaniesWorked = 4
+398,Sales,Sales Executive,Yes,4487,4,0,0.2805,Low,0.3055,OverTime = Yes; MaritalStatus = Single; Department = Sales
+399,Research & Development,Research Scientist,Yes,4449,3,0,0.1663,Low,0.1555,YearsSinceLastPromotion = 10; OverTime = Yes; YearsAtCompany = 13
+400,Research & Development,Laboratory Technician,No,2218,1,0,0.2143,Low,0.2149,YearsSinceLastPromotion = 3; JobSatisfaction = 1; JobRole = Laboratory Technician
+401,Research & Development,Manager,Yes,19197,3,0,0.0316,Low,0.0399,OverTime = Yes; YearsAtCompany = 21; BusinessTravel = Travel_Frequently
+402,Sales,Sales Executive,No,13212,1,0,0.0263,Low,0.0375,YearsSinceLastPromotion = 7; JobSatisfaction = 1; NumCompaniesWorked = 9
+403,Sales,Sales Executive,No,6577,3,0,0.263,Low,0.2134,YearsSinceLastPromotion = 4; EducationField = Technical Degree; MaritalStatus = Single
+404,Sales,Sales Executive,No,8392,1,0,0.0455,Low,0.0344,JobSatisfaction = 1; Department = Sales; EducationField = Marketing
+405,Research & Development,Laboratory Technician,No,4558,1,0,0.0694,Low,0.0716,JobSatisfaction = 1; JobRole = Laboratory Technician; YearsAtCompany = 10
+406,Research & Development,Laboratory Technician,No,4031,1,1,0.1865,Low,0.2494,EnvironmentSatisfaction = 1; JobSatisfaction = 1; NumCompaniesWorked = 5
+407,Research & Development,Manufacturing Director,Yes,7969,3,0,0.0474,Low,0.0377,OverTime = Yes; JobInvolvement = 2
+408,Research & Development,Research Scientist,No,2654,4,0,0.0297,Low,0.0338,EnvironmentSatisfaction = 1
+409,Research & Development,Manager,No,16555,4,0,0.0041,Low,0.0026,No strong risk driver
+410,Research & Development,Research Scientist,No,4556,3,0,0.1321,Low,0.0713,EnvironmentSatisfaction = 1; DistanceFromHome = 29; BusinessTravel = Travel_Frequently
+411,Research & Development,Manufacturing Director,No,6091,4,0,0.0689,Low,0.061,JobInvolvement = 1; MaritalStatus = Single; PerformanceRating = 4
+412,Research & Development,Manager,No,19566,1,0,0.0858,Low,0.1055,YearsAtCompany = 29; YearsSinceLastPromotion = 11; EnvironmentSatisfaction = 1
+413,Research & Development,Manufacturing Director,No,4810,3,0,0.0105,Low,0.0051,No strong risk driver
+414,Research & Development,Healthcare Representative,No,4523,4,0,0.012,Low,0.0148,No strong risk driver
+415,Sales,Sales Representative,Yes,3202,2,1,0.6292,High,0.6166,OverTime = Yes; EducationField = Technical Degree; EnvironmentSatisfaction = 1
+416,Sales,Sales Representative,No,2351,3,1,0.0744,Low,0.1381,JobInvolvement = 1; BusinessTravel = Travel_Frequently; Department = Sales
+417,Research & Development,Laboratory Technician,Yes,1702,4,0,0.3023,Medium,0.2253,OverTime = Yes; BusinessTravel = Travel_Frequently; TotalWorkingYears = 1
+418,Sales,Manager,No,18041,3,0,0.001,Low,0.0013,No strong risk driver
+419,Research & Development,Research Scientist,No,2886,4,0,0.0587,Low,0.0477,EnvironmentSatisfaction = 1; DistanceFromHome = 23; WorkLifeBalance = 1
+420,Research & Development,Laboratory Technician,No,2097,4,0,0.0323,Low,0.0248,No strong risk driver
+421,Research & Development,Research Director,No,11935,3,0,0.0318,Low,0.0298,JobInvolvement = 2
+422,Research & Development,Research Scientist,No,2546,2,1,0.2625,Low,0.3514,EducationField = Technical Degree; NumCompaniesWorked = 5; DistanceFromHome = 25
+423,Human Resources,Human Resources,No,2564,4,1,0.5558,Medium,0.5996,TotalWorkingYears = 1; EducationField = Technical Degree; EnvironmentSatisfaction = 1
+424,Sales,Sales Executive,No,8412,1,0,0.0516,Low,0.0474,YearsSinceLastPromotion = 7; JobSatisfaction = 1; DistanceFromHome = 22
+425,Sales,Manager,No,14118,4,0,0.1055,Low,0.0963,DistanceFromHome = 29; EnvironmentSatisfaction = 1; Department = Sales
+426,Research & Development,Manager,No,17046,3,0,0.1988,Low,0.178,YearsAtCompany = 27; YearsSinceLastPromotion = 15; DistanceFromHome = 29
+427,Research & Development,Laboratory Technician,No,2564,4,0,0.0649,Low,0.0399,YearsSinceLastPromotion = 6; YearsAtCompany = 11; MaritalStatus = Single
+428,Sales,Sales Executive,No,10266,1,0,0.1264,Low,0.1099,YearsSinceLastPromotion = 13; YearsAtCompany = 18; JobSatisfaction = 1
+429,Research & Development,Manufacturing Director,No,5070,4,0,0.0223,Low,0.0123,No strong risk driver
+430,Research & Development,Research Director,No,17861,3,0,0.055,Low,0.0278,EnvironmentSatisfaction = 1
+431,Research & Development,Laboratory Technician,No,4230,3,0,0.2565,Low,0.3577,JobInvolvement = 1; YearsSinceLastPromotion = 4; MaritalStatus = Single
+432,Research & Development,Laboratory Technician,No,3780,3,0,0.0809,Low,0.1003,MaritalStatus = Single; NumCompaniesWorked = 7; JobRole = Laboratory Technician
+433,Research & Development,Research Scientist,No,2768,3,0,0.049,Low,0.0269,YearsSinceLastPromotion = 5
+434,Sales,Sales Executive,Yes,9071,4,0,0.0621,Low,0.0635,OverTime = Yes; Department = Sales; JobInvolvement = 2
+435,Research & Development,Manufacturing Director,No,10648,2,0,0.0036,Low,0.0026,No strong risk driver
+436,Research & Development,Manager,Yes,13610,3,1,0.1764,Low,0.1794,OverTime = Yes; YearsSinceLastPromotion = 7; NumCompaniesWorked = 7
+437,Research & Development,Laboratory Technician,No,3408,4,1,0.2333,Low,0.2775,JobInvolvement = 1; NumCompaniesWorked = 7; EnvironmentSatisfaction = 1
+438,Sales,Sales Representative,No,2983,2,0,0.2614,Low,0.2481,MaritalStatus = Single; Department = Sales; JobRole = Sales Representative
+439,Research & Development,Healthcare Representative,Yes,7632,3,0,0.0789,Low,0.0912,OverTime = Yes; YearsWithCurrManager = 0; DistanceFromHome = 16
+440,Research & Development,Healthcare Representative,No,9824,3,1,0.1903,Low,0.2312,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently; DistanceFromHome = 20
+441,Human Resources,Human Resources,Yes,9950,1,1,0.7427,High,0.6056,OverTime = Yes; NumCompaniesWorked = 9; BusinessTravel = Travel_Frequently
+442,Research & Development,Laboratory Technician,No,2093,3,0,0.0928,Low,0.0759,BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+443,Sales,Sales Executive,No,9980,4,0,0.0788,Low,0.0978,YearsSinceLastPromotion = 9; YearsAtCompany = 10; MaritalStatus = Single
+444,Research & Development,Laboratory Technician,No,3894,3,1,0.5895,Medium,0.5605,TotalWorkingYears = 4; NumCompaniesWorked = 5; EducationField = Technical Degree
+445,Sales,Sales Executive,No,4051,4,0,0.0636,Low,0.0781,YearsSinceLastPromotion = 6; Department = Sales; YearsAtCompany = 9
+446,Sales,Manager,No,16835,2,0,0.0601,Low,0.0441,YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1; YearsAtCompany = 10
+447,Sales,Sales Executive,No,6230,4,0,0.0198,Low,0.0234,YearsAtCompany = 14
+448,Sales,Sales Executive,No,4717,3,0,0.2059,Low,0.1988,YearsSinceLastPromotion = 6; NumCompaniesWorked = 9; YearsAtCompany = 11
+449,Research & Development,Manufacturing Director,No,13237,3,0,0.0664,Low,0.0581,YearsAtCompany = 20; YearsSinceLastPromotion = 5; MaritalStatus = Single
+450,Research & Development,Laboratory Technician,No,3755,3,0,0.0611,Low,0.0645,BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician; RelationshipSatisfaction = 1
+451,Sales,Sales Executive,Yes,6582,4,0,0.1898,Low,0.1662,OverTime = Yes; MaritalStatus = Single; Department = Sales
+452,Research & Development,Manufacturing Director,Yes,7406,1,0,0.1456,Low,0.1447,OverTime = Yes; YearsSinceLastPromotion = 5; JobSatisfaction = 1
+453,Sales,Sales Executive,No,4805,2,0,0.023,Low,0.0236,YearsSinceLastPromotion = 3
+454,Human Resources,Human Resources,Yes,2741,3,1,0.4693,Medium,0.4477,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 2
+455,Research & Development,Manufacturing Director,No,4262,4,0,0.0575,Low,0.0546,EducationField = Technical Degree; DistanceFromHome = 19; NumCompaniesWorked = 4
+456,Research & Development,Research Director,No,16184,3,0,0.0119,Low,0.0086,No strong risk driver
+457,Sales,Manager,No,11557,4,0,0.0916,Low,0.0716,NumCompaniesWorked = 9; Department = Sales; JobInvolvement = 2
+458,Sales,Sales Representative,Yes,1878,2,1,0.9598,High,0.9546,TotalWorkingYears = 0; OverTime = Yes; BusinessTravel = Travel_Frequently
+459,Sales,Sales Executive,No,10932,1,0,0.1233,Low,0.0975,JobInvolvement = 1; JobSatisfaction = 1; DistanceFromHome = 28
+460,Research & Development,Healthcare Representative,Yes,6811,3,0,0.1164,Low,0.0945,OverTime = Yes; EnvironmentSatisfaction = 1; MaritalStatus = Single
+461,Sales,Sales Executive,No,4306,3,0,0.3206,Medium,0.237,DistanceFromHome = 29; EnvironmentSatisfaction = 1; NumCompaniesWorked = 5
+462,Sales,Sales Executive,No,4859,3,0,0.0732,Low,0.0761,EnvironmentSatisfaction = 1; MaritalStatus = Single; Department = Sales
+463,Sales,Sales Executive,No,5337,4,0,0.0613,Low,0.0522,YearsSinceLastPromotion = 5; MaritalStatus = Single; YearsAtCompany = 10
+464,Research & Development,Laboratory Technician,Yes,2340,4,1,0.9579,High,0.9516,OverTime = Yes; TotalWorkingYears = 1; JobInvolvement = 1
+465,Research & Development,Manufacturing Director,No,7491,4,0,0.0414,Low,0.0319,EducationField = Technical Degree; MaritalStatus = Single
+466,Research & Development,Healthcare Representative,No,10527,3,0,0.0319,Low,0.0433,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently; DistanceFromHome = 18
+467,Sales,Manager,No,16595,1,0,0.0532,Low,0.0483,YearsSinceLastPromotion = 11; YearsAtCompany = 18; JobSatisfaction = 1
+468,Sales,Sales Executive,No,8834,2,0,0.0419,Low,0.0449,YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1; YearsAtCompany = 9
+469,Research & Development,Research Scientist,Yes,5577,1,0,0.1552,Low,0.1175,OverTime = Yes; YearsSinceLastPromotion = 6; EducationField = Technical Degree
+470,Sales,Sales Executive,No,4707,3,1,0.0302,Low,0.0605,NumCompaniesWorked = 8; TotalWorkingYears = 6; Department = Sales
+471,Sales,Sales Representative,No,2400,4,0,0.0956,Low,0.0916,DistanceFromHome = 24; BusinessTravel = Travel_Frequently; Department = Sales
+472,Research & Development,Healthcare Representative,No,9824,3,0,0.0125,Low,0.0096,No strong risk driver
+473,Research & Development,Manufacturing Director,No,6447,2,0,0.2385,Low,0.1926,YearsSinceLastPromotion = 4; NumCompaniesWorked = 6; EnvironmentSatisfaction = 2
+474,Research & Development,Research Director,Yes,19502,3,0,0.0087,Low,0.0101,No strong risk driver
+475,Research & Development,Research Scientist,Yes,2725,4,0,0.103,Low,0.1009,OverTime = Yes; DistanceFromHome = 23; EnvironmentSatisfaction = 2
+476,Sales,Sales Executive,No,6272,2,0,0.1327,Low,0.1097,EnvironmentSatisfaction = 1; DistanceFromHome = 28; Department = Sales
+477,Research & Development,Laboratory Technician,No,2127,2,0,0.2774,Low,0.2362,TotalWorkingYears = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+478,Human Resources,Manager,No,18200,2,0,0.1954,Low,0.2488,YearsAtCompany = 32; YearsSinceLastPromotion = 10; EnvironmentSatisfaction = 1
+479,Sales,Sales Representative,No,2096,3,0,0.1828,Low,0.1728,Department = Sales; JobRole = Sales Representative; EnvironmentSatisfaction = 2
+480,Research & Development,Laboratory Technician,Yes,2886,3,1,0.231,Low,0.3113,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+481,Sales,Sales Representative,No,2033,1,1,0.6307,High,0.6206,TotalWorkingYears = 1; JobSatisfaction = 1; BusinessTravel = Travel_Frequently
+482,Research & Development,Research Scientist,Yes,3622,4,0,0.0844,Low,0.0926,OverTime = Yes; JobInvolvement = 2; EnvironmentSatisfaction = 2
+483,Sales,Sales Executive,No,4233,1,1,0.1671,Low,0.1772,JobSatisfaction = 1; Department = Sales; WorkLifeBalance = 1
+484,Research & Development,Laboratory Technician,No,3681,4,0,0.459,Medium,0.3174,EnvironmentSatisfaction = 1; DistanceFromHome = 25; MaritalStatus = Single
+485,Sales,Sales Executive,No,5460,4,0,0.0238,Low,0.0153,No strong risk driver
+486,Research & Development,Research Scientist,No,2187,3,0,0.0181,Low,0.0282,EnvironmentSatisfaction = 1
+487,Sales,Sales Executive,Yes,9602,3,0,0.2426,Low,0.2404,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+488,Research & Development,Research Scientist,No,2836,2,0,0.2344,Low,0.1732,TotalWorkingYears = 1; MaritalStatus = Single; TrainingTimesLastYear = 0
+489,Research & Development,Healthcare Representative,No,4089,4,0,0.0156,Low,0.0107,No strong risk driver
+490,Research & Development,Research Director,Yes,16627,4,0,0.13,Low,0.0745,OverTime = Yes; WorkLifeBalance = 2; JobInvolvement = 2
+491,Research & Development,Research Scientist,No,2619,1,0,0.2001,Low,0.0882,JobSatisfaction = 1; MaritalStatus = Single; YearsWithCurrManager = 0
+492,Research & Development,Laboratory Technician,Yes,5679,3,0,0.277,Low,0.2277,OverTime = Yes; BusinessTravel = Travel_Frequently; YearsSinceLastPromotion = 4
+493,Research & Development,Manager,No,15402,1,0,0.0224,Low,0.033,JobSatisfaction = 1; NumCompaniesWorked = 7; WorkLifeBalance = 1
+494,Human Resources,Human Resources,No,5985,3,0,0.2548,Low,0.1828,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobInvolvement = 2
+495,Sales,Sales Representative,Yes,2579,3,0,0.1983,Low,0.1653,OverTime = Yes; EducationField = Technical Degree; Department = Sales
+496,Sales,Sales Representative,No,3041,1,1,0.1167,Low,0.1159,JobSatisfaction = 1; Department = Sales; JobRole = Sales Representative
+497,Sales,Sales Representative,No,3447,3,0,0.4755,Medium,0.5005,EducationField = Technical Degree; MaritalStatus = Single; DistanceFromHome = 22
+498,Research & Development,Manager,Yes,19513,4,0,0.0214,Low,0.0143,OverTime = Yes
+499,Research & Development,Research Scientist,No,2773,3,0,0.0391,Low,0.0485,EnvironmentSatisfaction = 1
+500,Sales,Sales Executive,No,7104,3,0,0.0698,Low,0.054,Department = Sales; EducationField = Marketing; YearsInCurrentRole = 0
+501,Research & Development,Research Scientist,Yes,6322,4,0,0.1317,Low,0.1182,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+502,Research & Development,Research Scientist,No,2083,3,0,0.1142,Low,0.0785,TotalWorkingYears = 1; BusinessTravel = Travel_Frequently; YearsWithCurrManager = 0
+503,Sales,Sales Executive,No,8381,1,0,0.136,Low,0.0901,YearsSinceLastPromotion = 8; YearsAtCompany = 14; JobSatisfaction = 1
+504,Research & Development,Research Scientist,No,2691,4,0,0.0189,Low,0.0192,YearsSinceLastPromotion = 8
+505,Sales,Sales Executive,No,4286,1,1,0.1629,Low,0.2433,EnvironmentSatisfaction = 1; JobSatisfaction = 1; DistanceFromHome = 26
+506,Research & Development,Laboratory Technician,Yes,2659,4,0,0.1344,Low,0.127,OverTime = Yes; JobRole = Laboratory Technician; TotalWorkingYears = 3
+507,Research & Development,Manufacturing Director,No,9434,3,0,0.0187,Low,0.0282,YearsSinceLastPromotion = 7; YearsAtCompany = 10
+508,Sales,Sales Executive,No,5561,3,0,0.0787,Low,0.0729,Department = Sales; RelationshipSatisfaction = 1; EnvironmentSatisfaction = 2
+509,Research & Development,Research Scientist,No,6646,4,0,0.1563,Low,0.1768,YearsSinceLastPromotion = 11; YearsAtCompany = 17; JobInvolvement = 1
+510,Research & Development,Healthcare Representative,No,7725,4,0,0.0142,Low,0.021,YearsSinceLastPromotion = 4; YearsAtCompany = 13
+511,Human Resources,Human Resources,No,10725,2,0,0.121,Low,0.1068,YearsSinceLastPromotion = 7; YearsAtCompany = 9; DistanceFromHome = 19
+512,Research & Development,Manufacturing Director,Yes,8847,2,0,0.1982,Low,0.1881,OverTime = Yes; JobInvolvement = 2; EnvironmentSatisfaction = 2
+513,Research & Development,Research Scientist,No,2045,4,0,0.1624,Low,0.1336,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobInvolvement = 2
+514,Research & Development,Research Scientist,Yes,1009,3,1,0.1692,Low,0.1964,OverTime = Yes; TotalWorkingYears = 1; MaritalStatus = Single
+515,Research & Development,Research Scientist,Yes,3348,1,1,0.7533,High,0.7765,OverTime = Yes; YearsSinceLastPromotion = 9; BusinessTravel = Travel_Frequently
+516,Research & Development,Laboratory Technician,No,1281,3,0,0.0559,Low,0.0559,TotalWorkingYears = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+517,Research & Development,Research Scientist,No,2819,1,0,0.0919,Low,0.099,EnvironmentSatisfaction = 1; JobSatisfaction = 1; RelationshipSatisfaction = 1
+518,Sales,Sales Executive,No,4851,2,0,0.0185,Low,0.0222,No strong risk driver
+519,Sales,Sales Executive,No,4028,4,0,0.0336,Low,0.0478,MaritalStatus = Single; Department = Sales; JobInvolvement = 2
+520,Research & Development,Research Scientist,No,2720,4,0,0.0157,Low,0.0164,No strong risk driver
+521,Sales,Sales Executive,No,8120,2,0,0.0588,Low,0.0483,Department = Sales; EducationField = Marketing; JobSatisfaction = 2
+522,Sales,Sales Executive,Yes,4647,4,0,0.0342,Low,0.0345,OverTime = Yes; BusinessTravel = Travel_Frequently; Department = Sales
+523,Research & Development,Research Scientist,No,4680,4,0,0.0624,Low,0.0595,TotalWorkingYears = 4; MaritalStatus = Single; RelationshipSatisfaction = 1
+524,Research & Development,Laboratory Technician,Yes,3221,3,0,0.1213,Low,0.1265,OverTime = Yes; YearsAtCompany = 20; YearsSinceLastPromotion = 3
+525,Research & Development,Healthcare Representative,No,8621,2,0,0.0649,Low,0.0433,YearsSinceLastPromotion = 7; MaritalStatus = Single; JobInvolvement = 2
+526,Sales,Sales Executive,No,4577,3,1,0.5862,Medium,0.6734,NumCompaniesWorked = 9; TotalWorkingYears = 4; EnvironmentSatisfaction = 1
+527,Research & Development,Healthcare Representative,No,4553,3,0,0.137,Low,0.2123,YearsAtCompany = 20; YearsSinceLastPromotion = 11; EducationField = Technical Degree
+528,Sales,Sales Executive,No,5396,4,0,0.032,Low,0.035,MaritalStatus = Single; Department = Sales; EducationField = Marketing
+529,Sales,Sales Executive,Yes,6796,3,1,0.5242,Medium,0.4848,OverTime = Yes; BusinessTravel = Travel_Frequently; EducationField = Technical Degree
+530,Research & Development,Healthcare Representative,No,7625,4,0,0.0096,Low,0.0062,No strong risk driver
+531,Research & Development,Manufacturing Director,No,7412,1,0,0.0117,Low,0.0136,No strong risk driver
+532,Research & Development,Research Director,No,11159,4,0,0.0096,Low,0.0107,No strong risk driver
+533,Sales,Sales Executive,No,4960,1,0,0.0619,Low,0.0683,JobSatisfaction = 1; MaritalStatus = Single; Department = Sales
+534,Sales,Sales Executive,Yes,10475,1,0,0.1271,Low,0.1474,OverTime = Yes; BusinessTravel = Travel_Frequently; YearsAtCompany = 18
+535,Research & Development,Research Director,No,14814,3,0,0.0049,Low,0.004,No strong risk driver
+536,Human Resources,Manager,No,19141,4,0,0.1231,Low,0.1099,YearsAtCompany = 21; YearsSinceLastPromotion = 12; JobInvolvement = 2
+537,Sales,Sales Executive,No,5405,1,0,0.4978,Medium,0.4571,NumCompaniesWorked = 8; JobSatisfaction = 1; EnvironmentSatisfaction = 1
+538,Research & Development,Manufacturing Director,No,8793,1,0,0.0296,Low,0.0175,No strong risk driver
+539,Human Resources,Manager,No,19189,3,0,0.0225,Low,0.0131,No strong risk driver
+540,Sales,Sales Representative,No,3875,2,0,0.3281,Medium,0.3067,NumCompaniesWorked = 7; TotalWorkingYears = 4; Department = Sales
+541,Research & Development,Research Scientist,Yes,2216,2,1,0.5071,Medium,0.577,OverTime = Yes; JobInvolvement = 1; YearsSinceLastPromotion = 3
+542,Research & Development,Research Director,No,11713,1,0,0.0434,Low,0.0473,NumCompaniesWorked = 9; JobSatisfaction = 1; EnvironmentSatisfaction = 1
+543,Research & Development,Manufacturing Director,Yes,7861,3,0,0.102,Low,0.0883,OverTime = Yes; MaritalStatus = Single; YearsWithCurrManager = 0
+544,Research & Development,Laboratory Technician,No,3708,3,0,0.3229,Medium,0.2369,JobInvolvement = 1; EnvironmentSatisfaction = 1; DistanceFromHome = 24
+545,Sales,Sales Executive,Yes,13770,3,0,0.2617,Low,0.2925,YearsAtCompany = 22; OverTime = Yes; YearsSinceLastPromotion = 11
+546,Sales,Sales Executive,No,5304,4,0,0.1323,Low,0.152,YearsSinceLastPromotion = 7; NumCompaniesWorked = 7; DistanceFromHome = 27
+547,Sales,Sales Representative,No,2642,3,0,0.229,Low,0.2428,TotalWorkingYears = 1; MaritalStatus = Single; Department = Sales
+548,Research & Development,Research Scientist,Yes,2759,3,1,0.2873,Low,0.2791,OverTime = Yes; BusinessTravel = Travel_Frequently; NumCompaniesWorked = 6
+549,Sales,Sales Executive,No,6804,4,0,0.0425,Low,0.0443,BusinessTravel = Travel_Frequently; Department = Sales; JobInvolvement = 2
+550,Research & Development,Healthcare Representative,No,6142,3,0,0.2189,Low,0.1143,YearsSinceLastPromotion = 4; MaritalStatus = Single; EnvironmentSatisfaction = 2
+551,Research & Development,Laboratory Technician,No,2500,1,0,0.1796,Low,0.1255,JobSatisfaction = 1; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+552,Human Resources,Human Resources,No,6389,2,0,0.1477,Low,0.1859,NumCompaniesWorked = 9; YearsSinceLastPromotion = 3; WorkLifeBalance = 1
+553,Research & Development,Healthcare Representative,No,11103,4,0,0.0197,Low,0.0186,No strong risk driver
+554,Research & Development,Research Scientist,Yes,2342,4,0,0.1304,Low,0.1004,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+555,Research & Development,Healthcare Representative,No,6811,1,0,0.2071,Low,0.1747,NumCompaniesWorked = 8; JobSatisfaction = 1; MaritalStatus = Single
+556,Sales,Sales Representative,No,2297,2,0,0.094,Low,0.0783,TotalWorkingYears = 2; Department = Sales; JobRole = Sales Representative
+557,Research & Development,Laboratory Technician,No,2450,4,0,0.0165,Low,0.0153,No strong risk driver
+558,Research & Development,Healthcare Representative,No,5093,1,0,0.0103,Low,0.0098,No strong risk driver
+559,Research & Development,Laboratory Technician,No,5309,4,0,0.13,Low,0.1343,YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1; DistanceFromHome = 24
+560,Research & Development,Research Scientist,Yes,3057,3,0,0.4747,Medium,0.4844,OverTime = Yes; NumCompaniesWorked = 6; WorkLifeBalance = 1
+561,Research & Development,Manufacturing Director,No,5121,1,0,0.0889,Low,0.0717,JobSatisfaction = 1; EnvironmentSatisfaction = 2; YearsWithCurrManager = 0
+562,Sales,Manager,No,16856,1,0,0.0869,Low,0.0632,YearsAtCompany = 34; JobSatisfaction = 1; Department = Sales
+563,Research & Development,Research Scientist,Yes,2686,4,1,0.1596,Low,0.1782,OverTime = Yes; YearsSinceLastPromotion = 7; WorkLifeBalance = 2
+564,Sales,Sales Executive,No,6180,4,0,0.069,Low,0.0692,DistanceFromHome = 26; MaritalStatus = Single; Department = Sales
+565,Sales,Sales Representative,No,6632,3,0,0.6974,High,0.605,JobInvolvement = 1; YearsSinceLastPromotion = 3; EducationField = Technical Degree
+566,Research & Development,Research Scientist,No,3505,3,0,0.1168,Low,0.1145,TotalWorkingYears = 2; EnvironmentSatisfaction = 1; MaritalStatus = Single
+567,Sales,Sales Executive,Yes,6397,3,1,0.4867,Medium,0.4874,OverTime = Yes; BusinessTravel = Travel_Frequently; DistanceFromHome = 27
+568,Sales,Sales Executive,No,6274,4,0,0.0264,Low,0.0232,No strong risk driver
+569,Research & Development,Manager,Yes,19859,1,1,0.015,Low,0.0248,OverTime = Yes; JobSatisfaction = 1
+570,Sales,Sales Executive,No,7587,1,0,0.1061,Low,0.1004,EnvironmentSatisfaction = 1; JobSatisfaction = 1; MaritalStatus = Single
+571,Research & Development,Research Scientist,No,4258,4,0,0.0113,Low,0.0097,No strong risk driver
+572,Research & Development,Laboratory Technician,No,4364,4,0,0.3852,Medium,0.3019,JobInvolvement = 1; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+573,Research & Development,Healthcare Representative,No,4335,3,0,0.1022,Low,0.1109,DistanceFromHome = 27; RelationshipSatisfaction = 1; EnvironmentSatisfaction = 2
+574,Sales,Sales Executive,No,5326,1,1,0.5622,Medium,0.5738,NumCompaniesWorked = 6; EducationField = Technical Degree; JobSatisfaction = 1
+575,Research & Development,Research Scientist,No,3280,4,0,0.0282,Low,0.0234,No strong risk driver
+576,Research & Development,Manufacturing Director,Yes,5485,1,0,0.2217,Low,0.1829,OverTime = Yes; NumCompaniesWorked = 9; JobSatisfaction = 1
+577,Sales,Sales Executive,No,4342,4,0,0.0623,Low,0.0762,BusinessTravel = Travel_Frequently; Department = Sales; EducationField = Marketing
+578,Research & Development,Research Scientist,Yes,2782,1,0,0.1859,Low,0.2035,OverTime = Yes; YearsSinceLastPromotion = 4; JobSatisfaction = 1
+579,Research & Development,Manufacturing Director,Yes,5980,1,0,0.5445,Medium,0.5545,OverTime = Yes; YearsSinceLastPromotion = 4; BusinessTravel = Travel_Frequently
+580,Research & Development,Research Scientist,No,4381,1,0,0.13,Low,0.106,JobSatisfaction = 1; MaritalStatus = Single; JobInvolvement = 2
+581,Sales,Sales Representative,No,2572,4,0,0.1193,Low,0.175,EnvironmentSatisfaction = 1; Department = Sales; JobRole = Sales Representative
+582,Research & Development,Laboratory Technician,No,3833,3,0,0.0655,Low,0.0721,JobInvolvement = 1; JobRole = Laboratory Technician; PerformanceRating = 4
+583,Research & Development,Healthcare Representative,No,4244,2,0,0.0124,Low,0.015,No strong risk driver
+584,Sales,Sales Executive,No,6500,1,0,0.2189,Low,0.1518,JobSatisfaction = 1; NumCompaniesWorked = 5; TotalWorkingYears = 6
+585,Research & Development,Manager,No,18430,4,0,0.0564,Low,0.0613,YearsAtCompany = 24; YearsSinceLastPromotion = 14; BusinessTravel = Travel_Frequently
+586,Research & Development,Laboratory Technician,Yes,1601,1,1,0.2277,Low,0.3107,OverTime = Yes; TotalWorkingYears = 1; JobSatisfaction = 1
+587,Research & Development,Laboratory Technician,No,2694,2,0,0.1269,Low,0.098,TotalWorkingYears = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+588,Research & Development,Laboratory Technician,No,3149,3,0,0.0452,Low,0.041,NumCompaniesWorked = 8; JobRole = Laboratory Technician
+589,Research & Development,Research Director,No,17639,3,0,0.0076,Low,0.0045,No strong risk driver
+590,Research & Development,Laboratory Technician,Yes,2319,1,1,0.5953,Medium,0.6602,OverTime = Yes; TotalWorkingYears = 1; JobSatisfaction = 1
+591,Research & Development,Research Director,No,11691,3,0,0.0201,Low,0.0163,No strong risk driver
+592,Sales,Sales Executive,No,5324,1,1,0.46,Medium,0.5753,EnvironmentSatisfaction = 1; JobSatisfaction = 1; NumCompaniesWorked = 5
+593,Research & Development,Manager,Yes,16752,4,0,0.08,Low,0.0916,OverTime = Yes; YearsAtCompany = 26; YearsSinceLastPromotion = 3
+594,Research & Development,Manufacturing Director,No,5228,2,0,0.0269,Low,0.019,No strong risk driver
+595,Research & Development,Research Scientist,No,2700,3,0,0.0114,Low,0.0101,No strong risk driver
+596,Research & Development,Research Director,Yes,19246,2,1,0.1148,Low,0.158,YearsAtCompany = 31; YearsSinceLastPromotion = 13; OverTime = Yes
+597,Research & Development,Research Scientist,No,2506,3,0,0.0214,Low,0.0228,No strong risk driver
+598,Research & Development,Manufacturing Director,Yes,6062,4,0,0.0805,Low,0.0722,OverTime = Yes; NumCompaniesWorked = 9; JobInvolvement = 2
+599,Research & Development,Research Scientist,No,4382,3,1,0.1209,Low,0.1321,NumCompaniesWorked = 6; TotalWorkingYears = 5; MaritalStatus = Single
+600,Human Resources,Human Resources,No,2143,2,0,0.2356,Low,0.1814,EducationField = Human Resources; JobSatisfaction = 2; NumCompaniesWorked = 4
+601,Research & Development,Manufacturing Director,No,6162,3,0,0.0267,Low,0.0213,YearsSinceLastPromotion = 6; YearsAtCompany = 14
+602,Research & Development,Laboratory Technician,No,5094,3,0,0.419,Medium,0.4095,EnvironmentSatisfaction = 1; NumCompaniesWorked = 6; MaritalStatus = Single
+603,Research & Development,Manufacturing Director,Yes,6877,4,0,0.2093,Low,0.241,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+604,Research & Development,Research Scientist,No,2274,3,0,0.1292,Low,0.1441,TotalWorkingYears = 1; MaritalStatus = Single; JobInvolvement = 2
+605,Research & Development,Manufacturing Director,No,4434,2,0,0.0992,Low,0.0854,YearsSinceLastPromotion = 7; DistanceFromHome = 29; YearsAtCompany = 9
+606,Research & Development,Healthcare Representative,No,6288,1,0,0.3041,Medium,0.1554,EnvironmentSatisfaction = 1; JobSatisfaction = 1; BusinessTravel = Travel_Frequently
+607,Research & Development,Research Scientist,No,2553,4,0,0.0934,Low,0.0757,MaritalStatus = Single; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+608,Sales,Sales Executive,No,7654,4,1,0.0127,Low,0.0193,YearsSinceLastPromotion = 7
+609,Sales,Sales Executive,No,5160,4,1,0.0695,Low,0.1247,YearsSinceLastPromotion = 7; MaritalStatus = Single; Department = Sales
+610,Research & Development,Research Director,No,17159,1,0,0.0359,Low,0.033,JobSatisfaction = 1; NumCompaniesWorked = 6
+611,Research & Development,Research Director,Yes,12808,4,0,0.0556,Low,0.0477,OverTime = Yes; EducationField = Technical Degree; JobInvolvement = 2
+612,Research & Development,Manufacturing Director,No,10221,3,0,0.0288,Low,0.0208,No strong risk driver
+613,Sales,Sales Executive,Yes,4779,2,0,0.4834,Medium,0.4651,OverTime = Yes; YearsSinceLastPromotion = 7; Department = Sales
+614,Human Resources,Human Resources,No,3737,4,0,0.0497,Low,0.0534,WorkLifeBalance = 1; EducationField = Human Resources; TrainingTimesLastYear = 1
+615,Research & Development,Research Scientist,Yes,2366,3,1,0.1588,Low,0.1826,OverTime = Yes; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+616,Research & Development,Research Scientist,No,1706,4,0,0.0354,Low,0.0344,TotalWorkingYears = 0; YearsSinceLastPromotion = 0
+617,Sales,Manager,No,16307,3,0,0.0389,Low,0.0451,YearsAtCompany = 20; YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1
+618,Research & Development,Healthcare Representative,No,5933,2,0,0.0954,Low,0.1139,NumCompaniesWorked = 9; MaritalStatus = Single; JobSatisfaction = 2
+619,Research & Development,Research Scientist,No,3424,1,0,0.4489,Medium,0.4476,NumCompaniesWorked = 7; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+620,Sales,Sales Executive,No,4037,1,0,0.0281,Low,0.0268,JobSatisfaction = 1; EnvironmentSatisfaction = 1
+621,Research & Development,Research Scientist,No,2559,1,0,0.2379,Low,0.1942,JobSatisfaction = 1; DistanceFromHome = 27; MaritalStatus = Single
+622,Sales,Sales Executive,Yes,6201,4,0,0.1107,Low,0.1067,OverTime = Yes; YearsAtCompany = 18; YearsSinceLastPromotion = 4
+623,Sales,Sales Executive,No,4403,4,0,0.0668,Low,0.0638,Department = Sales; EnvironmentSatisfaction = 2; WorkLifeBalance = 2
+624,Research & Development,Research Scientist,No,3761,4,0,0.1482,Low,0.1302,NumCompaniesWorked = 9; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+625,Sales,Sales Executive,Yes,10934,4,0,0.1892,Low,0.1065,OverTime = Yes; EnvironmentSatisfaction = 1; Department = Sales
+626,Sales,Sales Executive,Yes,10761,1,0,0.146,Low,0.1349,OverTime = Yes; JobSatisfaction = 1; Department = Sales
+627,Research & Development,Research Scientist,No,5175,3,0,0.0322,Low,0.0246,No strong risk driver
+628,Research & Development,Manufacturing Director,No,13826,4,0,0.0188,Low,0.0174,No strong risk driver
+629,Sales,Sales Executive,No,6334,3,0,0.0878,Low,0.075,Department = Sales; JobInvolvement = 2; EducationField = Marketing
+630,Human Resources,Human Resources,No,4936,4,0,0.0478,Low,0.0323,JobInvolvement = 2
+631,Research & Development,Manufacturing Director,No,4775,4,0,0.1223,Low,0.1096,NumCompaniesWorked = 6; TotalWorkingYears = 4; JobInvolvement = 2
+632,Research & Development,Laboratory Technician,Yes,2818,4,0,0.2141,Low,0.1715,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+633,Research & Development,Research Scientist,Yes,2515,4,0,0.2921,Low,0.3454,OverTime = Yes; BusinessTravel = Travel_Frequently; NumCompaniesWorked = 5
+634,Human Resources,Human Resources,No,2342,1,0,0.1397,Low,0.1452,EnvironmentSatisfaction = 1; JobSatisfaction = 1; JobInvolvement = 2
+635,Sales,Sales Executive,Yes,4194,1,0,0.2979,Low,0.2558,OverTime = Yes; JobSatisfaction = 1; Department = Sales
+636,Research & Development,Manufacturing Director,Yes,10685,3,0,0.0556,Low,0.0289,OverTime = Yes; YearsAtCompany = 17; YearsSinceLastPromotion = 5
+637,Research & Development,Research Scientist,Yes,2022,2,1,0.4864,Medium,0.4476,OverTime = Yes; YearsSinceLastPromotion = 7; DistanceFromHome = 25
+638,Research & Development,Laboratory Technician,No,2314,4,0,0.0172,Low,0.0137,No strong risk driver
+639,Sales,Sales Executive,No,4256,1,0,0.4343,Medium,0.3308,JobSatisfaction = 1; Department = Sales; JobInvolvement = 2
+640,Research & Development,Research Scientist,No,3580,1,0,0.062,Low,0.0654,EducationField = Technical Degree; JobSatisfaction = 1; RelationshipSatisfaction = 2
+641,Research & Development,Laboratory Technician,No,3162,4,0,0.1186,Low,0.0975,YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+642,Sales,Sales Executive,No,6524,2,0,0.238,Low,0.1659,YearsSinceLastPromotion = 5; BusinessTravel = Travel_Frequently; Department = Sales
+643,Sales,Sales Representative,No,2899,2,0,0.1887,Low,0.1673,Department = Sales; JobInvolvement = 2; JobRole = Sales Representative
+644,Research & Development,Laboratory Technician,Yes,5231,4,0,0.0993,Low,0.0743,OverTime = Yes; WorkLifeBalance = 2; JobRole = Laboratory Technician
+645,Research & Development,Research Scientist,Yes,2356,4,0,0.0535,Low,0.0656,OverTime = Yes; RelationshipSatisfaction = 2
+646,Sales,Sales Representative,Yes,2800,3,1,0.3314,Medium,0.375,OverTime = Yes; NumCompaniesWorked = 6; TotalWorkingYears = 5
+647,Sales,Sales Executive,No,11836,4,0,0.0442,Low,0.035,EnvironmentSatisfaction = 1; Department = Sales; EducationField = Marketing
+648,Research & Development,Manufacturing Director,No,10903,2,0,0.2549,Low,0.1725,YearsSinceLastPromotion = 4; EducationField = Technical Degree; YearsAtCompany = 13
+649,Sales,Sales Representative,No,2973,4,0,0.1688,Low,0.1489,BusinessTravel = Travel_Frequently; Department = Sales; DistanceFromHome = 21
+650,Research & Development,Research Director,No,14275,4,0,0.0158,Low,0.0156,No strong risk driver
+651,Research & Development,Healthcare Representative,No,5562,4,0,0.0296,Low,0.0254,No strong risk driver
+652,Sales,Sales Executive,Yes,4537,4,0,0.0827,Low,0.1291,OverTime = Yes; YearsSinceLastPromotion = 7; Department = Sales
+653,Sales,Sales Executive,Yes,7642,2,0,0.3018,Medium,0.278,OverTime = Yes; EnvironmentSatisfaction = 1; MaritalStatus = Single
+654,Research & Development,Manager,No,17924,1,0,0.1005,Low,0.0771,YearsAtCompany = 31; YearsSinceLastPromotion = 14; EnvironmentSatisfaction = 1
+655,Human Resources,Human Resources,No,5204,4,0,0.0286,Low,0.0199,NumCompaniesWorked = 8
+656,Human Resources,Human Resources,Yes,2277,2,0,0.1369,Low,0.121,OverTime = Yes; EducationField = Human Resources; JobSatisfaction = 2
+657,Research & Development,Laboratory Technician,Yes,2795,4,1,0.8324,High,0.8631,OverTime = Yes; TotalWorkingYears = 1; WorkLifeBalance = 1
+658,Research & Development,Laboratory Technician,No,2532,4,0,0.0692,Low,0.0488,EnvironmentSatisfaction = 1; NumCompaniesWorked = 6; JobRole = Laboratory Technician
+659,Research & Development,Research Scientist,Yes,2559,1,0,0.5017,Medium,0.5006,OverTime = Yes; YearsSinceLastPromotion = 7; JobSatisfaction = 1
+660,Sales,Sales Executive,No,4908,4,0,0.1914,Low,0.1808,EnvironmentSatisfaction = 1; MaritalStatus = Single; Department = Sales
+661,Research & Development,Laboratory Technician,Yes,2380,4,1,0.6186,High,0.7256,NumCompaniesWorked = 9; TotalWorkingYears = 3; OverTime = Yes
+662,Research & Development,Manufacturing Director,No,4765,2,0,0.1899,Low,0.1146,TotalWorkingYears = 4; EnvironmentSatisfaction = 1; NumCompaniesWorked = 4
+663,Sales,Sales Representative,No,2044,3,1,0.1752,Low,0.2379,TotalWorkingYears = 2; MaritalStatus = Single; Department = Sales
+664,Research & Development,Research Scientist,No,2693,4,1,0.0925,Low,0.1329,TotalWorkingYears = 1; MaritalStatus = Single; RelationshipSatisfaction = 1
+665,Research & Development,Healthcare Representative,Yes,6586,4,0,0.1073,Low,0.1036,OverTime = Yes; YearsSinceLastPromotion = 4; YearsAtCompany = 16
+666,Sales,Sales Representative,Yes,3294,4,0,0.4925,Medium,0.3384,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+667,Research & Development,Manufacturing Director,Yes,4171,3,1,0.0703,Low,0.089,OverTime = Yes; RelationshipSatisfaction = 1; EnvironmentSatisfaction = 2
+668,Research & Development,Laboratory Technician,Yes,2778,4,1,0.3327,Medium,0.3513,OverTime = Yes; JobInvolvement = 1; WorkLifeBalance = 2
+669,Research & Development,Research Scientist,No,2377,3,0,0.0374,Low,0.0327,NumCompaniesWorked = 5
+670,Research & Development,Laboratory Technician,Yes,2404,1,1,0.525,Medium,0.4918,OverTime = Yes; NumCompaniesWorked = 7; WorkLifeBalance = 1
+671,Research & Development,Research Scientist,No,2318,3,0,0.1317,Low,0.1311,TotalWorkingYears = 1; MaritalStatus = Single; EnvironmentSatisfaction = 2
+672,Research & Development,Laboratory Technician,No,2008,2,0,0.1601,Low,0.1725,TotalWorkingYears = 1; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+673,Sales,Sales Executive,No,6244,3,0,0.1378,Low,0.1328,NumCompaniesWorked = 7; MaritalStatus = Single; Department = Sales
+674,Research & Development,Research Scientist,Yes,2799,1,0,0.486,Medium,0.565,OverTime = Yes; JobSatisfaction = 1; MaritalStatus = Single
+675,Research & Development,Healthcare Representative,Yes,10552,2,0,0.1027,Low,0.0536,OverTime = Yes; EducationField = Technical Degree; JobInvolvement = 2
+676,Sales,Sales Representative,No,2329,3,0,0.3142,Medium,0.363,YearsSinceLastPromotion = 5; Department = Sales; JobInvolvement = 2
+677,Research & Development,Healthcare Representative,Yes,4014,4,0,0.0358,Low,0.0319,OverTime = Yes; WorkLifeBalance = 1; DistanceFromHome = 21
+678,Research & Development,Laboratory Technician,No,7403,2,0,0.1106,Low,0.1123,YearsAtCompany = 26; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+679,Research & Development,Research Scientist,No,2259,3,0,0.0528,Low,0.0424,DistanceFromHome = 20; RelationshipSatisfaction = 1; YearsSinceLastPromotion = 0
+680,Sales,Sales Executive,No,6932,3,0,0.0307,Low,0.0237,No strong risk driver
+681,Research & Development,Research Scientist,No,4678,4,0,0.0557,Low,0.0536,MaritalStatus = Single; EnvironmentSatisfaction = 2
+682,Research & Development,Research Director,No,13582,1,0,0.0202,Low,0.015,No strong risk driver
+683,Research & Development,Laboratory Technician,No,2332,2,0,0.1452,Low,0.1086,NumCompaniesWorked = 6; TotalWorkingYears = 5; JobRole = Laboratory Technician
+684,Sales,Sales Representative,Yes,2413,2,1,0.7273,High,0.7516,OverTime = Yes; TotalWorkingYears = 1; Department = Sales
+685,Sales,Sales Executive,No,9705,2,0,0.3133,Medium,0.2782,EnvironmentSatisfaction = 1; Department = Sales; JobInvolvement = 2
+686,Sales,Sales Executive,No,4294,1,0,0.1605,Low,0.1967,JobSatisfaction = 1; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+687,Research & Development,Laboratory Technician,Yes,4721,1,0,0.1257,Low,0.0809,OverTime = Yes; YearsAtCompany = 18; JobSatisfaction = 1
+688,Research & Development,Laboratory Technician,No,2519,3,0,0.0428,Low,0.0503,YearsSinceLastPromotion = 3; MaritalStatus = Single; YearsAtCompany = 11
+689,Sales,Sales Representative,Yes,2121,2,1,0.79,High,0.8634,OverTime = Yes; TotalWorkingYears = 1; MaritalStatus = Single
+690,Research & Development,Laboratory Technician,No,2973,1,1,0.7989,High,0.8187,TotalWorkingYears = 1; EducationField = Technical Degree; EnvironmentSatisfaction = 1
+691,Research & Development,Healthcare Representative,Yes,5855,4,0,0.1413,Low,0.1191,OverTime = Yes; YearsSinceLastPromotion = 8; WorkLifeBalance = 1
+692,Research & Development,Research Scientist,Yes,3617,2,0,0.6737,High,0.6687,NumCompaniesWorked = 8; TotalWorkingYears = 3; OverTime = Yes
+693,Research & Development,Manufacturing Director,No,6725,1,0,0.0808,Low,0.0651,YearsSinceLastPromotion = 6; JobSatisfaction = 1; YearsAtCompany = 8
+694,Sales,Sales Executive,Yes,10325,4,1,0.1129,Low,0.1453,OverTime = Yes; YearsAtCompany = 16; YearsSinceLastPromotion = 3
+695,Research & Development,Healthcare Representative,No,6949,4,0,0.0734,Low,0.0541,MaritalStatus = Single; JobInvolvement = 2; RelationshipSatisfaction = 1
+696,Sales,Sales Executive,No,10609,3,1,0.5009,Medium,0.5508,YearsSinceLastPromotion = 11; YearsAtCompany = 14; EnvironmentSatisfaction = 1
+697,Research & Development,Laboratory Technician,No,4447,2,0,0.0204,Low,0.0149,No strong risk driver
+698,Sales,Sales Representative,No,2157,4,0,0.2343,Low,0.1721,EducationField = Technical Degree; BusinessTravel = Travel_Frequently; Department = Sales
+699,Sales,Sales Executive,No,4601,3,0,0.08,Low,0.0731,Department = Sales; DistanceFromHome = 18; YearsWithCurrManager = 0
+700,Research & Development,Manager,No,17099,4,0,0.0086,Low,0.0043,No strong risk driver
+701,Research & Development,Research Scientist,No,2479,3,1,0.1071,Low,0.1085,EducationField = Technical Degree; MaritalStatus = Single; RelationshipSatisfaction = 1
+702,Sales,Manager,No,14852,3,0,0.0309,Low,0.0364,YearsSinceLastPromotion = 15; YearsAtCompany = 17; Department = Sales
+703,Sales,Sales Executive,No,7264,3,0,0.1072,Low,0.1358,YearsSinceLastPromotion = 7; Department = Sales; NumCompaniesWorked = 5
+704,Sales,Sales Executive,Yes,5666,4,0,0.2702,Low,0.2706,OverTime = Yes; EducationField = Technical Degree; MaritalStatus = Single
+705,Sales,Sales Executive,No,7823,4,0,0.0052,Low,0.0082,No strong risk driver
+706,Sales,Sales Executive,No,7880,3,0,0.0178,Low,0.0162,No strong risk driver
+707,Sales,Sales Executive,Yes,13194,2,1,0.1199,Low,0.1567,OverTime = Yes; WorkLifeBalance = 2; DistanceFromHome = 24
+708,Research & Development,Manufacturing Director,Yes,5067,3,0,0.0495,Low,0.0449,OverTime = Yes; YearsAtCompany = 19; BusinessTravel = Travel_Frequently
+709,Sales,Sales Executive,No,5079,4,0,0.0244,Low,0.0164,No strong risk driver
+710,Research & Development,Research Scientist,Yes,2321,1,1,0.3992,Medium,0.4214,OverTime = Yes; JobSatisfaction = 1; MaritalStatus = Single
+711,Sales,Manager,No,17444,3,0,0.0691,Low,0.0623,YearsSinceLastPromotion = 6; YearsAtCompany = 10; MaritalStatus = Single
+712,Research & Development,Research Scientist,Yes,2404,1,1,0.6893,High,0.6313,OverTime = Yes; NumCompaniesWorked = 6; TotalWorkingYears = 3
+713,Research & Development,Research Scientist,No,3452,4,0,0.0862,Low,0.0867,MaritalStatus = Single; RelationshipSatisfaction = 1; TotalWorkingYears = 5
+714,Research & Development,Laboratory Technician,No,2270,4,0,0.0074,Low,0.0084,No strong risk driver
+715,Research & Development,Research Director,No,17399,4,0,0.0071,Low,0.0029,No strong risk driver
+716,Research & Development,Healthcare Representative,Yes,5488,2,0,0.139,Low,0.1678,OverTime = Yes; BusinessTravel = Travel_Frequently; RelationshipSatisfaction = 1
+717,Research & Development,Research Director,No,19419,3,0,0.0041,Low,0.003,No strong risk driver
+718,Research & Development,Laboratory Technician,No,2811,2,0,0.6327,High,0.614,NumCompaniesWorked = 9; TotalWorkingYears = 4; EducationField = Technical Degree
+719,Research & Development,Laboratory Technician,Yes,3633,1,0,0.0725,Low,0.0729,OverTime = Yes; JobSatisfaction = 1; DistanceFromHome = 23
+720,Sales,Sales Executive,Yes,4163,4,0,0.0703,Low,0.0856,OverTime = Yes; MaritalStatus = Single; Department = Sales
+721,Research & Development,Research Scientist,Yes,2132,3,1,0.5525,Medium,0.5415,OverTime = Yes; EnvironmentSatisfaction = 1; DistanceFromHome = 22
+722,Research & Development,Manufacturing Director,Yes,13973,3,0,0.0109,Low,0.0137,No strong risk driver
+723,Research & Development,Research Scientist,No,2684,3,0,0.0786,Low,0.0744,BusinessTravel = Travel_Frequently; TrainingTimesLastYear = 0; TotalWorkingYears = 3
+724,Research & Development,Manufacturing Director,No,10845,3,0,0.0108,Low,0.0078,No strong risk driver
+725,Research & Development,Manufacturing Director,No,4377,3,0,0.0365,Low,0.0334,YearsSinceLastPromotion = 3; JobInvolvement = 2
+726,Research & Development,Laboratory Technician,Yes,3743,2,1,0.3363,Medium,0.4348,OverTime = Yes; WorkLifeBalance = 1; JobRole = Laboratory Technician
+727,Research & Development,Manufacturing Director,No,4148,1,0,0.0876,Low,0.0699,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; TotalWorkingYears = 4
+728,Research & Development,Research Scientist,No,1051,4,0,0.1804,Low,0.1493,TotalWorkingYears = 0; MaritalStatus = Single; EnvironmentSatisfaction = 2
+729,Research & Development,Manufacturing Director,No,10739,3,0,0.0189,Low,0.0187,EducationField = Technical Degree
+730,Research & Development,Healthcare Representative,Yes,10388,3,0,0.2411,Low,0.2832,OverTime = Yes; YearsSinceLastPromotion = 10; YearsAtCompany = 16
+731,Research & Development,Research Director,Yes,11416,1,0,0.0313,Low,0.0442,OverTime = Yes; JobSatisfaction = 1; WorkLifeBalance = 2
+732,Research & Development,Research Scientist,Yes,2600,1,1,0.6524,High,0.6923,OverTime = Yes; TotalWorkingYears = 1; JobSatisfaction = 1
+733,Research & Development,Laboratory Technician,No,2422,2,1,0.2867,Low,0.2678,MaritalStatus = Single; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+734,Research & Development,Manufacturing Director,No,5472,4,0,0.0152,Low,0.0095,No strong risk driver
+735,Research & Development,Laboratory Technician,No,2451,1,0,0.5637,Medium,0.4938,JobInvolvement = 1; JobSatisfaction = 1; JobRole = Laboratory Technician
+736,Research & Development,Healthcare Representative,No,4240,3,0,0.092,Low,0.107,EnvironmentSatisfaction = 1; MaritalStatus = Single; TrainingTimesLastYear = 0
+737,Research & Development,Healthcare Representative,No,10999,3,0,0.0326,Low,0.0436,YearsSinceLastPromotion = 4; YearsAtCompany = 15; MaritalStatus = Single
+738,Research & Development,Manufacturing Director,No,5003,3,0,0.0315,Low,0.0405,NumCompaniesWorked = 6; MaritalStatus = Single
+739,Research & Development,Manufacturing Director,No,12742,4,0,0.0227,Low,0.0206,YearsAtCompany = 21; YearsSinceLastPromotion = 11
+740,Research & Development,Manufacturing Director,No,4227,4,0,0.0345,Low,0.0241,EnvironmentSatisfaction = 1
+741,Research & Development,Laboratory Technician,No,3917,4,0,0.0928,Low,0.0809,TotalWorkingYears = 3; JobRole = Laboratory Technician; RelationshipSatisfaction = 1
+742,Sales,Manager,No,18303,3,0,0.0291,Low,0.0225,No strong risk driver
+743,Research & Development,Laboratory Technician,No,2380,4,0,0.1282,Low,0.0974,EnvironmentSatisfaction = 1; JobRole = Laboratory Technician; NumCompaniesWorked = 4
+744,Research & Development,Manufacturing Director,Yes,13726,4,0,0.058,Low,0.09,OverTime = Yes; YearsSinceLastPromotion = 4; MaritalStatus = Single
+745,Research & Development,Healthcare Representative,No,4777,2,1,0.3086,Medium,0.3594,JobInvolvement = 1; EnvironmentSatisfaction = 1; WorkLifeBalance = 1
+746,Research & Development,Healthcare Representative,Yes,6385,2,0,0.21,Low,0.2134,OverTime = Yes; YearsSinceLastPromotion = 6; BusinessTravel = Travel_Frequently
+747,Research & Development,Research Director,No,19973,3,0,0.0035,Low,0.0042,No strong risk driver
+748,Sales,Sales Executive,Yes,6861,4,0,0.2991,Low,0.3779,OverTime = Yes; NumCompaniesWorked = 8; MaritalStatus = Single
+749,Sales,Sales Executive,No,4969,1,1,0.3999,Medium,0.5235,NumCompaniesWorked = 8; JobInvolvement = 1; JobSatisfaction = 1
+750,Sales,Manager,No,19845,4,1,0.0355,Low,0.0493,YearsAtCompany = 32; YearsSinceLastPromotion = 6; JobInvolvement = 1
+751,Sales,Sales Executive,Yes,13320,4,0,0.0221,Low,0.0255,YearsSinceLastPromotion = 11; OverTime = Yes; YearsAtCompany = 12
+752,Sales,Sales Executive,No,6347,3,0,0.0048,Low,0.0043,No strong risk driver
+753,Research & Development,Laboratory Technician,No,2743,1,1,0.164,Low,0.1367,YearsSinceLastPromotion = 15; YearsAtCompany = 17; JobSatisfaction = 1
+754,Research & Development,Manufacturing Director,Yes,10880,1,0,0.4048,Medium,0.3274,OverTime = Yes; YearsAtCompany = 21; BusinessTravel = Travel_Frequently
+755,Sales,Sales Representative,No,2342,4,0,0.0755,Low,0.0584,MaritalStatus = Single; Department = Sales; JobInvolvement = 2
+756,Sales,Manager,No,17650,4,0,0.0082,Low,0.0045,No strong risk driver
+757,Research & Development,Laboratory Technician,No,4025,3,0,0.2167,Low,0.2261,YearsSinceLastPromotion = 7; NumCompaniesWorked = 9; DistanceFromHome = 29
+758,Sales,Sales Executive,No,9725,4,0,0.0259,Low,0.0221,YearsAtCompany = 15
+759,Sales,Manager,Yes,11904,4,0,0.1979,Low,0.191,OverTime = Yes; WorkLifeBalance = 1; EducationField = Technical Degree
+760,Human Resources,Human Resources,No,2177,2,0,0.3596,Medium,0.2537,DistanceFromHome = 24; MaritalStatus = Single; RelationshipSatisfaction = 1
+761,Sales,Sales Executive,No,7525,2,0,0.1692,Low,0.1651,YearsSinceLastPromotion = 6; YearsAtCompany = 15; BusinessTravel = Travel_Frequently
+762,Research & Development,Laboratory Technician,No,4834,3,1,0.2066,Low,0.2725,NumCompaniesWorked = 7; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+763,Research & Development,Research Scientist,Yes,2042,1,1,0.6978,High,0.7841,OverTime = Yes; BusinessTravel = Travel_Frequently; NumCompaniesWorked = 6
+764,Sales,Sales Representative,Yes,2220,3,0,0.2382,Low,0.2728,OverTime = Yes; TotalWorkingYears = 1; Department = Sales
+765,Sales,Sales Representative,No,1052,2,0,0.1269,Low,0.1548,TotalWorkingYears = 1; Department = Sales; JobRole = Sales Representative
+766,Research & Development,Research Scientist,No,2821,3,0,0.0584,Low,0.0576,BusinessTravel = Travel_Frequently; RelationshipSatisfaction = 1
+767,Research & Development,Research Director,Yes,19237,3,0,0.0724,Low,0.0695,OverTime = Yes; YearsSinceLastPromotion = 7; WorkLifeBalance = 2
+768,Research & Development,Healthcare Representative,No,4107,2,0,0.085,Low,0.0797,MaritalStatus = Single; RelationshipSatisfaction = 1; JobSatisfaction = 2
+769,Sales,Sales Executive,No,8396,1,0,0.2549,Low,0.3323,YearsSinceLastPromotion = 7; JobSatisfaction = 1; DistanceFromHome = 26
+770,Research & Development,Research Scientist,No,2007,3,0,0.0414,Low,0.043,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+771,Research & Development,Research Director,No,19627,4,0,0.005,Low,0.0027,No strong risk driver
+772,Sales,Sales Executive,No,10686,3,0,0.1168,Low,0.1239,YearsSinceLastPromotion = 7; NumCompaniesWorked = 6; Department = Sales
+773,Research & Development,Research Scientist,No,2942,3,0,0.0354,Low,0.0268,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+774,Research & Development,Manufacturing Director,No,8858,4,0,0.1351,Low,0.066,YearsSinceLastPromotion = 7; YearsAtCompany = 14; MaritalStatus = Single
+775,Research & Development,Manager,No,16756,1,0,0.0372,Low,0.0588,YearsSinceLastPromotion = 6; JobSatisfaction = 1; MaritalStatus = Single
+776,Sales,Sales Executive,No,10798,4,0,0.0644,Low,0.0434,DistanceFromHome = 25; Department = Sales; JobInvolvement = 2
+777,Sales,Sales Representative,Yes,2323,4,1,0.4693,Medium,0.6095,OverTime = Yes; BusinessTravel = Travel_Frequently; TotalWorkingYears = 2
+778,Research & Development,Laboratory Technician,No,1416,1,1,0.42,Medium,0.4256,TotalWorkingYears = 1; JobSatisfaction = 1; MaritalStatus = Single
+779,Research & Development,Research Scientist,Yes,4615,1,0,0.0643,Low,0.05,OverTime = Yes; YearsAtCompany = 16; JobSatisfaction = 1
+780,Research & Development,Research Scientist,Yes,2461,3,1,0.0761,Low,0.1593,OverTime = Yes; EnvironmentSatisfaction = 1; NumCompaniesWorked = 9
+781,Research & Development,Healthcare Representative,No,8722,1,1,0.1436,Low,0.2061,EducationField = Technical Degree; JobSatisfaction = 1; DistanceFromHome = 24
+782,Research & Development,Laboratory Technician,No,3955,1,0,0.319,Medium,0.3068,EnvironmentSatisfaction = 1; JobSatisfaction = 1; JobRole = Laboratory Technician
+783,Research & Development,Manufacturing Director,No,9957,1,0,0.096,Low,0.107,JobSatisfaction = 1; DistanceFromHome = 20; TrainingTimesLastYear = 1
+784,Research & Development,Research Scientist,No,3376,3,0,0.0161,Low,0.0219,EducationField = Technical Degree
+785,Research & Development,Healthcare Representative,No,8823,3,0,0.02,Low,0.0165,No strong risk driver
+786,Research & Development,Healthcare Representative,No,10322,4,0,0.1222,Low,0.0921,YearsSinceLastPromotion = 11; YearsAtCompany = 11; EducationField = Technical Degree
+787,Research & Development,Laboratory Technician,No,4621,3,0,0.0719,Low,0.0628,JobInvolvement = 1; EnvironmentSatisfaction = 1; TotalWorkingYears = 3
+788,Research & Development,Manufacturing Director,No,10976,2,0,0.012,Low,0.0109,No strong risk driver
+789,Research & Development,Research Scientist,No,3660,3,0,0.0233,Low,0.0148,No strong risk driver
+790,Human Resources,Human Resources,No,10482,1,1,0.187,Low,0.2559,YearsAtCompany = 20; YearsSinceLastPromotion = 3; JobSatisfaction = 1
+791,Research & Development,Healthcare Representative,No,7119,4,0,0.016,Low,0.0153,No strong risk driver
+792,Sales,Sales Executive,Yes,9582,1,1,0.2591,Low,0.4266,OverTime = Yes; YearsSinceLastPromotion = 4; EducationField = Technical Degree
+793,Research & Development,Research Scientist,No,4508,3,1,0.2019,Low,0.2698,YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1; DistanceFromHome = 29
+794,Research & Development,Laboratory Technician,No,2207,3,0,0.078,Low,0.0804,EnvironmentSatisfaction = 1; JobRole = Laboratory Technician; DistanceFromHome = 15
+795,Research & Development,Healthcare Representative,No,7756,4,0,0.087,Low,0.101,EnvironmentSatisfaction = 1; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+796,Sales,Sales Executive,Yes,6694,4,0,0.0455,Low,0.0515,OverTime = Yes; Department = Sales; JobInvolvement = 2
+797,Research & Development,Laboratory Technician,Yes,3691,4,1,0.1731,Low,0.1595,OverTime = Yes; YearsSinceLastPromotion = 5; EducationField = Technical Degree
+798,Research & Development,Laboratory Technician,No,2377,3,1,0.4812,Medium,0.3805,TotalWorkingYears = 1; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+799,Research & Development,Research Scientist,Yes,2313,2,1,0.8505,High,0.8175,OverTime = Yes; EnvironmentSatisfaction = 1; DistanceFromHome = 25
+800,Research & Development,Manager,No,17665,1,0,0.0483,Low,0.0451,YearsAtCompany = 22; YearsSinceLastPromotion = 13; JobSatisfaction = 1
+801,Research & Development,Laboratory Technician,No,2596,2,1,0.4741,Medium,0.5101,TotalWorkingYears = 1; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+802,Sales,Sales Executive,Yes,4728,3,1,0.3241,Medium,0.353,OverTime = Yes; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+803,Sales,Sales Executive,No,4302,2,0,0.0453,Low,0.0387,BusinessTravel = Travel_Frequently; Department = Sales; JobSatisfaction = 2
+804,Research & Development,Research Scientist,No,2979,4,0,0.0186,Low,0.015,No strong risk driver
+805,Research & Development,Manager,No,16885,4,0,0.0072,Low,0.0056,No strong risk driver
+806,Sales,Sales Executive,No,5593,3,0,0.0166,Low,0.0184,YearsSinceLastPromotion = 4; YearsAtCompany = 15
+807,Research & Development,Healthcare Representative,No,10445,2,0,0.1054,Low,0.081,YearsSinceLastPromotion = 4; NumCompaniesWorked = 7; MaritalStatus = Single
+808,Sales,Sales Executive,Yes,8740,3,0,0.0854,Low,0.0846,OverTime = Yes; Department = Sales; JobInvolvement = 2
+809,Research & Development,Research Scientist,No,2514,4,0,0.04,Low,0.0238,DistanceFromHome = 28
+810,Research & Development,Manufacturing Director,No,7655,2,0,0.005,Low,0.0035,No strong risk driver
+811,Sales,Manager,No,17465,3,0,0.0526,Low,0.03,YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1; YearsAtCompany = 12
+812,Sales,Sales Executive,No,7351,2,0,0.2801,Low,0.2218,NumCompaniesWorked = 7; MaritalStatus = Single; Department = Sales
+813,Research & Development,Manufacturing Director,No,10820,1,0,0.0934,Low,0.1102,JobSatisfaction = 1; DistanceFromHome = 27; NumCompaniesWorked = 8
+814,Research & Development,Healthcare Representative,No,12169,4,1,0.026,Low,0.0626,YearsSinceLastPromotion = 11; YearsAtCompany = 18; EnvironmentSatisfaction = 1
+815,Research & Development,Research Director,No,19626,3,0,0.0428,Low,0.0515,YearsAtCompany = 20; YearsSinceLastPromotion = 4; MaritalStatus = Single
+816,Research & Development,Research Scientist,Yes,2070,2,0,0.1863,Low,0.2587,OverTime = Yes; EducationField = Technical Degree; TotalWorkingYears = 2
+817,Research & Development,Laboratory Technician,No,6782,2,0,0.1899,Low,0.1746,NumCompaniesWorked = 9; MaritalStatus = Single; JobRole = Laboratory Technician
+818,Research & Development,Manufacturing Director,No,7779,4,0,0.0565,Low,0.0402,EnvironmentSatisfaction = 1; MaritalStatus = Single; TrainingTimesLastYear = 0
+819,Sales,Sales Representative,No,2791,4,0,0.075,Low,0.0913,BusinessTravel = Travel_Frequently; Department = Sales; DistanceFromHome = 20
+820,Research & Development,Research Scientist,No,3201,2,0,0.1585,Low,0.1523,EnvironmentSatisfaction = 1; WorkLifeBalance = 1; JobInvolvement = 2
+821,Sales,Sales Executive,No,4968,4,0,0.044,Low,0.0413,BusinessTravel = Travel_Frequently; Department = Sales; EducationField = Marketing
+822,Sales,Sales Executive,No,13120,2,0,0.0579,Low,0.0615,EducationField = Technical Degree; Department = Sales; JobInvolvement = 2
+823,Research & Development,Manufacturing Director,No,4033,3,0,0.0819,Low,0.0655,MaritalStatus = Single; BusinessTravel = Travel_Frequently; TotalWorkingYears = 5
+824,Research & Development,Research Scientist,No,3291,2,0,0.0272,Low,0.0231,No strong risk driver
+825,Research & Development,Laboratory Technician,No,4272,4,0,0.3893,Medium,0.4388,JobInvolvement = 1; DistanceFromHome = 29; MaritalStatus = Single
+826,Research & Development,Manufacturing Director,Yes,5056,4,0,0.2561,Low,0.2205,OverTime = Yes; WorkLifeBalance = 2; JobInvolvement = 2
+827,Human Resources,Human Resources,No,2844,3,0,0.0509,Low,0.0672,YearsSinceLastPromotion = 5; EducationField = Human Resources; YearsWithCurrManager = 0
+828,Research & Development,Research Scientist,Yes,2703,3,0,0.2694,Low,0.2805,OverTime = Yes; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+829,Research & Development,Laboratory Technician,No,1904,3,1,0.3843,Medium,0.4819,TotalWorkingYears = 0; MaritalStatus = Single; JobRole = Laboratory Technician
+830,Sales,Sales Executive,Yes,8224,1,1,0.503,Medium,0.6402,OverTime = Yes; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+831,Research & Development,Laboratory Technician,Yes,4766,4,0,0.3781,Medium,0.3965,OverTime = Yes; JobRole = Laboratory Technician; RelationshipSatisfaction = 1
+832,Research & Development,Laboratory Technician,No,2610,3,1,0.1247,Low,0.1281,TotalWorkingYears = 2; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+833,Research & Development,Healthcare Representative,No,5731,4,0,0.0529,Low,0.0575,NumCompaniesWorked = 7; DistanceFromHome = 25; JobInvolvement = 2
+834,Research & Development,Research Scientist,No,2539,3,0,0.0745,Low,0.0655,TrainingTimesLastYear = 0; JobInvolvement = 2; TotalWorkingYears = 4
+835,Sales,Sales Executive,No,5714,3,0,0.061,Low,0.0583,Department = Sales; RelationshipSatisfaction = 1; EnvironmentSatisfaction = 2
+836,Human Resources,Human Resources,No,4323,3,0,0.2161,Low,0.2292,EducationField = Technical Degree; MaritalStatus = Single; WorkLifeBalance = 1
+837,Sales,Sales Executive,No,7336,1,1,0.1233,Low,0.1656,YearsSinceLastPromotion = 3; JobSatisfaction = 1; DistanceFromHome = 23
+838,Research & Development,Research Director,No,13499,3,0,0.0475,Low,0.0419,YearsAtCompany = 18; NumCompaniesWorked = 9; MaritalStatus = Single
+839,Sales,Sales Executive,Yes,13758,1,1,0.6728,High,0.7098,OverTime = Yes; YearsSinceLastPromotion = 13; YearsAtCompany = 21
+840,Sales,Sales Executive,No,5155,1,0,0.2639,Low,0.2391,NumCompaniesWorked = 7; JobSatisfaction = 1; MaritalStatus = Single
+841,Research & Development,Laboratory Technician,No,2258,3,0,0.1426,Low,0.1111,NumCompaniesWorked = 6; JobRole = Laboratory Technician; JobInvolvement = 2
+842,Research & Development,Laboratory Technician,No,3597,2,0,0.42,Medium,0.4037,NumCompaniesWorked = 8; DistanceFromHome = 24; TotalWorkingYears = 6
+843,Research & Development,Laboratory Technician,Yes,2515,4,1,0.3511,Medium,0.3298,OverTime = Yes; TotalWorkingYears = 1; WorkLifeBalance = 2
+844,Research & Development,Laboratory Technician,No,4420,4,0,0.0226,Low,0.0196,No strong risk driver
+845,Sales,Sales Executive,No,6578,3,0,0.1588,Low,0.1066,Department = Sales; JobInvolvement = 2; RelationshipSatisfaction = 1
+846,Research & Development,Research Scientist,Yes,4422,4,0,0.4042,Medium,0.2843,OverTime = Yes; DistanceFromHome = 26; BusinessTravel = Travel_Frequently
+847,Research & Development,Manufacturing Director,No,10274,2,0,0.0236,Low,0.0312,YearsSinceLastPromotion = 6; JobInvolvement = 2
+848,Research & Development,Healthcare Representative,No,5343,1,0,0.0894,Low,0.0934,YearsSinceLastPromotion = 4; JobSatisfaction = 1; YearsAtCompany = 13
+849,Research & Development,Laboratory Technician,No,2376,4,0,0.1244,Low,0.0997,TotalWorkingYears = 2; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+850,Sales,Sales Executive,No,5346,3,1,0.6521,High,0.632,NumCompaniesWorked = 8; JobInvolvement = 1; EnvironmentSatisfaction = 1
+851,Sales,Sales Representative,No,2827,1,0,0.095,Low,0.0811,TotalWorkingYears = 1; JobSatisfaction = 1; Department = Sales
+852,Research & Development,Manager,No,19943,1,0,0.0169,Low,0.0157,No strong risk driver
+853,Research & Development,Laboratory Technician,No,3131,4,0,0.0222,Low,0.0155,No strong risk driver
+854,Research & Development,Research Scientist,No,2552,1,0,0.2791,Low,0.2111,TotalWorkingYears = 1; JobSatisfaction = 1; MaritalStatus = Single
+855,Research & Development,Research Scientist,Yes,4477,3,0,0.2215,Low,0.2218,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+856,Research & Development,Manufacturing Director,No,6474,4,0,0.033,Low,0.014,No strong risk driver
+857,Research & Development,Laboratory Technician,No,3033,3,0,0.5414,Medium,0.5381,EnvironmentSatisfaction = 1; TotalWorkingYears = 2; MaritalStatus = Single
+858,Research & Development,Research Scientist,Yes,2936,3,1,0.075,Low,0.1321,OverTime = Yes; MaritalStatus = Single; StockOptionLevel = 0
+859,Research & Development,Manager,No,18606,3,0,0.0018,Low,0.0014,No strong risk driver
+860,Research & Development,Research Scientist,Yes,2168,4,0,0.3127,Medium,0.2944,OverTime = Yes; JobInvolvement = 1; WorkLifeBalance = 2
+861,Research & Development,Research Scientist,Yes,2853,4,1,0.2972,Low,0.2951,OverTime = Yes; BusinessTravel = Travel_Frequently; TotalWorkingYears = 1
+862,Sales,Manager,No,17048,1,0,0.2211,Low,0.1372,YearsAtCompany = 26; YearsSinceLastPromotion = 15; JobSatisfaction = 1
+863,Research & Development,Research Scientist,No,2290,3,0,0.0565,Low,0.0741,JobInvolvement = 1; MaritalStatus = Single; YearsSinceLastPromotion = 0
+864,Human Resources,Human Resources,No,3600,3,0,0.0694,Low,0.0713,EducationField = Human Resources; EnvironmentSatisfaction = 2; Department = Human Resources
+865,Research & Development,Research Scientist,No,2107,1,1,0.4222,Medium,0.3373,NumCompaniesWorked = 6; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+866,Sales,Sales Executive,No,4115,1,0,0.141,Low,0.1298,NumCompaniesWorked = 8; DistanceFromHome = 29; JobSatisfaction = 1
+867,Sales,Sales Executive,No,4327,2,0,0.1963,Low,0.2023,NumCompaniesWorked = 5; TotalWorkingYears = 5; BusinessTravel = Travel_Frequently
+868,Research & Development,Manager,No,17856,1,0,0.0041,Low,0.0049,No strong risk driver
+869,Research & Development,Laboratory Technician,No,3196,1,0,0.2178,Low,0.1929,YearsSinceLastPromotion = 3; JobSatisfaction = 1; JobRole = Laboratory Technician
+870,Research & Development,Research Director,No,19081,2,0,0.0139,Low,0.0108,No strong risk driver
+871,Sales,Sales Executive,Yes,8966,1,0,0.0673,Low,0.0782,OverTime = Yes; JobSatisfaction = 1; Department = Sales
+872,Research & Development,Laboratory Technician,No,2210,2,1,0.1947,Low,0.2588,TotalWorkingYears = 1; JobRole = Laboratory Technician; WorkLifeBalance = 1
+873,Sales,Sales Executive,No,4539,3,0,0.1335,Low,0.166,DistanceFromHome = 25; BusinessTravel = Travel_Frequently; Department = Sales
+874,Research & Development,Laboratory Technician,No,2741,3,0,0.0387,Low,0.0274,JobInvolvement = 1; JobRole = Laboratory Technician
+875,Research & Development,Laboratory Technician,No,3491,3,0,0.0401,Low,0.0426,YearsSinceLastPromotion = 8; YearsAtCompany = 10; JobRole = Laboratory Technician
+876,Research & Development,Research Scientist,No,4541,4,0,0.0539,Low,0.0501,YearsSinceLastPromotion = 13; YearsAtCompany = 20; DistanceFromHome = 29
+877,Sales,Sales Representative,No,2678,4,0,0.2167,Low,0.1945,TotalWorkingYears = 2; MaritalStatus = Single; Department = Sales
+878,Research & Development,Manufacturing Director,No,7379,4,0,0.0129,Low,0.0184,No strong risk driver
+879,Human Resources,Human Resources,No,6272,1,0,0.0321,Low,0.0308,NumCompaniesWorked = 7; JobSatisfaction = 1
+880,Sales,Sales Executive,Yes,5220,4,0,0.0217,Low,0.0253,OverTime = Yes
+881,Research & Development,Laboratory Technician,No,2743,2,0,0.2214,Low,0.2371,TotalWorkingYears = 2; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+882,Research & Development,Research Scientist,Yes,4998,3,0,0.0753,Low,0.0785,OverTime = Yes; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+883,Research & Development,Manufacturing Director,Yes,10252,1,0,0.3289,Medium,0.2425,OverTime = Yes; YearsSinceLastPromotion = 7; JobInvolvement = 1
+884,Research & Development,Research Scientist,No,2781,4,0,0.0378,Low,0.0344,YearsSinceLastPromotion = 4; YearsAtCompany = 14; EnvironmentSatisfaction = 1
+885,Sales,Sales Executive,No,6852,2,0,0.3884,Medium,0.4106,NumCompaniesWorked = 7; EducationField = Technical Degree; Department = Sales
+886,Sales,Sales Executive,No,4950,4,0,0.0733,Low,0.0618,MaritalStatus = Single; Department = Sales; YearsWithCurrManager = 1
+887,Research & Development,Research Scientist,Yes,3579,2,0,0.1162,Low,0.0932,OverTime = Yes; YearsSinceLastPromotion = 5; YearsAtCompany = 11
+888,Research & Development,Research Director,Yes,13191,1,0,0.2552,Low,0.3455,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+889,Sales,Sales Executive,Yes,10377,4,0,0.0947,Low,0.1409,OverTime = Yes; YearsSinceLastPromotion = 4; YearsAtCompany = 13
+890,Research & Development,Research Scientist,Yes,2235,1,0,0.4164,Medium,0.4189,OverTime = Yes; YearsSinceLastPromotion = 6; EnvironmentSatisfaction = 1
+891,Research & Development,Manufacturing Director,No,10502,3,0,0.0084,Low,0.0104,No strong risk driver
+892,Research & Development,Research Scientist,No,2011,4,0,0.0209,Low,0.0136,No strong risk driver
+893,Research & Development,Research Scientist,Yes,1859,2,1,0.527,Medium,0.5137,OverTime = Yes; TotalWorkingYears = 1; EnvironmentSatisfaction = 1
+894,Research & Development,Research Scientist,No,3760,4,0,0.0179,Low,0.0149,No strong risk driver
+895,Research & Development,Research Director,No,17779,4,0,0.0015,Low,0.0016,No strong risk driver
+896,Research & Development,Healthcare Representative,Yes,6833,1,0,0.2403,Low,0.2834,OverTime = Yes; JobSatisfaction = 1; WorkLifeBalance = 2
+897,Research & Development,Healthcare Representative,No,6812,1,0,0.0774,Low,0.062,JobSatisfaction = 1; DistanceFromHome = 24; MaritalStatus = Single
+898,Sales,Sales Executive,No,5171,4,0,0.0642,Low,0.0447,MaritalStatus = Single; Department = Sales; JobInvolvement = 2
+899,Research & Development,Research Director,No,19740,4,0,0.0072,Low,0.0046,No strong risk driver
+900,Research & Development,Manager,No,18711,3,0,0.0105,Low,0.0169,No strong risk driver
+901,Research & Development,Research Scientist,No,3692,2,0,0.0666,Low,0.075,EducationField = Technical Degree; BusinessTravel = Travel_Frequently; YearsAtCompany = 11
+902,Research & Development,Laboratory Technician,No,2559,2,0,0.2319,Low,0.2129,EducationField = Technical Degree; NumCompaniesWorked = 5; MaritalStatus = Single
+903,Research & Development,Research Scientist,No,2517,3,0,0.0261,Low,0.0321,EnvironmentSatisfaction = 1
+904,Research & Development,Healthcare Representative,Yes,6623,4,0,0.0728,Low,0.0819,OverTime = Yes; YearsInCurrentRole = 0; YearsWithCurrManager = 0
+905,Research & Development,Research Director,No,18265,4,0,0.0061,Low,0.0091,No strong risk driver
+906,Research & Development,Research Director,No,16124,4,0,0.0048,Low,0.0037,No strong risk driver
+907,Research & Development,Research Scientist,No,2585,3,0,0.0447,Low,0.0381,EducationField = Technical Degree; DistanceFromHome = 20; TotalWorkingYears = 2
+908,Sales,Manager,No,18213,2,0,0.0284,Low,0.043,YearsAtCompany = 22; YearsSinceLastPromotion = 3; Department = Sales
+909,Sales,Sales Executive,Yes,8380,3,0,0.0118,Low,0.0148,OverTime = Yes
+910,Research & Development,Research Scientist,Yes,2994,4,0,0.4796,Medium,0.4562,OverTime = Yes; TotalWorkingYears = 1; DistanceFromHome = 25
+911,Research & Development,Research Scientist,No,1223,3,0,0.045,Low,0.0342,TotalWorkingYears = 1
+912,Sales,Sales Representative,Yes,1118,4,1,0.8426,High,0.8622,OverTime = Yes; JobInvolvement = 1; BusinessTravel = Travel_Frequently
+913,Research & Development,Research Scientist,Yes,2875,4,0,0.2987,Low,0.2533,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+914,Sales,Manager,Yes,18824,2,1,0.1479,Low,0.2463,OverTime = Yes; YearsAtCompany = 24; JobInvolvement = 1
+915,Research & Development,Healthcare Representative,Yes,13577,2,0,0.1702,Low,0.2704,YearsAtCompany = 33; YearsSinceLastPromotion = 15; OverTime = Yes
+916,Research & Development,Laboratory Technician,No,2625,3,1,0.6614,High,0.5827,EnvironmentSatisfaction = 1; TotalWorkingYears = 2; MaritalStatus = Single
+917,Sales,Manager,No,18789,2,0,0.0193,Low,0.0111,No strong risk driver
+918,Sales,Sales Executive,Yes,4538,1,0,0.3355,Medium,0.3522,OverTime = Yes; JobSatisfaction = 1; MaritalStatus = Single
+919,Sales,Manager,Yes,19847,2,0,0.1907,Low,0.2391,YearsAtCompany = 29; OverTime = Yes; YearsSinceLastPromotion = 11
+920,Research & Development,Manufacturing Director,No,10512,4,0,0.0158,Low,0.0208,YearsSinceLastPromotion = 5
+921,Research & Development,Laboratory Technician,No,4444,2,0,0.0846,Low,0.0864,YearsSinceLastPromotion = 5; YearsAtCompany = 11; BusinessTravel = Travel_Frequently
+922,Research & Development,Laboratory Technician,Yes,2154,3,0,0.4532,Medium,0.4483,OverTime = Yes; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+923,Research & Development,Manager,No,19190,1,0,0.0087,Low,0.0107,No strong risk driver
+924,Human Resources,Human Resources,No,4490,2,0,0.0386,Low,0.0368,BusinessTravel = Travel_Frequently; JobInvolvement = 2; JobSatisfaction = 2
+925,Research & Development,Research Scientist,Yes,3506,3,0,0.0989,Low,0.0732,OverTime = Yes; TotalWorkingYears = 4; StockOptionLevel = 0
+926,Research & Development,Research Scientist,Yes,2372,2,0,0.1344,Low,0.1247,OverTime = Yes; NumCompaniesWorked = 6; EnvironmentSatisfaction = 2
+927,Sales,Sales Executive,No,10231,4,0,0.0822,Low,0.0586,YearsSinceLastPromotion = 15; YearsAtCompany = 21; MaritalStatus = Single
+928,Research & Development,Manufacturing Director,Yes,5410,2,0,0.1113,Low,0.1674,OverTime = Yes; YearsSinceLastPromotion = 5; YearsAtCompany = 16
+929,Research & Development,Healthcare Representative,No,7978,4,1,0.01,Low,0.0134,No strong risk driver
+930,Research & Development,Laboratory Technician,Yes,3867,4,0,0.5775,Medium,0.4735,OverTime = Yes; BusinessTravel = Travel_Frequently; TotalWorkingYears = 2
+931,Research & Development,Laboratory Technician,No,2838,3,0,0.3253,Medium,0.2727,YearsSinceLastPromotion = 7; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+932,Research & Development,Manufacturing Director,Yes,4695,3,0,0.0573,Low,0.0855,OverTime = Yes; NumCompaniesWorked = 7; MaritalStatus = Single
+933,Research & Development,Laboratory Technician,Yes,3339,3,1,0.2862,Low,0.4065,OverTime = Yes; YearsSinceLastPromotion = 7; EducationField = Technical Degree
+934,Research & Development,Research Scientist,No,2080,1,0,0.2889,Low,0.2645,EducationField = Technical Degree; JobSatisfaction = 1; MaritalStatus = Single
+935,Research & Development,Research Scientist,No,2096,2,0,0.0655,Low,0.0543,TotalWorkingYears = 2; MaritalStatus = Single; JobSatisfaction = 2
+936,Sales,Sales Executive,No,6209,4,0,0.0063,Low,0.0052,No strong risk driver
+937,Research & Development,Manager,No,18061,2,0,0.0528,Low,0.0526,DistanceFromHome = 25; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+938,Research & Development,Manager,Yes,17123,2,0,0.2688,Low,0.2546,YearsSinceLastPromotion = 15; YearsAtCompany = 19; OverTime = Yes
+939,Research & Development,Research Scientist,No,2372,3,0,0.0331,Low,0.0434,EnvironmentSatisfaction = 1; TotalWorkingYears = 2; DistanceFromHome = 23
+940,Research & Development,Laboratory Technician,No,4883,3,1,0.0303,Low,0.0409,JobRole = Laboratory Technician; RelationshipSatisfaction = 1; YearsAtCompany = 10
+941,Research & Development,Research Scientist,No,3904,1,1,0.2042,Low,0.2332,JobSatisfaction = 1; DistanceFromHome = 23; MaritalStatus = Single
+942,Research & Development,Laboratory Technician,No,4627,4,0,0.29,Low,0.2181,YearsSinceLastPromotion = 6; EducationField = Technical Degree; EnvironmentSatisfaction = 1
+943,Research & Development,Healthcare Representative,No,7094,3,0,0.0203,Low,0.0358,EducationField = Technical Degree; TrainingTimesLastYear = 0; RelationshipSatisfaction = 1
+944,Human Resources,Human Resources,No,3423,1,0,0.1279,Low,0.1124,YearsSinceLastPromotion = 5; JobSatisfaction = 1; NumCompaniesWorked = 6
+945,Research & Development,Laboratory Technician,No,6674,4,0,0.0237,Low,0.0181,YearsSinceLastPromotion = 7; JobInvolvement = 1
+946,Research & Development,Research Director,Yes,16880,1,0,0.086,Low,0.0743,OverTime = Yes; JobSatisfaction = 1; DistanceFromHome = 28
+947,Sales,Sales Executive,Yes,9094,2,1,0.5221,Medium,0.6168,OverTime = Yes; DistanceFromHome = 25; MaritalStatus = Single
+948,Sales,Sales Executive,Yes,8446,2,1,0.6221,High,0.6718,OverTime = Yes; YearsSinceLastPromotion = 7; NumCompaniesWorked = 9
+949,Research & Development,Manager,Yes,11916,1,0,0.0947,Low,0.1013,OverTime = Yes; JobSatisfaction = 1; EnvironmentSatisfaction = 2
+950,Research & Development,Manufacturing Director,No,4534,3,0,0.0488,Low,0.0594,EnvironmentSatisfaction = 1; MaritalStatus = Single; RelationshipSatisfaction = 1
+951,Sales,Sales Executive,Yes,9852,3,0,0.0473,Low,0.0519,OverTime = Yes; YearsSinceLastPromotion = 9; YearsAtCompany = 10
+952,Sales,Sales Executive,No,6151,2,0,0.5437,Medium,0.5337,YearsSinceLastPromotion = 11; YearsAtCompany = 19; JobInvolvement = 1
+953,Sales,Sales Representative,Yes,2302,2,1,0.5295,Medium,0.5809,OverTime = Yes; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+954,Research & Development,Laboratory Technician,No,2362,1,1,0.1172,Low,0.1484,EnvironmentSatisfaction = 1; JobSatisfaction = 1; JobRole = Laboratory Technician
+955,Research & Development,Manager,Yes,17861,3,0,0.0193,Low,0.0169,OverTime = Yes; YearsAtCompany = 20
+956,Research & Development,Manager,No,19187,3,0,0.0064,Low,0.0088,No strong risk driver
+957,Human Resources,Manager,No,19717,2,0,0.0522,Low,0.0316,YearsSinceLastPromotion = 7; MaritalStatus = Single; RelationshipSatisfaction = 1
+958,Research & Development,Research Scientist,No,3544,3,0,0.1535,Low,0.1235,NumCompaniesWorked = 9; TotalWorkingYears = 6; TrainingTimesLastYear = 0
+959,Research & Development,Healthcare Representative,No,8500,4,0,0.0057,Low,0.0046,No strong risk driver
+960,Research & Development,Research Scientist,No,4661,4,0,0.0247,Low,0.0266,YearsSinceLastPromotion = 8; MaritalStatus = Single; YearsAtCompany = 9
+961,Sales,Sales Executive,No,4103,1,0,0.0382,Low,0.0339,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; Department = Sales
+962,Research & Development,Research Scientist,Yes,4249,3,0,0.3421,Medium,0.3323,OverTime = Yes; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+963,Human Resources,Manager,Yes,14026,2,0,0.0796,Low,0.059,YearsAtCompany = 33; OverTime = Yes; JobSatisfaction = 2
+964,Sales,Sales Executive,No,6893,1,0,0.0318,Low,0.0185,No strong risk driver
+965,Sales,Sales Executive,No,6125,1,0,0.1084,Low,0.1204,YearsSinceLastPromotion = 9; JobSatisfaction = 1; YearsAtCompany = 10
+966,Research & Development,Laboratory Technician,No,3669,4,0,0.038,Low,0.0339,JobRole = Laboratory Technician; DistanceFromHome = 19
+967,Research & Development,Manufacturing Director,Yes,10008,1,1,0.1631,Low,0.2532,OverTime = Yes; YearsSinceLastPromotion = 5; JobSatisfaction = 1
+968,Research & Development,Laboratory Technician,No,2387,2,0,0.071,Low,0.0789,JobRole = Laboratory Technician; EnvironmentSatisfaction = 2; JobSatisfaction = 2
+969,Sales,Sales Executive,No,4639,1,0,0.1953,Low,0.1702,YearsSinceLastPromotion = 6; YearsAtCompany = 15; JobSatisfaction = 1
+970,Research & Development,Manufacturing Director,No,7898,4,0,0.0111,Low,0.0064,No strong risk driver
+971,Sales,Sales Representative,No,2534,4,0,0.1041,Low,0.148,NumCompaniesWorked = 8; TotalWorkingYears = 5; Department = Sales
+972,Research & Development,Manufacturing Director,No,13142,2,0,0.0794,Low,0.0657,EducationField = Technical Degree; MaritalStatus = Single; JobInvolvement = 2
+973,Research & Development,Laboratory Technician,No,1611,4,0,0.0312,Low,0.0631,TotalWorkingYears = 0; MaritalStatus = Single; JobRole = Laboratory Technician
+974,Research & Development,Laboratory Technician,No,5363,4,0,0.0366,Low,0.0303,JobRole = Laboratory Technician; TrainingTimesLastYear = 0; JobInvolvement = 2
+975,Sales,Sales Executive,No,5071,4,0,0.2706,Low,0.246,JobInvolvement = 1; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+976,Sales,Sales Executive,Yes,13695,3,1,0.4844,Medium,0.5544,OverTime = Yes; YearsAtCompany = 19; YearsSinceLastPromotion = 3
+977,Research & Development,Manufacturing Director,Yes,13402,2,0,0.1771,Low,0.1671,YearsSinceLastPromotion = 15; YearsAtCompany = 19; OverTime = Yes
+978,Research & Development,Research Scientist,No,2029,3,0,0.0801,Low,0.0653,EducationField = Technical Degree; EnvironmentSatisfaction = 1; DistanceFromHome = 26
+979,Research & Development,Healthcare Representative,No,6377,3,0,0.0262,Low,0.0153,YearsSinceLastPromotion = 11
+980,Research & Development,Laboratory Technician,No,5429,3,0,0.2819,Low,0.3112,YearsSinceLastPromotion = 7; DistanceFromHome = 29; JobRole = Laboratory Technician
+981,Sales,Sales Representative,No,2785,4,1,0.5615,Medium,0.5981,NumCompaniesWorked = 7; TotalWorkingYears = 3; MaritalStatus = Single
+982,Sales,Sales Executive,Yes,4614,3,1,0.3504,Medium,0.5574,OverTime = Yes; YearsSinceLastPromotion = 3; BusinessTravel = Travel_Frequently
+983,Research & Development,Research Scientist,No,2610,3,0,0.0102,Low,0.011,No strong risk driver
+984,Research & Development,Healthcare Representative,No,6687,4,0,0.0453,Low,0.0223,YearsSinceLastPromotion = 4; EducationField = Technical Degree; YearsAtCompany = 14
+985,Sales,Sales Executive,No,4724,1,0,0.3179,Medium,0.3145,JobSatisfaction = 1; DistanceFromHome = 26; Department = Sales
+986,Research & Development,Manufacturing Director,Yes,6179,3,1,0.1504,Low,0.248,OverTime = Yes; YearsSinceLastPromotion = 6; WorkLifeBalance = 2
+987,Sales,Sales Executive,Yes,6120,4,0,0.1232,Low,0.2014,OverTime = Yes; EnvironmentSatisfaction = 1; Department = Sales
+988,Sales,Sales Executive,No,10596,2,0,0.2274,Low,0.2031,YearsSinceLastPromotion = 3; BusinessTravel = Travel_Frequently; Department = Sales
+989,Research & Development,Research Scientist,Yes,5467,4,0,0.1676,Low,0.1739,OverTime = Yes; YearsSinceLastPromotion = 3; BusinessTravel = Travel_Frequently
+990,Research & Development,Research Scientist,Yes,2996,3,0,0.1966,Low,0.1427,OverTime = Yes; NumCompaniesWorked = 7; StockOptionLevel = 0
+991,Sales,Sales Executive,No,9998,4,0,0.1315,Low,0.1649,NumCompaniesWorked = 6; BusinessTravel = Travel_Frequently; Department = Sales
+992,Sales,Sales Executive,Yes,4078,2,0,0.341,Medium,0.3531,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+993,Research & Development,Healthcare Representative,No,10920,3,0,0.007,Low,0.0089,No strong risk driver
+994,Sales,Sales Executive,No,6232,3,0,0.1397,Low,0.1563,EnvironmentSatisfaction = 1; Department = Sales; DistanceFromHome = 18
+995,Research & Development,Manufacturing Director,Yes,13247,3,0,0.0784,Low,0.0776,OverTime = Yes; DistanceFromHome = 28; BusinessTravel = Travel_Frequently
+996,Research & Development,Research Scientist,Yes,4081,3,0,0.3778,Medium,0.4666,OverTime = Yes; YearsAtCompany = 20; WorkLifeBalance = 1
+997,Sales,Sales Executive,Yes,5769,4,0,0.2413,Low,0.3046,OverTime = Yes; YearsSinceLastPromotion = 4; Department = Sales
+998,Research & Development,Research Scientist,Yes,2394,3,1,0.2592,Low,0.2911,OverTime = Yes; YearsSinceLastPromotion = 7; MaritalStatus = Single
+999,Research & Development,Research Scientist,No,3904,4,0,0.1635,Low,0.1064,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobInvolvement = 2
+1000,Human Resources,Manager,No,16799,1,0,0.0143,Low,0.0103,No strong risk driver
+1001,Research & Development,Laboratory Technician,No,2950,1,0,0.2792,Low,0.2277,NumCompaniesWorked = 9; JobSatisfaction = 1; JobRole = Laboratory Technician
+1002,Research & Development,Laboratory Technician,No,3629,3,0,0.1534,Low,0.1382,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1003,Research & Development,Manufacturing Director,No,9362,4,0,0.0736,Low,0.0795,MaritalStatus = Single; BusinessTravel = Travel_Frequently; DistanceFromHome = 18
+1004,Research & Development,Laboratory Technician,No,3229,4,0,0.2824,Low,0.2911,EducationField = Technical Degree; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+1005,Research & Development,Laboratory Technician,No,3578,1,0,0.0606,Low,0.0576,JobSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1006,Human Resources,Human Resources,No,7988,1,0,0.2599,Low,0.2443,JobSatisfaction = 1; MaritalStatus = Single; JobInvolvement = 2
+1007,Research & Development,Laboratory Technician,No,4284,1,1,0.5231,Medium,0.5894,EnvironmentSatisfaction = 1; JobSatisfaction = 1; DistanceFromHome = 28
+1008,Research & Development,Healthcare Representative,Yes,7553,4,1,0.3765,Medium,0.394,OverTime = Yes; YearsSinceLastPromotion = 7; BusinessTravel = Travel_Frequently
+1009,Research & Development,Research Director,No,17328,4,0,0.0117,Low,0.017,YearsSinceLastPromotion = 12; YearsAtCompany = 20
+1010,Research & Development,Research Director,Yes,19701,1,0,0.0052,Low,0.0057,No strong risk driver
+1011,Research & Development,Research Director,No,14732,4,0,0.0011,Low,0.0009,No strong risk driver
+1012,Sales,Sales Executive,Yes,9278,2,0,0.281,Low,0.3071,OverTime = Yes; EnvironmentSatisfaction = 1; MaritalStatus = Single
+1013,Sales,Sales Representative,No,1359,3,1,0.5401,Medium,0.6416,JobInvolvement = 1; TotalWorkingYears = 1; MaritalStatus = Single
+1014,Sales,Sales Executive,No,4779,1,0,0.1449,Low,0.097,NumCompaniesWorked = 7; JobSatisfaction = 1; Department = Sales
+1015,Research & Development,Research Director,No,16422,2,0,0.1035,Low,0.0852,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobSatisfaction = 2
+1016,Research & Development,Research Scientist,No,2996,1,0,0.0486,Low,0.0528,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; NumCompaniesWorked = 5
+1017,Research & Development,Research Scientist,No,1261,2,1,0.2712,Low,0.3379,EnvironmentSatisfaction = 1; TotalWorkingYears = 1; MaritalStatus = Single
+1018,Research & Development,Laboratory Technician,No,2099,1,0,0.1355,Low,0.1333,JobSatisfaction = 1; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+1019,Research & Development,Laboratory Technician,No,5810,4,0,0.174,Low,0.146,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1020,Sales,Sales Executive,No,5647,1,0,0.2753,Low,0.2656,JobSatisfaction = 1; Department = Sales; JobInvolvement = 2
+1021,Research & Development,Research Scientist,No,3420,4,0,0.1383,Low,0.1094,EducationField = Technical Degree; EnvironmentSatisfaction = 1; NumCompaniesWorked = 7
+1022,Sales,Sales Representative,No,4400,1,1,0.6593,High,0.678,EnvironmentSatisfaction = 1; JobSatisfaction = 1; Department = Sales
+1023,Research & Development,Laboratory Technician,No,3500,3,0,0.0897,Low,0.0861,EducationField = Technical Degree; MaritalStatus = Single; JobRole = Laboratory Technician
+1024,Research & Development,Research Scientist,No,2066,1,0,0.0374,Low,0.0325,JobSatisfaction = 1; EnvironmentSatisfaction = 1
+1025,Research & Development,Research Director,No,17169,3,0,0.0095,Low,0.0081,No strong risk driver
+1026,Sales,Sales Executive,Yes,4162,3,0,0.0401,Low,0.0563,OverTime = Yes; Department = Sales; TotalWorkingYears = 5
+1027,Sales,Sales Executive,No,9204,4,0,0.0314,Low,0.0592,Department = Sales; EducationField = Marketing; NumCompaniesWorked = 4
+1028,Research & Development,Laboratory Technician,No,3294,2,0,0.1461,Low,0.132,NumCompaniesWorked = 5; JobRole = Laboratory Technician; JobInvolvement = 2
+1029,Research & Development,Research Scientist,Yes,2127,3,0,0.1861,Low,0.1559,OverTime = Yes; WorkLifeBalance = 2; RelationshipSatisfaction = 1
+1030,Research & Development,Laboratory Technician,No,3975,3,0,0.0084,Low,0.0085,No strong risk driver
+1031,Sales,Sales Executive,No,10793,4,0,0.0892,Low,0.0551,YearsSinceLastPromotion = 9; YearsAtCompany = 13; EnvironmentSatisfaction = 1
+1032,Sales,Sales Executive,No,10096,4,1,0.0716,Low,0.1047,YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1; Department = Sales
+1033,Research & Development,Laboratory Technician,Yes,3646,1,1,0.4048,Medium,0.4668,OverTime = Yes; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1034,Research & Development,Manufacturing Director,No,7446,2,1,0.0222,Low,0.0632,YearsSinceLastPromotion = 4; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+1035,Research & Development,Healthcare Representative,Yes,10851,1,0,0.0904,Low,0.1187,OverTime = Yes; JobInvolvement = 1; JobSatisfaction = 1
+1036,Human Resources,Human Resources,No,2109,2,0,0.1024,Low,0.089,NumCompaniesWorked = 9; MaritalStatus = Single; JobSatisfaction = 2
+1037,Research & Development,Laboratory Technician,Yes,3722,4,1,0.5949,Medium,0.5981,OverTime = Yes; NumCompaniesWorked = 6; BusinessTravel = Travel_Frequently
+1038,Research & Development,Manufacturing Director,Yes,9380,4,0,0.1195,Low,0.1102,OverTime = Yes; EducationField = Technical Degree; DistanceFromHome = 29
+1039,Sales,Sales Executive,No,5486,1,0,0.0678,Low,0.0616,JobSatisfaction = 1; Department = Sales; RelationshipSatisfaction = 1
+1040,Human Resources,Human Resources,No,2742,3,1,0.155,Low,0.2237,EducationField = Technical Degree; EnvironmentSatisfaction = 1; TotalWorkingYears = 2
+1041,Research & Development,Research Director,No,13757,2,0,0.0063,Low,0.0075,No strong risk driver
+1042,Sales,Sales Executive,No,8463,1,0,0.0685,Low,0.0544,JobSatisfaction = 1; MaritalStatus = Single; Department = Sales
+1043,Research & Development,Laboratory Technician,No,3162,3,0,0.0678,Low,0.0445,MaritalStatus = Single; JobRole = Laboratory Technician; JobInvolvement = 2
+1044,Research & Development,Research Director,No,16598,2,0,0.0191,Low,0.0184,YearsSinceLastPromotion = 8
+1045,Research & Development,Healthcare Representative,No,6651,3,0,0.0722,Low,0.092,EducationField = Technical Degree; EnvironmentSatisfaction = 1; TrainingTimesLastYear = 0
+1046,Research & Development,Research Scientist,No,2345,3,0,0.015,Low,0.0135,No strong risk driver
+1047,Research & Development,Research Scientist,No,3420,2,0,0.0762,Low,0.0731,MaritalStatus = Single; DistanceFromHome = 20; JobSatisfaction = 2
+1048,Sales,Sales Executive,No,4373,1,0,0.1266,Low,0.1127,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; Department = Sales
+1049,Sales,Sales Executive,No,4759,1,0,0.0913,Low,0.1243,JobInvolvement = 1; YearsSinceLastPromotion = 3; JobSatisfaction = 1
+1050,Sales,Sales Executive,No,5301,3,0,0.1491,Low,0.2138,NumCompaniesWorked = 8; TotalWorkingYears = 4; Department = Sales
+1051,Research & Development,Laboratory Technician,No,3673,4,0,0.1961,Low,0.1575,YearsSinceLastPromotion = 5; EnvironmentSatisfaction = 1; YearsAtCompany = 12
+1052,Sales,Sales Executive,No,4768,3,0,0.1956,Low,0.2391,EnvironmentSatisfaction = 1; NumCompaniesWorked = 7; BusinessTravel = Travel_Frequently
+1053,Research & Development,Research Scientist,No,1274,3,0,0.0796,Low,0.0691,EducationField = Technical Degree; TotalWorkingYears = 1; YearsWithCurrManager = 0
+1054,Research & Development,Research Scientist,No,4900,3,0,0.0088,Low,0.0072,No strong risk driver
+1055,Research & Development,Healthcare Representative,No,10466,2,0,0.0055,Low,0.0038,No strong risk driver
+1056,Research & Development,Research Director,No,17007,1,0,0.0696,Low,0.0817,YearsSinceLastPromotion = 6; YearsAtCompany = 14; JobSatisfaction = 1
+1057,Sales,Sales Representative,No,2909,3,1,0.2194,Low,0.2766,EducationField = Technical Degree; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+1058,Sales,Sales Executive,No,5765,2,1,0.8397,High,0.8472,EducationField = Technical Degree; EnvironmentSatisfaction = 1; NumCompaniesWorked = 5
+1059,Sales,Sales Executive,Yes,4599,2,1,0.5502,Medium,0.6402,YearsSinceLastPromotion = 10; OverTime = Yes; YearsAtCompany = 15
+1060,Sales,Sales Representative,No,2404,3,0,0.2443,Low,0.1985,TotalWorkingYears = 1; Department = Sales; JobRole = Sales Representative
+1061,Research & Development,Laboratory Technician,Yes,3172,1,1,0.9311,High,0.9161,OverTime = Yes; JobSatisfaction = 1; MaritalStatus = Single
+1062,Sales,Sales Representative,No,2033,2,0,0.115,Low,0.1098,TotalWorkingYears = 1; Department = Sales; JobRole = Sales Representative
+1063,Research & Development,Manufacturing Director,Yes,10209,3,0,0.3901,Medium,0.3133,OverTime = Yes; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+1064,Sales,Sales Executive,No,8620,3,0,0.0377,Low,0.0307,Department = Sales; JobInvolvement = 2
+1065,Human Resources,Human Resources,No,2064,3,0,0.0345,Low,0.0255,No strong risk driver
+1066,Research & Development,Healthcare Representative,Yes,4035,3,0,0.0595,Low,0.0473,OverTime = Yes; TotalWorkingYears = 4
+1067,Research & Development,Laboratory Technician,No,3838,2,0,0.313,Medium,0.2298,NumCompaniesWorked = 8; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+1068,Sales,Sales Executive,Yes,4591,3,0,0.1753,Low,0.1527,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+1069,Research & Development,Laboratory Technician,No,2561,1,1,0.634,High,0.7387,NumCompaniesWorked = 7; JobSatisfaction = 1; MaritalStatus = Single
+1070,Research & Development,Research Scientist,No,1563,3,0,0.1434,Low,0.1433,TotalWorkingYears = 1; EnvironmentSatisfaction = 1; JobInvolvement = 2
+1071,Sales,Sales Executive,No,4898,1,0,0.2068,Low,0.1478,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; MaritalStatus = Single
+1072,Research & Development,Laboratory Technician,No,4789,1,0,0.1185,Low,0.1067,JobSatisfaction = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+1073,Research & Development,Laboratory Technician,No,3180,2,0,0.0363,Low,0.033,BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+1074,Research & Development,Manufacturing Director,No,6549,2,0,0.1345,Low,0.1048,JobInvolvement = 1; DistanceFromHome = 29; JobSatisfaction = 2
+1075,Research & Development,Healthcare Representative,Yes,6388,3,0,0.1086,Low,0.1,OverTime = Yes; MaritalStatus = Single; RelationshipSatisfaction = 1
+1076,Research & Development,Manager,No,11244,4,0,0.0231,Low,0.0255,No strong risk driver
+1077,Research & Development,Manager,No,16032,4,0,0.0038,Low,0.0036,No strong risk driver
+1078,Research & Development,Research Scientist,No,2362,1,1,0.4301,Medium,0.5365,EducationField = Technical Degree; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1079,Research & Development,Research Director,No,16328,1,0,0.0757,Low,0.0644,YearsSinceLastPromotion = 14; YearsAtCompany = 20; DistanceFromHome = 28
+1080,Research & Development,Manufacturing Director,No,8376,2,0,0.0479,Low,0.0475,MaritalStatus = Single; EnvironmentSatisfaction = 2; JobSatisfaction = 2
+1081,Sales,Manager,No,16606,2,0,0.0272,Low,0.0312,YearsSinceLastPromotion = 5; YearsAtCompany = 13; NumCompaniesWorked = 8
+1082,Research & Development,Healthcare Representative,No,8606,2,0,0.069,Low,0.0693,YearsSinceLastPromotion = 3; MaritalStatus = Single; YearsAtCompany = 11
+1083,Research & Development,Laboratory Technician,No,2272,3,0,0.2216,Low,0.2809,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1084,Research & Development,Laboratory Technician,No,2018,1,1,0.1945,Low,0.2448,JobSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1085,Sales,Sales Executive,Yes,7083,3,0,0.2573,Low,0.2351,OverTime = Yes; YearsSinceLastPromotion = 8; EducationField = Technical Degree
+1086,Research & Development,Research Scientist,No,4084,3,1,0.1476,Low,0.1978,YearsSinceLastPromotion = 7; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+1087,Research & Development,Research Director,Yes,14411,4,0,0.7788,High,0.786,YearsAtCompany = 32; YearsSinceLastPromotion = 13; OverTime = Yes
+1088,Sales,Sales Representative,Yes,2308,3,0,0.3483,Medium,0.3073,OverTime = Yes; YearsSinceLastPromotion = 5; EducationField = Technical Degree
+1089,Research & Development,Laboratory Technician,No,4841,2,0,0.2592,Low,0.2594,TotalWorkingYears = 4; NumCompaniesWorked = 4; JobRole = Laboratory Technician
+1090,Research & Development,Research Scientist,No,4285,4,0,0.0589,Low,0.0699,YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1; YearsAtCompany = 10
+1091,Research & Development,Healthcare Representative,No,9715,1,0,0.0435,Low,0.0505,JobInvolvement = 1; JobSatisfaction = 1
+1092,Research & Development,Manufacturing Director,No,4320,2,0,0.1354,Low,0.1526,DistanceFromHome = 25; MaritalStatus = Single; JobInvolvement = 2
+1093,Research & Development,Research Scientist,No,2132,4,0,0.0286,Low,0.0375,EducationField = Technical Degree; DistanceFromHome = 28
+1094,Research & Development,Healthcare Representative,Yes,10124,4,0,0.2713,Low,0.2224,YearsSinceLastPromotion = 13; OverTime = Yes; YearsAtCompany = 20
+1095,Sales,Sales Executive,No,5473,1,0,0.2305,Low,0.2178,YearsSinceLastPromotion = 7; JobSatisfaction = 1; EnvironmentSatisfaction = 1
+1096,Research & Development,Laboratory Technician,Yes,5207,3,0,0.3018,Medium,0.3375,OverTime = Yes; YearsSinceLastPromotion = 5; YearsAtCompany = 15
+1097,Human Resources,Manager,Yes,16437,4,0,0.1375,Low,0.1336,YearsAtCompany = 21; OverTime = Yes; YearsSinceLastPromotion = 7
+1098,Research & Development,Laboratory Technician,No,2296,1,0,0.3377,Medium,0.3264,EducationField = Technical Degree; JobSatisfaction = 1; JobRole = Laboratory Technician
+1099,Research & Development,Healthcare Representative,Yes,4069,4,0,0.0235,Low,0.0153,OverTime = Yes
+1100,Research & Development,Healthcare Representative,No,7441,2,0,0.0815,Low,0.0691,YearsSinceLastPromotion = 7; EducationField = Technical Degree; EnvironmentSatisfaction = 1
+1101,Sales,Sales Representative,No,2430,3,0,0.1498,Low,0.2059,YearsSinceLastPromotion = 4; DistanceFromHome = 28; Department = Sales
+1102,Research & Development,Research Scientist,No,5878,2,0,0.0382,Low,0.0478,JobInvolvement = 2; RelationshipSatisfaction = 1; JobSatisfaction = 2
+1103,Sales,Sales Representative,Yes,2644,4,0,0.3236,Medium,0.3233,OverTime = Yes; WorkLifeBalance = 2; MaritalStatus = Single
+1104,Sales,Sales Executive,No,6439,3,0,0.0431,Low,0.0531,YearsSinceLastPromotion = 7; NumCompaniesWorked = 8; Department = Sales
+1105,Research & Development,Research Scientist,No,2451,3,0,0.1934,Low,0.1117,NumCompaniesWorked = 6; TotalWorkingYears = 5; RelationshipSatisfaction = 1
+1106,Sales,Sales Executive,No,6392,1,0,0.1139,Low,0.107,EnvironmentSatisfaction = 1; JobSatisfaction = 1; Department = Sales
+1107,Sales,Sales Executive,No,9714,1,1,0.1308,Low,0.1181,YearsSinceLastPromotion = 6; JobSatisfaction = 1; YearsAtCompany = 10
+1108,Human Resources,Human Resources,No,6077,3,0,0.1339,Low,0.1568,BusinessTravel = Travel_Frequently; EducationField = Human Resources; Department = Human Resources
+1109,Research & Development,Laboratory Technician,No,2450,1,0,0.1953,Low,0.2148,JobSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1110,Sales,Sales Executive,No,9250,2,0,0.1914,Low,0.2332,EducationField = Technical Degree; DistanceFromHome = 29; Department = Sales
+1111,Research & Development,Laboratory Technician,Yes,2074,1,1,0.476,Medium,0.5592,OverTime = Yes; TotalWorkingYears = 1; EnvironmentSatisfaction = 1
+1112,Research & Development,Manufacturing Director,No,10169,4,1,0.0072,Low,0.0276,YearsAtCompany = 33; EducationField = Technical Degree; JobInvolvement = 2
+1113,Research & Development,Manufacturing Director,No,4855,2,1,0.0281,Low,0.0645,RelationshipSatisfaction = 1; NumCompaniesWorked = 4; JobSatisfaction = 2
+1114,Research & Development,Research Scientist,No,4087,1,0,0.0534,Low,0.0522,EducationField = Technical Degree; JobSatisfaction = 1; NumCompaniesWorked = 4
+1115,Research & Development,Research Scientist,No,2367,1,0,0.2764,Low,0.2232,YearsSinceLastPromotion = 7; NumCompaniesWorked = 8; JobSatisfaction = 1
+1116,Research & Development,Research Scientist,No,2972,4,0,0.3522,Medium,0.3255,TotalWorkingYears = 1; EnvironmentSatisfaction = 1; MaritalStatus = Single
+1117,Sales,Manager,No,19586,4,0,0.0408,Low,0.0302,YearsAtCompany = 36; DistanceFromHome = 26; Department = Sales
+1118,Research & Development,Research Scientist,No,5484,4,0,0.0493,Low,0.0556,NumCompaniesWorked = 9; EnvironmentSatisfaction = 2; WorkLifeBalance = 2
+1119,Research & Development,Research Scientist,No,2061,4,0,0.0863,Low,0.0893,TotalWorkingYears = 1; EnvironmentSatisfaction = 1; RelationshipSatisfaction = 1
+1120,Sales,Sales Executive,No,9924,2,0,0.056,Low,0.0471,YearsSinceLastPromotion = 7; Department = Sales; YearsAtCompany = 9
+1121,Sales,Sales Executive,No,4198,2,0,0.1598,Low,0.1224,MaritalStatus = Single; Department = Sales; EnvironmentSatisfaction = 2
+1122,Sales,Sales Executive,No,6815,3,0,0.1133,Low,0.1143,MaritalStatus = Single; Department = Sales; NumCompaniesWorked = 6
+1123,Research & Development,Laboratory Technician,Yes,4723,1,0,0.1799,Low,0.2274,OverTime = Yes; JobSatisfaction = 1; MaritalStatus = Single
+1124,Research & Development,Healthcare Representative,Yes,6142,3,0,0.2445,Low,0.1763,OverTime = Yes; EnvironmentSatisfaction = 1; MaritalStatus = Single
+1125,Sales,Sales Executive,No,8237,3,0,0.0366,Low,0.0276,YearsSinceLastPromotion = 7; Department = Sales
+1126,Research & Development,Healthcare Representative,No,8853,4,0,0.0256,Low,0.0248,EnvironmentSatisfaction = 1
+1127,Sales,Manager,Yes,19331,3,0,0.0545,Low,0.0739,OverTime = Yes; Department = Sales; EducationField = Marketing
+1128,Research & Development,Research Scientist,No,2073,3,0,0.0433,Low,0.033,EducationField = Technical Degree
+1129,Research & Development,Laboratory Technician,Yes,5562,1,0,0.4299,Medium,0.4392,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+1130,Research & Development,Manager,No,19613,4,0,0.0166,Low,0.016,No strong risk driver
+1131,Research & Development,Laboratory Technician,No,3407,3,0,0.0528,Low,0.0567,YearsSinceLastPromotion = 6; DistanceFromHome = 28; YearsAtCompany = 10
+1132,Research & Development,Healthcare Representative,No,5063,3,0,0.2749,Low,0.2246,YearsSinceLastPromotion = 7; EducationField = Technical Degree; BusinessTravel = Travel_Frequently
+1133,Sales,Sales Executive,No,4639,1,0,0.0847,Low,0.0612,JobSatisfaction = 1; Department = Sales; TotalWorkingYears = 5
+1134,Research & Development,Laboratory Technician,No,4876,2,0,0.1737,Low,0.1718,EducationField = Technical Degree; DistanceFromHome = 27; NumCompaniesWorked = 5
+1135,Research & Development,Laboratory Technician,No,2690,4,0,0.0763,Low,0.0746,TotalWorkingYears = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+1136,Sales,Manager,No,17567,1,0,0.0253,Low,0.0317,YearsAtCompany = 26; JobSatisfaction = 1; MaritalStatus = Single
+1137,Research & Development,Laboratory Technician,Yes,2408,2,1,0.5114,Medium,0.4887,OverTime = Yes; TotalWorkingYears = 1; DistanceFromHome = 24
+1138,Research & Development,Research Scientist,Yes,2814,3,0,0.5056,Medium,0.4238,OverTime = Yes; DistanceFromHome = 26; WorkLifeBalance = 2
+1139,Research & Development,Healthcare Representative,Yes,11245,3,0,0.3595,Medium,0.3943,YearsAtCompany = 30; OverTime = Yes; YearsSinceLastPromotion = 12
+1140,Research & Development,Research Scientist,No,3312,4,0,0.0141,Low,0.0131,No strong risk driver
+1141,Research & Development,Research Director,Yes,19049,4,0,0.0114,Low,0.0079,No strong risk driver
+1142,Research & Development,Research Scientist,No,2141,2,0,0.135,Low,0.1624,JobInvolvement = 2; EnvironmentSatisfaction = 2; JobSatisfaction = 2
+1143,Research & Development,Laboratory Technician,Yes,5769,1,0,0.3959,Medium,0.4799,OverTime = Yes; JobInvolvement = 1; JobSatisfaction = 1
+1144,Sales,Sales Executive,No,4385,1,0,0.4396,Medium,0.4813,YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1145,Sales,Sales Executive,No,5332,1,0,0.2743,Low,0.2632,NumCompaniesWorked = 7; JobSatisfaction = 1; BusinessTravel = Travel_Frequently
+1146,Research & Development,Manufacturing Director,Yes,4663,3,0,0.3069,Medium,0.3061,OverTime = Yes; NumCompaniesWorked = 9; TotalWorkingYears = 7
+1147,Research & Development,Manufacturing Director,No,4724,4,0,0.0398,Low,0.0558,YearsSinceLastPromotion = 7; BusinessTravel = Travel_Frequently; YearsAtCompany = 9
+1148,Research & Development,Laboratory Technician,No,3211,1,0,0.0711,Low,0.0697,JobSatisfaction = 1; DistanceFromHome = 25; JobRole = Laboratory Technician
+1149,Research & Development,Manufacturing Director,No,5377,1,0,0.0444,Low,0.0411,YearsSinceLastPromotion = 7; JobSatisfaction = 1; EnvironmentSatisfaction = 2
+1150,Research & Development,Laboratory Technician,No,4066,1,0,0.0485,Low,0.0675,JobSatisfaction = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+1151,Research & Development,Research Scientist,No,5208,1,0,0.0218,Low,0.0168,No strong risk driver
+1152,Research & Development,Manufacturing Director,No,4877,1,0,0.1613,Low,0.1912,JobInvolvement = 1; JobSatisfaction = 1; DistanceFromHome = 27
+1153,Research & Development,Research Scientist,No,3117,4,0,0.068,Low,0.0517,MaritalStatus = Single; TotalWorkingYears = 3
+1154,Sales,Sales Representative,Yes,1569,4,1,0.9016,High,0.8843,TotalWorkingYears = 0; OverTime = Yes; BusinessTravel = Travel_Frequently
+1155,Human Resources,Manager,No,19658,3,0,0.0052,Low,0.0089,No strong risk driver
+1156,Research & Development,Laboratory Technician,No,3069,3,0,0.015,Low,0.0134,No strong risk driver
+1157,Research & Development,Manufacturing Director,No,10435,3,0,0.0486,Low,0.0394,YearsSinceLastPromotion = 14; YearsAtCompany = 18; EnvironmentSatisfaction = 1
+1158,Research & Development,Healthcare Representative,No,4148,3,0,0.0028,Low,0.0023,No strong risk driver
+1159,Research & Development,Manufacturing Director,No,5768,3,0,0.0649,Low,0.0503,DistanceFromHome = 19; RelationshipSatisfaction = 1
+1160,Research & Development,Manufacturing Director,No,5042,3,0,0.1548,Low,0.1805,YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1; MaritalStatus = Single
+1161,Research & Development,Manufacturing Director,No,5770,4,0,0.0132,Low,0.0057,No strong risk driver
+1162,Research & Development,Manufacturing Director,Yes,7756,3,0,0.0214,Low,0.0196,OverTime = Yes
+1163,Sales,Sales Executive,No,10306,1,1,0.2195,Low,0.2824,YearsSinceLastPromotion = 6; NumCompaniesWorked = 9; YearsAtCompany = 13
+1164,Research & Development,Research Scientist,No,3936,2,0,0.2326,Low,0.1538,YearsSinceLastPromotion = 7; WorkLifeBalance = 1; RelationshipSatisfaction = 1
+1165,Research & Development,Manufacturing Director,Yes,7945,4,0,0.2598,Low,0.2788,OverTime = Yes; YearsSinceLastPromotion = 3; WorkLifeBalance = 2
+1166,Human Resources,Human Resources,Yes,5743,4,0,0.3473,Medium,0.4238,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+1167,Research & Development,Manager,No,15202,4,0,0.0168,Low,0.0096,No strong risk driver
+1168,Sales,Sales Executive,Yes,5440,4,1,0.523,Medium,0.5997,OverTime = Yes; JobInvolvement = 1; EnvironmentSatisfaction = 1
+1169,Research & Development,Research Scientist,Yes,3760,4,0,0.5177,Medium,0.5795,OverTime = Yes; BusinessTravel = Travel_Frequently; EducationField = Technical Degree
+1170,Research & Development,Research Scientist,No,3517,3,0,0.191,Low,0.1946,NumCompaniesWorked = 7; TotalWorkingYears = 5; TrainingTimesLastYear = 0
+1171,Research & Development,Research Scientist,No,2580,4,0,0.1111,Low,0.0996,MaritalStatus = Single; BusinessTravel = Travel_Frequently; TrainingTimesLastYear = 0
+1172,Research & Development,Laboratory Technician,Yes,2166,1,1,0.8157,High,0.7627,OverTime = Yes; WorkLifeBalance = 1; EnvironmentSatisfaction = 1
+1173,Sales,Sales Executive,No,5869,3,0,0.4038,Medium,0.4422,NumCompaniesWorked = 9; MaritalStatus = Single; Department = Sales
+1174,Research & Development,Healthcare Representative,No,8008,1,0,0.0304,Low,0.0276,JobSatisfaction = 1
+1175,Research & Development,Manufacturing Director,No,5206,3,0,0.0047,Low,0.0026,No strong risk driver
+1176,Research & Development,Manufacturing Director,No,5295,2,0,0.0556,Low,0.0588,NumCompaniesWorked = 4; JobSatisfaction = 2; YearsWithCurrManager = 0
+1177,Research & Development,Research Director,No,16413,2,0,0.026,Low,0.0264,EnvironmentSatisfaction = 1
+1178,Research & Development,Research Director,No,13269,1,0,0.0045,Low,0.0039,No strong risk driver
+1179,Sales,Sales Representative,No,2783,3,0,0.1709,Low,0.1571,TotalWorkingYears = 2; MaritalStatus = Single; Department = Sales
+1180,Research & Development,Research Scientist,No,5433,2,0,0.013,Low,0.0126,No strong risk driver
+1181,Research & Development,Laboratory Technician,No,2013,2,0,0.1575,Low,0.2,EnvironmentSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1182,Research & Development,Healthcare Representative,Yes,13966,3,0,0.0132,Low,0.0089,No strong risk driver
+1183,Research & Development,Manufacturing Director,No,4374,3,0,0.0117,Low,0.0063,No strong risk driver
+1184,Research & Development,Healthcare Representative,No,6842,1,0,0.0235,Low,0.0158,No strong risk driver
+1185,Research & Development,Manager,No,17426,3,0,0.005,Low,0.0059,No strong risk driver
+1186,Research & Development,Research Director,No,17603,3,0,0.0093,Low,0.0132,No strong risk driver
+1187,Sales,Sales Executive,Yes,4581,4,1,0.3366,Medium,0.4106,OverTime = Yes; YearsSinceLastPromotion = 6; BusinessTravel = Travel_Frequently
+1188,Research & Development,Research Scientist,No,4735,4,0,0.0027,Low,0.003,No strong risk driver
+1189,Sales,Sales Executive,Yes,4187,2,0,0.4098,Medium,0.4647,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+1190,Sales,Sales Executive,No,5505,4,0,0.0144,Low,0.0089,No strong risk driver
+1191,Research & Development,Research Scientist,No,5470,2,0,0.0111,Low,0.008,No strong risk driver
+1192,Sales,Sales Executive,No,5476,4,0,0.0678,Low,0.0934,EnvironmentSatisfaction = 1; Department = Sales; RelationshipSatisfaction = 1
+1193,Research & Development,Laboratory Technician,Yes,2587,1,0,0.2608,Low,0.2759,OverTime = Yes; JobSatisfaction = 1; WorkLifeBalance = 2
+1194,Research & Development,Laboratory Technician,No,2440,2,0,0.3415,Medium,0.2908,YearsSinceLastPromotion = 3; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+1195,Sales,Manager,No,15972,2,0,0.0083,Low,0.0056,No strong risk driver
+1196,Research & Development,Manager,No,15379,3,0,0.0209,Low,0.0237,No strong risk driver
+1197,Sales,Sales Executive,Yes,7082,3,0,0.1549,Low,0.1578,OverTime = Yes; DistanceFromHome = 23; MaritalStatus = Single
+1198,Sales,Sales Representative,No,2728,1,0,0.4254,Medium,0.4236,JobSatisfaction = 1; TotalWorkingYears = 2; MaritalStatus = Single
+1199,Sales,Sales Executive,Yes,5368,4,0,0.0568,Low,0.0322,OverTime = Yes; Department = Sales
+1200,Research & Development,Healthcare Representative,No,5347,3,0,0.1337,Low,0.1308,EnvironmentSatisfaction = 1; DistanceFromHome = 26; NumCompaniesWorked = 6
+1201,Human Resources,Human Resources,Yes,3195,4,0,0.0664,Low,0.0536,OverTime = Yes; RelationshipSatisfaction = 1; NumCompaniesWorked = 4
+1202,Research & Development,Laboratory Technician,Yes,3989,3,1,0.3457,Medium,0.4675,OverTime = Yes; MaritalStatus = Single; JobRole = Laboratory Technician
+1203,Research & Development,Laboratory Technician,No,3306,3,0,0.0385,Low,0.0384,NumCompaniesWorked = 7; JobRole = Laboratory Technician; YearsSinceLastPromotion = 0
+1204,Research & Development,Healthcare Representative,No,7005,4,0,0.0323,Low,0.0177,No strong risk driver
+1205,Sales,Sales Representative,Yes,2655,3,1,0.2672,Low,0.2543,OverTime = Yes; YearsSinceLastPromotion = 7; BusinessTravel = Travel_Frequently
+1206,Research & Development,Laboratory Technician,No,1393,2,1,0.1535,Low,0.2673,TotalWorkingYears = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1207,Research & Development,Laboratory Technician,No,2570,4,0,0.0147,Low,0.0214,YearsSinceLastPromotion = 5
+1208,Research & Development,Research Scientist,No,3537,2,0,0.3064,Medium,0.2915,EducationField = Technical Degree; EnvironmentSatisfaction = 1; NumCompaniesWorked = 5
+1209,Research & Development,Laboratory Technician,No,3986,4,0,0.0194,Low,0.0282,YearsSinceLastPromotion = 4; YearsAtCompany = 15; JobRole = Laboratory Technician
+1210,Research & Development,Healthcare Representative,No,10883,4,0,0.0085,Low,0.0124,No strong risk driver
+1211,Research & Development,Laboratory Technician,No,2028,2,0,0.0132,Low,0.0097,No strong risk driver
+1212,Sales,Sales Executive,No,9525,4,0,0.1043,Low,0.0717,JobInvolvement = 1; BusinessTravel = Travel_Frequently; Department = Sales
+1213,Research & Development,Research Scientist,No,2929,4,0,0.0821,Low,0.0887,YearsSinceLastPromotion = 8; YearsAtCompany = 10; JobInvolvement = 2
+1214,Sales,Sales Representative,Yes,2275,4,1,0.2041,Low,0.2203,OverTime = Yes; Department = Sales; JobRole = Sales Representative
+1215,Research & Development,Healthcare Representative,Yes,7879,4,0,0.0247,Low,0.0189,OverTime = Yes; YearsSinceLastPromotion = 6
+1216,Research & Development,Research Scientist,Yes,4930,4,0,0.3428,Medium,0.3966,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+1217,Sales,Sales Executive,Yes,7847,4,0,0.0689,Low,0.0637,OverTime = Yes; YearsSinceLastPromotion = 8; YearsAtCompany = 10
+1218,Research & Development,Research Scientist,No,4401,3,0,0.0244,Low,0.0216,No strong risk driver
+1219,Sales,Sales Executive,No,9241,3,0,0.1031,Low,0.0953,YearsSinceLastPromotion = 8; YearsAtCompany = 10; MaritalStatus = Single
+1220,Research & Development,Laboratory Technician,No,2974,3,0,0.117,Low,0.0852,NumCompaniesWorked = 9; JobRole = Laboratory Technician; TrainingTimesLastYear = 2
+1221,Sales,Sales Representative,No,4502,4,0,0.1468,Low,0.1266,YearsSinceLastPromotion = 6; YearsAtCompany = 13; MaritalStatus = Single
+1222,Research & Development,Healthcare Representative,No,10748,3,0,0.0157,Low,0.0214,YearsAtCompany = 23; YearsSinceLastPromotion = 14
+1223,Human Resources,Human Resources,No,1555,3,1,0.3792,Medium,0.4479,JobInvolvement = 1; TotalWorkingYears = 1; DistanceFromHome = 22
+1224,Sales,Sales Executive,No,12936,3,1,0.4989,Medium,0.5472,YearsAtCompany = 23; YearsSinceLastPromotion = 14; JobInvolvement = 1
+1225,Research & Development,Laboratory Technician,No,2305,3,0,0.1125,Low,0.0894,JobInvolvement = 1; JobRole = Laboratory Technician; TotalWorkingYears = 3
+1226,Research & Development,Research Director,No,16704,2,0,0.242,Low,0.2577,YearsAtCompany = 21; YearsSinceLastPromotion = 8; EducationField = Technical Degree
+1227,Research & Development,Research Scientist,No,3433,3,0,0.2989,Low,0.2743,EnvironmentSatisfaction = 1; NumCompaniesWorked = 6; BusinessTravel = Travel_Frequently
+1228,Research & Development,Laboratory Technician,No,3477,3,0,0.0487,Low,0.0464,JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+1229,Human Resources,Human Resources,No,6430,2,0,0.1087,Low,0.1105,JobInvolvement = 1; NumCompaniesWorked = 6; EducationField = Human Resources
+1230,Research & Development,Manufacturing Director,Yes,6516,1,0,0.1663,Low,0.1772,OverTime = Yes; JobSatisfaction = 1; EnvironmentSatisfaction = 2
+1231,Research & Development,Laboratory Technician,No,3907,1,0,0.179,Low,0.2024,DistanceFromHome = 29; JobSatisfaction = 1; JobRole = Laboratory Technician
+1232,Research & Development,Healthcare Representative,No,5562,2,0,0.0391,Low,0.026,MaritalStatus = Single
+1233,Research & Development,Manufacturing Director,No,6883,3,0,0.0179,Low,0.0102,No strong risk driver
+1234,Research & Development,Research Scientist,No,2862,4,0,0.0706,Low,0.0576,EnvironmentSatisfaction = 2; YearsInCurrentRole = 0; YearsAtCompany = 10
+1235,Sales,Sales Executive,No,4978,2,0,0.2912,Low,0.2659,NumCompaniesWorked = 7; TotalWorkingYears = 4; Department = Sales
+1236,Sales,Sales Executive,Yes,10368,4,0,0.0522,Low,0.0557,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+1237,Sales,Sales Executive,Yes,6134,1,1,0.3521,Medium,0.3485,OverTime = Yes; JobSatisfaction = 1; Department = Sales
+1238,Sales,Sales Executive,No,6735,2,1,0.5485,Medium,0.5695,JobInvolvement = 1; EnvironmentSatisfaction = 1; NumCompaniesWorked = 6
+1239,Research & Development,Laboratory Technician,No,3295,2,0,0.2911,Low,0.2296,MaritalStatus = Single; JobRole = Laboratory Technician; TotalWorkingYears = 3
+1240,Research & Development,Manufacturing Director,No,5238,4,0,0.0996,Low,0.0901,EducationField = Technical Degree; DistanceFromHome = 24; MaritalStatus = Single
+1241,Research & Development,Laboratory Technician,Yes,6472,4,0,0.0259,Low,0.0238,OverTime = Yes; YearsSinceLastPromotion = 5
+1242,Sales,Sales Executive,No,9610,3,0,0.1237,Low,0.149,JobInvolvement = 1; Department = Sales; WorkLifeBalance = 1
+1243,Sales,Manager,No,19833,2,0,0.179,Low,0.1993,YearsAtCompany = 21; YearsSinceLastPromotion = 12; MaritalStatus = Single
+1244,Human Resources,Human Resources,No,9756,3,0,0.0668,Low,0.0544,JobInvolvement = 1; YearsInCurrentRole = 0; NumCompaniesWorked = 4
+1245,Research & Development,Research Scientist,No,4968,1,0,0.05,Low,0.0705,EducationField = Technical Degree; JobSatisfaction = 1; MaritalStatus = Single
+1246,Human Resources,Human Resources,No,2145,4,0,0.0893,Low,0.0985,EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently; Department = Human Resources
+1247,Human Resources,Human Resources,No,2180,4,1,0.2868,Low,0.3016,NumCompaniesWorked = 6; BusinessTravel = Travel_Frequently; TrainingTimesLastYear = 0
+1248,Sales,Sales Executive,No,8346,3,0,0.1216,Low,0.143,EducationField = Technical Degree; EnvironmentSatisfaction = 1; Department = Sales
+1249,Research & Development,Research Scientist,No,3445,4,0,0.0364,Low,0.03,MaritalStatus = Single
+1250,Sales,Sales Representative,No,2760,2,1,0.4712,Medium,0.5873,JobInvolvement = 1; TotalWorkingYears = 2; MaritalStatus = Single
+1251,Research & Development,Healthcare Representative,Yes,6294,3,0,0.2472,Low,0.1656,OverTime = Yes; NumCompaniesWorked = 8; BusinessTravel = Travel_Frequently
+1252,Sales,Sales Executive,No,7140,1,0,0.134,Low,0.099,JobSatisfaction = 1; Department = Sales; JobInvolvement = 2
+1253,Research & Development,Research Scientist,Yes,2932,4,0,0.0257,Low,0.0343,OverTime = Yes; RelationshipSatisfaction = 1
+1254,Sales,Sales Executive,No,5147,2,0,0.0553,Low,0.0409,NumCompaniesWorked = 8; MaritalStatus = Single; Department = Sales
+1255,Sales,Sales Executive,No,4507,4,0,0.0273,Low,0.0465,MaritalStatus = Single; Department = Sales; EducationField = Marketing
+1256,Sales,Sales Executive,Yes,8564,1,1,0.8172,High,0.7116,OverTime = Yes; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1257,Research & Development,Laboratory Technician,No,2468,2,0,0.1758,Low,0.1669,BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician; JobInvolvement = 2
+1258,Sales,Sales Executive,No,8161,3,1,0.1021,Low,0.1671,EnvironmentSatisfaction = 1; Department = Sales; RelationshipSatisfaction = 1
+1259,Research & Development,Research Scientist,No,2109,1,0,0.1925,Low,0.185,TotalWorkingYears = 1; EducationField = Technical Degree; JobSatisfaction = 1
+1260,Research & Development,Healthcare Representative,No,5294,3,0,0.0213,Low,0.0212,No strong risk driver
+1261,Research & Development,Research Scientist,No,2718,2,0,0.0452,Low,0.0567,EducationField = Technical Degree; MaritalStatus = Single; EnvironmentSatisfaction = 2
+1262,Research & Development,Healthcare Representative,Yes,5811,4,0,0.2463,Low,0.2474,OverTime = Yes; JobInvolvement = 1; EnvironmentSatisfaction = 2
+1263,Research & Development,Research Scientist,Yes,2437,3,1,0.8429,High,0.7891,OverTime = Yes; NumCompaniesWorked = 9; BusinessTravel = Travel_Frequently
+1264,Research & Development,Laboratory Technician,No,2766,2,0,0.1302,Low,0.1032,NumCompaniesWorked = 8; JobRole = Laboratory Technician; JobSatisfaction = 2
+1265,Research & Development,Research Director,No,19038,1,0,0.0163,Low,0.0235,JobSatisfaction = 1
+1266,Research & Development,Research Scientist,No,3055,2,0,0.0139,Low,0.0105,No strong risk driver
+1267,Research & Development,Laboratory Technician,No,2289,1,0,0.0523,Low,0.0638,JobSatisfaction = 1; JobRole = Laboratory Technician; PerformanceRating = 4
+1268,Sales,Sales Executive,Yes,4001,3,0,0.0173,Low,0.0102,No strong risk driver
+1269,Research & Development,Manufacturing Director,Yes,12965,3,0,0.0433,Low,0.0364,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+1270,Human Resources,Human Resources,No,3539,4,0,0.0358,Low,0.025,MaritalStatus = Single
+1271,Sales,Sales Executive,No,6029,4,0,0.1524,Low,0.1875,JobInvolvement = 1; NumCompaniesWorked = 5; MaritalStatus = Single
+1272,Sales,Sales Representative,No,2679,2,1,0.655,High,0.6891,TotalWorkingYears = 1; MaritalStatus = Single; Department = Sales
+1273,Research & Development,Laboratory Technician,No,3702,3,0,0.0429,Low,0.0383,JobRole = Laboratory Technician; JobInvolvement = 2
+1274,Research & Development,Laboratory Technician,Yes,2398,1,1,0.3696,Medium,0.39,OverTime = Yes; TotalWorkingYears = 1; JobSatisfaction = 1
+1275,Sales,Sales Executive,No,5468,4,0,0.359,Medium,0.2821,YearsSinceLastPromotion = 5; EnvironmentSatisfaction = 1; DistanceFromHome = 29
+1276,Research & Development,Manager,No,13116,3,0,0.0607,Low,0.0313,EducationField = Technical Degree; EnvironmentSatisfaction = 1
+1277,Sales,Sales Executive,No,4189,2,0,0.271,Low,0.2394,Department = Sales; JobInvolvement = 2; RelationshipSatisfaction = 1
+1278,Research & Development,Research Director,Yes,19328,4,0,0.0109,Low,0.0103,No strong risk driver
+1279,Research & Development,Healthcare Representative,Yes,8321,1,0,0.1446,Low,0.1745,OverTime = Yes; YearsSinceLastPromotion = 5; JobSatisfaction = 1
+1280,Research & Development,Research Scientist,Yes,2342,2,1,0.1356,Low,0.1593,OverTime = Yes; BusinessTravel = Travel_Frequently; JobSatisfaction = 2
+1281,Human Resources,Human Resources,No,4071,2,0,0.1386,Low,0.1109,YearsSinceLastPromotion = 4; YearsAtCompany = 10; JobSatisfaction = 2
+1282,Sales,Sales Executive,Yes,5813,4,1,0.3587,Medium,0.3333,OverTime = Yes; YearsSinceLastPromotion = 7; DistanceFromHome = 27
+1283,Research & Development,Research Scientist,No,3143,1,0,0.0913,Low,0.0693,YearsSinceLastPromotion = 7; JobSatisfaction = 1; YearsAtCompany = 10
+1284,Research & Development,Research Scientist,No,2044,4,0,0.013,Low,0.0075,No strong risk driver
+1285,Research & Development,Research Director,No,13464,3,0,0.0869,Low,0.053,NumCompaniesWorked = 7; MaritalStatus = Single
+1286,Sales,Sales Executive,No,7991,2,0,0.5338,Medium,0.4219,NumCompaniesWorked = 8; TotalWorkingYears = 6; DistanceFromHome = 26
+1287,Research & Development,Laboratory Technician,No,3377,1,0,0.0471,Low,0.0553,JobSatisfaction = 1; JobRole = Laboratory Technician; NumCompaniesWorked = 4
+1288,Research & Development,Healthcare Representative,No,5538,1,0,0.0497,Low,0.0647,JobSatisfaction = 1; NumCompaniesWorked = 5; EnvironmentSatisfaction = 2
+1289,Research & Development,Manufacturing Director,No,5762,4,0,0.003,Low,0.002,No strong risk driver
+1290,Human Resources,Human Resources,No,2592,2,0,0.0344,Low,0.0339,YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1; YearsAtCompany = 11
+1291,Research & Development,Laboratory Technician,No,5346,1,1,0.0757,Low,0.1098,JobSatisfaction = 1; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+1292,Research & Development,Manufacturing Director,No,4213,1,1,0.0524,Low,0.0783,JobSatisfaction = 1; MaritalStatus = Single; WorkLifeBalance = 1
+1293,Sales,Sales Executive,No,4127,4,0,0.0205,Low,0.0237,No strong risk driver
+1294,Research & Development,Research Scientist,No,2438,3,0,0.1598,Low,0.1323,EnvironmentSatisfaction = 1; MaritalStatus = Single; NumCompaniesWorked = 4
+1295,Research & Development,Healthcare Representative,No,6870,2,0,0.1308,Low,0.1138,MaritalStatus = Single; WorkLifeBalance = 1; RelationshipSatisfaction = 1
+1296,Sales,Sales Executive,Yes,10447,3,0,0.1067,Low,0.1054,YearsAtCompany = 22; YearsSinceLastPromotion = 13; OverTime = Yes
+1297,Research & Development,Manufacturing Director,No,9667,3,0,0.1307,Low,0.1522,NumCompaniesWorked = 9; EnvironmentSatisfaction = 1; MaritalStatus = Single
+1298,Human Resources,Human Resources,Yes,2148,2,1,0.1136,Low,0.1876,OverTime = Yes; DistanceFromHome = 20; JobSatisfaction = 2
+1299,Research & Development,Healthcare Representative,No,8926,2,1,0.0155,Low,0.0188,YearsSinceLastPromotion = 3
+1300,Research & Development,Healthcare Representative,No,6513,4,0,0.0077,Low,0.0037,No strong risk driver
+1301,Sales,Sales Executive,No,6799,3,0,0.0319,Low,0.0404,YearsSinceLastPromotion = 4; EducationField = Technical Degree; Department = Sales
+1302,Sales,Manager,No,16291,2,0,0.0365,Low,0.019,YearsSinceLastPromotion = 14; YearsAtCompany = 16
+1303,Research & Development,Laboratory Technician,No,2705,3,0,0.1684,Low,0.1946,JobInvolvement = 1; DistanceFromHome = 23; JobRole = Laboratory Technician
+1304,Research & Development,Manufacturing Director,Yes,10333,2,0,0.1743,Low,0.1691,YearsAtCompany = 22; YearsSinceLastPromotion = 14; OverTime = Yes
+1305,Research & Development,Healthcare Representative,No,4448,1,0,0.0839,Low,0.0649,YearsSinceLastPromotion = 7; JobSatisfaction = 1; EnvironmentSatisfaction = 2
+1306,Research & Development,Research Scientist,No,6854,4,0,0.0082,Low,0.0104,No strong risk driver
+1307,Sales,Sales Executive,No,9637,1,0,0.1379,Low,0.1264,JobSatisfaction = 1; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+1308,Research & Development,Research Scientist,No,3591,1,0,0.0249,Low,0.0311,JobSatisfaction = 1; TotalWorkingYears = 3
+1309,Sales,Sales Representative,Yes,5405,4,0,0.4528,Medium,0.3665,OverTime = Yes; JobInvolvement = 1; WorkLifeBalance = 2
+1310,Sales,Sales Executive,No,4684,4,0,0.154,Low,0.1136,MaritalStatus = Single; Department = Sales; RelationshipSatisfaction = 1
+1311,Research & Development,Research Director,Yes,15787,3,0,0.1329,Low,0.1206,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+1312,Research & Development,Research Scientist,No,1514,3,0,0.2062,Low,0.2529,TotalWorkingYears = 0; MaritalStatus = Single; WorkLifeBalance = 1
+1313,Human Resources,Human Resources,No,2956,1,1,0.0742,Low,0.1264,JobSatisfaction = 1; TotalWorkingYears = 2; EducationField = Human Resources
+1314,Human Resources,Human Resources,Yes,2335,1,1,0.5887,Medium,0.6776,OverTime = Yes; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1315,Sales,Sales Executive,No,5154,3,0,0.0161,Low,0.013,No strong risk driver
+1316,Research & Development,Research Scientist,Yes,6962,2,0,0.0563,Low,0.0609,OverTime = Yes; JobSatisfaction = 2; YearsWithCurrManager = 0
+1317,Sales,Sales Executive,No,5675,4,0,0.0453,Low,0.0463,YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+1318,Research & Development,Laboratory Technician,Yes,2379,4,0,0.2373,Low,0.2025,OverTime = Yes; MaritalStatus = Single; BusinessTravel = Travel_Frequently
+1319,Research & Development,Laboratory Technician,No,3812,4,0,0.0692,Low,0.064,YearsSinceLastPromotion = 3; BusinessTravel = Travel_Frequently; YearsAtCompany = 11
+1320,Sales,Sales Executive,No,4648,4,0,0.5003,Medium,0.4821,NumCompaniesWorked = 8; TotalWorkingYears = 4; BusinessTravel = Travel_Frequently
+1321,Research & Development,Research Scientist,No,2936,3,0,0.1301,Low,0.1006,EducationField = Technical Degree; YearsSinceLastPromotion = 3; TrainingTimesLastYear = 1
+1322,Research & Development,Laboratory Technician,No,2105,3,0,0.1818,Low,0.1819,MaritalStatus = Single; JobRole = Laboratory Technician; EnvironmentSatisfaction = 2
+1323,Research & Development,Manufacturing Director,No,8578,4,0,0.005,Low,0.0064,No strong risk driver
+1324,Human Resources,Human Resources,No,2706,4,0,0.0236,Low,0.0207,No strong risk driver
+1325,Research & Development,Healthcare Representative,No,6384,3,0,0.0879,Low,0.0714,JobInvolvement = 1; NumCompaniesWorked = 8; DistanceFromHome = 29
+1326,Research & Development,Laboratory Technician,No,3968,3,0,0.082,Low,0.079,MaritalStatus = Single; JobRole = Laboratory Technician; NumCompaniesWorked = 4
+1327,Sales,Sales Executive,Yes,9907,2,1,0.7883,High,0.8188,OverTime = Yes; NumCompaniesWorked = 7; WorkLifeBalance = 2
+1328,Sales,Sales Executive,No,13225,1,0,0.0127,Low,0.007,No strong risk driver
+1329,Sales,Sales Representative,No,3540,3,0,0.1072,Low,0.0954,YearsSinceLastPromotion = 5; DistanceFromHome = 23; Department = Sales
+1330,Human Resources,Human Resources,No,2804,2,0,0.2548,Low,0.2508,TotalWorkingYears = 1; JobInvolvement = 2; JobSatisfaction = 2
+1331,Research & Development,Manager,No,19392,3,0,0.0283,Low,0.0178,YearsSinceLastPromotion = 6; YearsAtCompany = 16
+1332,Research & Development,Research Director,No,19665,2,0,0.0292,Low,0.0259,YearsAtCompany = 22; YearsSinceLastPromotion = 12
+1333,Research & Development,Research Scientist,Yes,2439,4,1,0.6456,High,0.6991,OverTime = Yes; TotalWorkingYears = 1; DistanceFromHome = 24
+1334,Sales,Sales Executive,No,7314,2,1,0.0126,Low,0.0112,No strong risk driver
+1335,Research & Development,Research Scientist,No,4774,1,0,0.1692,Low,0.1219,YearsSinceLastPromotion = 7; JobSatisfaction = 1; BusinessTravel = Travel_Frequently
+1336,Research & Development,Research Scientist,No,3902,4,0,0.0319,Low,0.0313,NumCompaniesWorked = 8
+1337,Research & Development,Research Scientist,No,2662,4,0,0.0514,Low,0.0742,EducationField = Technical Degree; NumCompaniesWorked = 8; JobInvolvement = 2
+1338,Sales,Sales Representative,No,2856,2,0,0.1617,Low,0.1724,TotalWorkingYears = 1; Department = Sales; JobRole = Sales Representative
+1339,Sales,Sales Representative,No,1081,4,1,0.359,Medium,0.3352,TotalWorkingYears = 1; MaritalStatus = Single; Department = Sales
+1340,Research & Development,Research Scientist,Yes,2472,2,1,0.5988,Medium,0.5452,OverTime = Yes; TotalWorkingYears = 1; MaritalStatus = Single
+1341,Sales,Sales Executive,Yes,5673,3,0,0.206,Low,0.1986,OverTime = Yes; EducationField = Technical Degree; Department = Sales
+1342,Research & Development,Laboratory Technician,No,4197,3,0,0.0936,Low,0.1001,JobRole = Laboratory Technician; DistanceFromHome = 20; RelationshipSatisfaction = 1
+1343,Sales,Sales Executive,Yes,9713,4,0,0.072,Low,0.0483,OverTime = Yes; Department = Sales; YearsWithCurrManager = 0
+1344,Research & Development,Laboratory Technician,No,2062,1,0,0.1752,Low,0.2028,JobSatisfaction = 1; MaritalStatus = Single; JobRole = Laboratory Technician
+1345,Research & Development,Research Scientist,Yes,4284,1,0,0.0904,Low,0.1003,OverTime = Yes; JobSatisfaction = 1; NumCompaniesWorked = 5
+1346,Research & Development,Manufacturing Director,Yes,4788,2,0,0.1926,Low,0.1999,OverTime = Yes; JobInvolvement = 2; JobSatisfaction = 2
+1347,Research & Development,Manufacturing Director,No,5906,4,0,0.0273,Low,0.0334,YearsSinceLastPromotion = 3; DistanceFromHome = 25; JobInvolvement = 2
+1348,Human Resources,Human Resources,No,3886,4,0,0.1208,Low,0.1387,MaritalStatus = Single; BusinessTravel = Travel_Frequently; JobInvolvement = 2
+1349,Research & Development,Manager,No,16823,1,0,0.0627,Low,0.0462,YearsSinceLastPromotion = 11; YearsAtCompany = 19; EnvironmentSatisfaction = 1
+1350,Research & Development,Research Scientist,Yes,2933,3,0,0.5012,Medium,0.4761,OverTime = Yes; TotalWorkingYears = 1; WorkLifeBalance = 2
+1351,Sales,Sales Executive,No,6500,3,0,0.0355,Low,0.0344,EnvironmentSatisfaction = 1; MaritalStatus = Single; Department = Sales
+1352,Research & Development,Manager,No,17174,4,0,0.0158,Low,0.0088,No strong risk driver
+1353,Research & Development,Healthcare Representative,No,5033,1,0,0.0287,Low,0.0186,No strong risk driver
+1354,Research & Development,Research Scientist,Yes,2307,1,1,0.4653,Medium,0.6195,OverTime = Yes; JobInvolvement = 1; EducationField = Technical Degree
+1355,Research & Development,Laboratory Technician,No,2587,4,1,0.1,Low,0.1326,EnvironmentSatisfaction = 1; DistanceFromHome = 24; MaritalStatus = Single
+1356,Sales,Sales Executive,No,5507,2,0,0.2394,Low,0.2178,Department = Sales; WorkLifeBalance = 1; JobInvolvement = 2
+1357,Sales,Sales Executive,No,4393,2,0,0.0588,Low,0.0551,Department = Sales; EducationField = Marketing; NumCompaniesWorked = 5
+1358,Research & Development,Research Director,No,13348,1,0,0.0602,Low,0.0577,YearsSinceLastPromotion = 5; NumCompaniesWorked = 9; JobSatisfaction = 1
+1359,Sales,Sales Executive,Yes,6583,4,0,0.0657,Low,0.0629,OverTime = Yes; Department = Sales
+1360,Sales,Sales Executive,Yes,8103,4,0,0.1993,Low,0.1953,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+1361,Research & Development,Laboratory Technician,No,3978,3,0,0.4901,Medium,0.3882,NumCompaniesWorked = 8; TotalWorkingYears = 4; EnvironmentSatisfaction = 1
+1362,Research & Development,Laboratory Technician,No,2544,4,0,0.0461,Low,0.0463,YearsSinceLastPromotion = 7; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+1363,Research & Development,Healthcare Representative,No,5399,3,0,0.1177,Low,0.0736,MaritalStatus = Single; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 2
+1364,Sales,Sales Executive,No,5487,3,0,0.1767,Low,0.1682,MaritalStatus = Single; Department = Sales; EducationField = Marketing
+1365,Sales,Sales Executive,Yes,6834,4,0,0.1692,Low,0.165,OverTime = Yes; BusinessTravel = Travel_Frequently; Department = Sales
+1366,Sales,Sales Representative,No,1091,1,1,0.7494,High,0.6792,EducationField = Technical Degree; JobSatisfaction = 1; TotalWorkingYears = 1
+1367,Sales,Sales Executive,No,5736,3,0,0.1556,Low,0.1453,JobInvolvement = 1; EnvironmentSatisfaction = 1; NumCompaniesWorked = 6
+1368,Research & Development,Research Scientist,No,2226,2,0,0.1079,Low,0.1163,EducationField = Technical Degree; EnvironmentSatisfaction = 2; JobSatisfaction = 2
+1369,Research & Development,Research Scientist,Yes,5747,4,0,0.3938,Medium,0.3275,OverTime = Yes; YearsSinceLastPromotion = 6; YearsAtCompany = 15
+1370,Sales,Sales Executive,Yes,9854,3,1,0.2575,Low,0.3821,OverTime = Yes; MaritalStatus = Single; TotalWorkingYears = 6
+1371,Research & Development,Research Scientist,No,5467,2,0,0.0125,Low,0.0144,No strong risk driver
+1372,Sales,Sales Executive,No,5380,1,0,0.1851,Low,0.1219,JobSatisfaction = 1; Department = Sales; JobInvolvement = 2
+1373,Research & Development,Manufacturing Director,No,5151,1,0,0.1898,Low,0.1254,YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1374,Research & Development,Research Scientist,Yes,2133,2,0,0.0985,Low,0.069,OverTime = Yes; YearsAtCompany = 20; BusinessTravel = Travel_Frequently
+1375,Sales,Manager,Yes,17875,4,0,0.0683,Low,0.0498,OverTime = Yes; WorkLifeBalance = 2; Department = Sales
+1376,Research & Development,Research Scientist,Yes,2432,3,1,0.4738,Medium,0.5384,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+1377,Research & Development,Research Scientist,No,4771,4,0,0.0126,Low,0.0106,No strong risk driver
+1378,Research & Development,Research Director,No,19161,4,0,0.0208,Low,0.0101,No strong risk driver
+1379,Sales,Sales Executive,Yes,5087,4,0,0.2001,Low,0.1382,OverTime = Yes; Department = Sales; EducationField = Marketing
+1380,Human Resources,Human Resources,No,2863,2,1,0.751,High,0.8119,TotalWorkingYears = 1; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+1381,Sales,Sales Executive,No,5561,1,0,0.1681,Low,0.1469,JobSatisfaction = 1; Department = Sales; WorkLifeBalance = 1
+1382,Research & Development,Research Scientist,No,2144,3,0,0.0394,Low,0.04,MaritalStatus = Single
+1383,Research & Development,Research Scientist,Yes,3065,1,0,0.0576,Low,0.0513,OverTime = Yes; JobSatisfaction = 1; TotalWorkingYears = 4
+1384,Research & Development,Laboratory Technician,No,2810,2,0,0.0701,Low,0.046,EnvironmentSatisfaction = 1; JobRole = Laboratory Technician; JobSatisfaction = 2
+1385,Sales,Sales Executive,No,9888,4,0,0.2132,Low,0.1479,EnvironmentSatisfaction = 1; YearsAtCompany = 14; MaritalStatus = Single
+1386,Sales,Sales Executive,No,8628,3,0,0.0172,Low,0.0213,No strong risk driver
+1387,Research & Development,Laboratory Technician,No,2867,1,0,0.1307,Low,0.1453,YearsSinceLastPromotion = 7; JobSatisfaction = 1; MaritalStatus = Single
+1388,Research & Development,Healthcare Representative,No,5373,1,0,0.083,Low,0.1017,EnvironmentSatisfaction = 1; JobSatisfaction = 1; RelationshipSatisfaction = 1
+1389,Research & Development,Healthcare Representative,No,6667,4,0,0.0071,Low,0.0077,No strong risk driver
+1390,Research & Development,Research Scientist,No,5003,1,0,0.0958,Low,0.0971,YearsSinceLastPromotion = 8; JobInvolvement = 1; JobSatisfaction = 1
+1391,Research & Development,Laboratory Technician,No,2367,4,1,0.3211,Medium,0.3689,EducationField = Technical Degree; NumCompaniesWorked = 5; JobRole = Laboratory Technician
+1392,Sales,Sales Representative,No,2858,1,0,0.7048,High,0.6092,EnvironmentSatisfaction = 1; JobSatisfaction = 1; MaritalStatus = Single
+1393,Sales,Sales Executive,Yes,5204,4,0,0.0396,Low,0.0285,OverTime = Yes; Department = Sales
+1394,Sales,Sales Executive,No,4105,4,0,0.0337,Low,0.0303,MaritalStatus = Single; Department = Sales
+1395,Research & Development,Manufacturing Director,No,9679,4,0,0.1536,Low,0.1246,NumCompaniesWorked = 8; MaritalStatus = Single; JobInvolvement = 2
+1396,Sales,Sales Executive,Yes,5617,4,1,0.3279,Medium,0.4264,OverTime = Yes; BusinessTravel = Travel_Frequently; EnvironmentSatisfaction = 1
+1397,Sales,Sales Executive,Yes,10448,1,1,0.7071,High,0.7452,OverTime = Yes; EnvironmentSatisfaction = 1; JobSatisfaction = 1
+1398,Research & Development,Research Scientist,No,2897,3,0,0.0302,Low,0.0251,EnvironmentSatisfaction = 1
+1399,Research & Development,Healthcare Representative,No,5968,3,0,0.0072,Low,0.0056,No strong risk driver
+1400,Research & Development,Healthcare Representative,No,7510,3,0,0.0173,Low,0.0167,No strong risk driver
+1401,Human Resources,Human Resources,Yes,2991,2,0,0.377,Medium,0.2989,OverTime = Yes; BusinessTravel = Travel_Frequently; JobSatisfaction = 2
+1402,Human Resources,Manager,Yes,19636,2,0,0.0952,Low,0.0721,OverTime = Yes; DistanceFromHome = 26; TrainingTimesLastYear = 0
+1403,Research & Development,Laboratory Technician,Yes,1129,4,0,0.0867,Low,0.1248,OverTime = Yes; JobInvolvement = 1; TotalWorkingYears = 1
+1404,Sales,Sales Executive,No,13341,1,0,0.5645,Medium,0.4879,YearsAtCompany = 20; YearsSinceLastPromotion = 11; JobSatisfaction = 1
+1405,Research & Development,Research Scientist,No,4332,3,0,0.0889,Low,0.0692,YearsAtCompany = 20; YearsSinceLastPromotion = 3; MaritalStatus = Single
+1406,Research & Development,Research Director,No,11031,3,0,0.0077,Low,0.0103,No strong risk driver
+1407,Research & Development,Manufacturing Director,Yes,4440,1,0,0.2139,Low,0.2557,OverTime = Yes; JobSatisfaction = 1; NumCompaniesWorked = 6
+1408,Research & Development,Healthcare Representative,No,4617,3,0,0.2091,Low,0.1802,MaritalStatus = Single; JobInvolvement = 2; TotalWorkingYears = 4
+1409,Research & Development,Laboratory Technician,No,2647,4,0,0.0609,Low,0.041,MaritalStatus = Single; JobRole = Laboratory Technician
+1410,Research & Development,Laboratory Technician,No,6323,3,0,0.2302,Low,0.1855,YearsSinceLastPromotion = 9; EducationField = Technical Degree; YearsAtCompany = 10
+1411,Sales,Sales Executive,No,5677,2,0,0.0568,Low,0.0547,YearsSinceLastPromotion = 5; YearsAtCompany = 11; Department = Sales
+1412,Human Resources,Human Resources,No,2187,2,0,0.1651,Low,0.151,NumCompaniesWorked = 4; EducationField = Human Resources; JobSatisfaction = 2
+1413,Research & Development,Laboratory Technician,No,3748,2,0,0.027,Low,0.0196,No strong risk driver
+1414,Research & Development,Laboratory Technician,Yes,3977,3,0,0.2875,Low,0.2463,OverTime = Yes; NumCompaniesWorked = 6; WorkLifeBalance = 2
+1415,Research & Development,Healthcare Representative,No,8633,3,0,0.0804,Low,0.083,YearsSinceLastPromotion = 12; YearsAtCompany = 17; EnvironmentSatisfaction = 1
+1416,Research & Development,Laboratory Technician,No,2008,3,0,0.0768,Low,0.0809,TotalWorkingYears = 1; JobRole = Laboratory Technician; JobInvolvement = 2
+1417,Sales,Sales Executive,No,4440,2,0,0.0207,Low,0.0211,YearsSinceLastPromotion = 5; YearsAtCompany = 15
+1418,Sales,Sales Representative,No,3067,3,0,0.1041,Low,0.0961,EnvironmentSatisfaction = 1; Department = Sales; JobRole = Sales Representative
+1419,Research & Development,Manufacturing Director,No,5321,3,0,0.2698,Low,0.2493,YearsSinceLastPromotion = 7; EnvironmentSatisfaction = 1; BusinessTravel = Travel_Frequently
+1420,Research & Development,Research Scientist,Yes,5410,1,0,0.3349,Medium,0.2454,OverTime = Yes; JobSatisfaction = 1; NumCompaniesWorked = 6
+1421,Research & Development,Research Scientist,No,2782,4,0,0.02,Low,0.0171,No strong risk driver
+1422,Research & Development,Research Director,No,11957,2,0,0.0037,Low,0.0056,No strong risk driver
+1423,Research & Development,Laboratory Technician,Yes,2660,3,0,0.4273,Medium,0.337,OverTime = Yes; NumCompaniesWorked = 7; TotalWorkingYears = 5
+1424,Research & Development,Research Scientist,No,3375,3,0,0.0375,Low,0.0281,MaritalStatus = Single
+1425,Research & Development,Research Scientist,No,5098,3,0,0.0135,Low,0.0193,No strong risk driver
+1426,Research & Development,Healthcare Representative,Yes,4878,4,0,0.1681,Low,0.1613,OverTime = Yes; YearsSinceLastPromotion = 8; YearsAtCompany = 9
+1427,Research & Development,Laboratory Technician,No,2837,2,0,0.5756,Medium,0.5544,YearsSinceLastPromotion = 4; DistanceFromHome = 29; MaritalStatus = Single
+1428,Research & Development,Laboratory Technician,No,2406,4,0,0.1801,Low,0.1379,NumCompaniesWorked = 8; EnvironmentSatisfaction = 1; JobRole = Laboratory Technician
+1429,Sales,Sales Representative,No,2269,2,0,0.183,Low,0.2185,Department = Sales; JobInvolvement = 2; JobRole = Sales Representative
+1430,Research & Development,Research Scientist,No,4108,4,0,0.0921,Low,0.1291,EnvironmentSatisfaction = 1; DistanceFromHome = 24; MaritalStatus = Single
+1431,Research & Development,Research Director,No,13206,3,0,0.0251,Low,0.0138,No strong risk driver
+1432,Sales,Sales Executive,No,10422,4,0,0.0219,Low,0.0145,No strong risk driver
+1433,Research & Development,Research Director,Yes,13744,4,0,0.0255,Low,0.0277,OverTime = Yes; YearsSinceLastPromotion = 6; YearsAtCompany = 16
+1434,Sales,Sales Executive,Yes,4907,3,0,0.2541,Low,0.1836,OverTime = Yes; EnvironmentSatisfaction = 1; WorkLifeBalance = 2
+1435,Sales,Sales Representative,No,3482,4,0,0.0648,Low,0.0635,DistanceFromHome = 29; EnvironmentSatisfaction = 1; Department = Sales
+1436,Research & Development,Research Scientist,Yes,2436,4,0,0.2774,Low,0.316,OverTime = Yes; NumCompaniesWorked = 6; MaritalStatus = Single
+1437,Sales,Sales Representative,Yes,2380,1,0,0.6571,High,0.5593,OverTime = Yes; JobSatisfaction = 1; TotalWorkingYears = 2
+1438,Research & Development,Manager,No,19431,4,0,0.007,Low,0.0071,No strong risk driver
+1439,Sales,Sales Representative,No,1790,1,1,0.5911,Medium,0.5588,TotalWorkingYears = 1; JobSatisfaction = 1; BusinessTravel = Travel_Frequently
+1440,Sales,Sales Executive,No,7644,4,0,0.0413,Low,0.0452,YearsSinceLastPromotion = 3; EnvironmentSatisfaction = 1; Department = Sales
+1441,Research & Development,Manufacturing Director,No,5131,2,0,0.0228,Low,0.0218,No strong risk driver
+1442,Research & Development,Healthcare Representative,No,6306,3,0,0.0046,Low,0.0025,No strong risk driver
+1443,Research & Development,Research Scientist,Yes,4787,4,1,0.3675,Medium,0.4294,NumCompaniesWorked = 9; TotalWorkingYears = 4; OverTime = Yes
+1444,Research & Development,Manager,No,18880,3,0,0.0537,Low,0.0697,YearsAtCompany = 22; YearsSinceLastPromotion = 4; EnvironmentSatisfaction = 1
+1445,Research & Development,Laboratory Technician,No,2339,3,1,0.0744,Low,0.1541,YearsSinceLastPromotion = 9; EducationField = Technical Degree; NumCompaniesWorked = 8
+1446,Research & Development,Manufacturing Director,No,13570,2,0,0.0196,Low,0.0302,YearsAtCompany = 20; EnvironmentSatisfaction = 1; DistanceFromHome = 28
+1447,Sales,Sales Executive,No,6712,3,0,0.0205,Low,0.0283,DistanceFromHome = 28; Department = Sales
+1448,Sales,Sales Executive,No,5406,4,0,0.0382,Low,0.0446,YearsSinceLastPromotion = 11; YearsAtCompany = 15; JobInvolvement = 1
+1449,Sales,Sales Executive,No,8938,2,0,0.0251,Low,0.0227,No strong risk driver
+1450,Research & Development,Research Scientist,No,2439,1,0,0.1255,Low,0.1106,EducationField = Technical Degree; JobSatisfaction = 1; MaritalStatus = Single
+1451,Human Resources,Human Resources,Yes,8837,4,0,0.1061,Low,0.1751,OverTime = Yes; DistanceFromHome = 26; MaritalStatus = Single
+1452,Sales,Sales Executive,No,5343,4,0,0.0331,Low,0.0278,EnvironmentSatisfaction = 1; Department = Sales
+1453,Sales,Sales Executive,No,6728,3,1,0.0607,Low,0.0585,NumCompaniesWorked = 7; BusinessTravel = Travel_Frequently; Department = Sales
+1454,Sales,Sales Executive,No,6652,4,0,0.1357,Low,0.2231,Department = Sales; JobInvolvement = 2; RelationshipSatisfaction = 1
+1455,Sales,Sales Executive,No,4850,3,0,0.1519,Low,0.1639,NumCompaniesWorked = 8; MaritalStatus = Single; Department = Sales
+1456,Research & Development,Research Scientist,No,2809,3,0,0.0392,Low,0.0435,MaritalStatus = Single; JobInvolvement = 2
+1457,Research & Development,Healthcare Representative,Yes,5689,3,0,0.1561,Low,0.1591,OverTime = Yes; BusinessTravel = Travel_Frequently; DistanceFromHome = 18
+1458,Research & Development,Research Scientist,No,2001,3,0,0.0179,Low,0.0115,No strong risk driver
+1459,Research & Development,Research Scientist,No,2977,4,0,0.0172,Low,0.0236,JobInvolvement = 1
+1460,Research & Development,Laboratory Technician,Yes,4025,2,0,0.4698,Medium,0.3903,OverTime = Yes; JobRole = Laboratory Technician; JobInvolvement = 2
+1461,Research & Development,Research Scientist,No,3785,1,0,0.3249,Medium,0.2308,JobSatisfaction = 1; DistanceFromHome = 28; MaritalStatus = Single
+1462,Sales,Sales Executive,Yes,10854,1,1,0.375,Medium,0.3817,OverTime = Yes; JobSatisfaction = 1; DistanceFromHome = 28
+1463,Sales,Sales Executive,No,12031,4,0,0.2168,Low,0.2654,YearsAtCompany = 20; YearsSinceLastPromotion = 9; DistanceFromHome = 24
+1464,Research & Development,Manufacturing Director,No,9936,1,0,0.0579,Low,0.0452,JobSatisfaction = 1; MaritalStatus = Single; EnvironmentSatisfaction = 2
+1465,Sales,Sales Representative,No,2966,3,0,0.1461,Low,0.1037,MaritalStatus = Single; Department = Sales; JobInvolvement = 2
+1466,Research & Development,Laboratory Technician,No,2571,4,0,0.048,Low,0.0514,DistanceFromHome = 23; BusinessTravel = Travel_Frequently; JobRole = Laboratory Technician
+1467,Research & Development,Healthcare Representative,No,9991,1,0,0.0346,Low,0.0278,JobSatisfaction = 1
+1468,Research & Development,Manufacturing Director,Yes,6142,2,0,0.1734,Low,0.2162,OverTime = Yes; TrainingTimesLastYear = 0; EnvironmentSatisfaction = 2
+1469,Sales,Sales Executive,No,5390,2,0,0.0354,Low,0.0354,BusinessTravel = Travel_Frequently; Department = Sales; JobInvolvement = 2
+1470,Research & Development,Laboratory Technician,No,4404,3,0,0.077,Low,0.0751,JobRole = Laboratory Technician; RelationshipSatisfaction = 1; EnvironmentSatisfaction = 2
